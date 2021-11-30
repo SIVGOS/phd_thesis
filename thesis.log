@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  30 NOV 2021 10:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  1 DEC 2021 03:39
 entering extended mode
 **D:/PhD/THESIS/THESIS_Template/thesis.tex
 (D:/PhD/THESIS/THESIS_Template/thesis.tex
@@ -221,7 +221,8 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 )
 \c@theorem=\count115
  (thesis.aux (cover_mtechpr.aux) (cover_2.aux) (Declaration.aux)
-(certificate.aux) (ackn.aux) (abstract.aux) (Abbreviation.aux) (Chapter_1.aux))
+(certificate.aux) (ackn.aux) (abstract.aux) (Abbreviation.aux) (Chapter_1.aux)
+(Chapter_2.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -237,12 +238,13 @@ LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 55.
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \openout2 = `cover_mtechpr.aux'.
 
- (cover_mtechpr.tex
+
+(cover_mtechpr.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -252,15 +254,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sl' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/sl' tried instead on input line 11.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 12.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1phv.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 13.
 File: clogoe.eps Graphic file (type eps)
- <clogoe.eps>
-[1
+
+<clogoe.eps> [1
 
 
 ])
@@ -371,20 +372,53 @@ hes for an-tenna de-sign, soft-computational
 [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
 [19]
 File: soft-flow1.eps Graphic file (type eps)
- <soft-flow1.eps> [20]) [21] (thesis.bbl [22
+ <soft-flow1.eps> [20]) [21] [22]
+\openout2 = `Chapter_2.aux'.
+
+ (Chapter_2.tex
+Chapter 2.
+[23
 
 
-] [23] [24] [25] [26] [27]
-[28] [29] [30] [31]) [32] (thesis.aux (cover_mtechpr.aux) (cover_2.aux)
-(Declaration.aux) (certificate.aux) (ackn.aux) (abstract.aux) (Abbreviation.aux
-) (Chapter_1.aux)) ) 
+
+]
+Overfull \hbox (16.07236pt too wide) in paragraph at lines 18--19
+[][]\OT1/ptm/m/n/12 Because of the lim-i-ta-tions of the tra-di-tional ap-proac
+hes for an-tenna de-sign, soft-computational
+ []
+
+[24]
+Overfull \hbox (3.6745pt too wide) in paragraph at lines 27--27
+[]\OT1/ptm/b/n/17.28 Problems in Soft-Computational Ap-proaches for An-tenna
+ []
+
+[25]
+File: fig_2_1.eps Graphic file (type eps)
+ <fig_2_1.eps>
+File: fig_2_2a.eps Graphic file (type eps)
+ <fig_2_2a.eps>
+File: fig_2_2b.eps Graphic file (type eps)
+ <fig_2_2b.eps>
+File: fig_2_3.eps Graphic file (type eps)
+ <fig_2_3.eps> [26] [27]
+[28]
+File: fig_2_4.eps Graphic file (type eps)
+ <fig_2_4.eps> [29]
+File: fig_2_5.eps Graphic file (type eps)
+ <fig_2_5.eps>) [30] [31] (thesis.bbl [32
+
+
+] [33] [34]
+[35] [36] [37] [38] [39] [40] [41] [42]) [43] (thesis.aux (cover_mtechpr.aux)
+(cover_2.aux) (Declaration.aux) (certificate.aux) (ackn.aux) (abstract.aux)
+(Abbreviation.aux) (Chapter_1.aux) (Chapter_2.aux)) ) 
 Here is how much of TeX's memory you used:
- 2462 strings out of 492946
- 31511 string characters out of 3135534
- 94321 words of memory out of 3000000
- 6260 multiletter control sequences out of 15000+200000
- 17107 words of font info for 51 fonts, out of 3000000 for 9000
+ 2508 strings out of 492946
+ 32235 string characters out of 3135534
+ 94836 words of memory out of 3000000
+ 6293 multiletter control sequences out of 15000+200000
+ 17614 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,8n,27p,163715b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,8n,27p,187296b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (44 pages, 121544 bytes).
+Output written on thesis.dvi (55 pages, 151116 bytes).

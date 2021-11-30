@@ -5,7 +5,7 @@
 \def\baselinestretch{1.66}
 This chapter starts with some background information on the trends of soft-computational approaches to the design of microstrip antennas and arrays. A set of problems are identified through an extensive literature survey and the orientation of the thesis is outlined in the chapter.
 
-\section{Background}
+\section{Background} \label{c1sec_background}
 Antenna design technologies have significantly advanced in the last decade. Computer aided methods are emerging as a solution to build more complex patch antennas and arrays with better efficiency and performance. Soft-computational approaches in the design of antennas and arrays have unleashed highly optimized geometries that cannot be designed by humans. This advancement has contributed towards the development of compact and reliable communication gadgets that have helped in connecting the whole world.
 
 \subsection{Soft-Computational Optimization Techniques}
@@ -57,7 +57,7 @@ The theoretical development of antenna arrays mostly evolve around uniform patte
 
 A typical array thinning problem starts with a full linear or planar array. The algorithm iteratively finds some elements of the array that can be removed from from the array while trying the achieve the pre-defined target. Array thinning problems are thus discrete problems.
 
-\section{Literature Survey}
+\section{Literature Survey} \label{c1sec_litserv}
 Printed antennas have made a significant contribution to the evolution of electronic devices and tools to its present state of excellence. Due to their robust and compact architecture, they can be easily interfaced with circuits. Most of the time, printed antennas are fabricated on the same substrate with other electronic circuits of the system. Because of these qualities, printed antennas are able to attract worldwide attention among researchers.
 
 Microstrip antennas are the first printed antennas. The concept of microstrip antennas was first established in 1953 by G. A. Deschamps et al. \cite{mpa00}. Microstrip antennas and arrays were practically implemented in 1970s in a number of contemporary works such as \cite{mpa02} and \cite{mpa01} respectively. The design trends till the beginning of 1980s was surveyed by K. R. Karver et al\cite{mpaSurvTech}. This review work gives a significant amount of insights to the design trends until that period. The number of papers related to microstrip started to grow exponentially over the years after 1980 \cite{mpaHist01}. The design of antenna arrays using microstrip antennas was another trend that evolved almost simultaneously. At that time, microstrip antennas were known for its disadvantage of low gain and bandwidth. This may be a reason why many researchers considered design of compact, rigid, planar arrays using microstrip antennas to enhance the gain. In 1974, a phased array of microstrip antenna elements was proposed by R. F. Munson \cite{txmPhasedArray}.
@@ -121,7 +121,7 @@ The analytical modeling of the antennas, although lost its popularity, remained 
 \item Transmission line model (TLM) of a super wide band (SWB) monopole antenna with three notch bands is proposed in \cite{optEqCkt_ads}. Here also, the antenna is modeled as multiple filtering elements in cascade. The resonant frequencies of the antenna are modeled as band-pass RLC circuit elements whereas the notch bands are modeled as band-stop filter elements. The circuit is further simplified by collecting and shunt R, C and series L components corresponding to the notch filter into a single equivalent shunt R, C and series L component. The component values of the TLM are calculated using quasi-Newton method. The equivalent circuit model provides close approximation of the frequency response of the actual antenna.
 \end{itemize}
 
-\subsection{Synthesis and Optimization of Arrays} \label{sec_lit_surv}
+\subsection{Synthesis and Optimization of Arrays} \label{c1sec_lit_surv}
 
 A phased array antenna is widely used in wireless communication and radar systems. With the evolution of 5G and millimeter-wave communication, a large grid of small printed antennas is becoming popular \cite{5gmmwave, 5gmmwave_fr4}.
 
@@ -141,7 +141,7 @@ Soft-computational optimization algorithms are becoming popular in the synthesis
 \item A multi-objective approach for self-organizing span array with constraints is presented in \cite{selfOrgOpt}. This paper the objectives are to minimize the number of elements of the array and to reduce the SLL. The primary focus of the paper is to formulate two optimization algorithms inspired by PSO and GA respectively. Finally, another system is developed for finding the optimal solution by combining the results of both algorithms with a minimum Manhattan distance assisted triangle-approximation.
 \end{itemize}
 
-\section{Motivation} \label{sec_motiv}
+\section{Motivation} \label{c1sec_motiv}
 After a detailed literature survey, it is observed that soft-computational optimization techniques are attracting attention of researchers worldwide in the fields of antenna design and array synthesis. Three different categories of research are reviewed in the preceding section and some research gaps are identified in each category.
 
 \begin{itemize}
@@ -151,10 +151,10 @@ After a detailed literature survey, it is observed that soft-computational optim
 \end{itemize}
 
 %\section{Objectives}
-%From the detailed literature survey presented in Section \ref{sec_lit_surv}, it is to be noted that the optimization of printed antennas is mostly related to finding the best algorithm, and
+%From the detailed literature survey presented in Section \ref{c1sec_lit_surv}, it is to be noted that the optimization of printed antennas is mostly related to finding the best algorithm, and
 
-\section{Problem Formulations}
-With the extensive literature survey is presented With the extensive literature review and the research gaps identified in sections \ref{sec_lit_surv}, and \ref{sec_motiv} respectively, the following problems are identified in each categories.
+\section{Problem Formulations} \label{c1sec_prob}
+With the extensive literature survey is presented With the extensive literature review and the research gaps identified in sections \ref{c1sec_lit_surv}, and \ref{c1sec_motiv} respectively, the following problems are identified in each categories.
 
 \begin{itemize}
 \item \textbf{Design or Synthesis of Printed Antenna Elements:} There have been a significant amount of works on printed antenna optimization in the recent years. However, it is observed that the number of works reported on printed slot antennas is less. Slot antennas typically have an omnidirectional radiation pattern and a wider bandwidth than microstrip antennas. These features make slot antennas a suitable candidate for indoor short range communication. Thus, the first problem identified is to optimize a printed slot antenna using genetic algorithm.
@@ -166,7 +166,7 @@ With the extensive literature survey is presented With the extensive literature 
     Another aspect of the array optimization problem is to use more reliable models of the array and the antenna elements so that a higher accuracy of the optimized antenna can be guaranteed. Traditional analytical methods used for estimating the radiation patterns of an array will be compared with soft-computational modeling tools such as the artificial neural network (ANN) to estimate which approach provides higher accuracy.
 \end{itemize}
 
-\section{Methodology}
+\section{Methodology} \label{c1sec_method}
 Soft-computational optimizations iterate through the solution space to arrive at a point of minimum or maximum value of the objective function \cite{softCompBook}. This process is illustrated in Fig. \ref{fch-soft-flow}. For antenna optimization, the variables to be optimizes are the physical dimensions of the antenna. The objective function is typically the difference between the desired value of the electromagnetic parameter and the actual value of these parameters. Depending upon the complexity of the problem and the nature of the optimization algorithm, the mathematical expression to find the difference may vary. It can be evident that the process requires the electromagnetic parameters of the antenna to be evaluated iteratively in a loop. This can be performed using a high-fidelity model such as Finite Difference in Time Domain (FDTD), Method of Moments (MoM), Integral Equation (IE) analysis, or Finite Elements Method (FEM). Several software applications available that implement these algorithms are highly reliable and are suitable for antennas of almost any shape and topology. However, these algorithms are computationally expensive and time-consuming. The analysis of a single antenna can take several minutes using these techniques depending upon the complexity of the structure.
 
 \begin{figure}
@@ -174,7 +174,7 @@ Soft-computational optimizations iterate through the solution space to arrive at
 \caption{Flow diagram of a soft-computational approach to antenna design}\label{fch-soft-flow}
 \end{figure}
 
-\section{Contributions}
+\section{Contributions} \label{c1sec_contrib}
 The chapter-wise contents and summaries of the work are outlined below-
 \begin{enumerate}
 \item \textbf{Chapter 1} gives a review of the background. Literatures related to our work, motivation and objective of the work including problems identified are included in this chapter. The literature survey has been divided into three distinct parts and the motivation and problem formulations are also classified accordingly.
@@ -184,6 +184,8 @@ The chapter-wise contents and summaries of the work are outlined below-
 \item In \textbf{Chapter 5}, an array thinning problem is addressed using particle swarm optimization technique. Here, the number of elements of a large grid of printed antennas is reduced by 50\% without significantly affecting its performance in terms of SLL and beam-width.
 \item \textbf{Chapter 6} concludes the thesis. It summarizes the present research work. Findings of the present work, limitations of the present research and the scope for further improvements is described in this chapter.
 \end{enumerate}
-\section{Organization of the Thesis}
+\section{Organization of the Thesis} \label{c1sec_organiz}
+This section outlines the description of the thesis. The \textbf{Chapter 1}, includes the background of the work in Section \ref{c1sec_background}. A detailed literature survey in Section \ref{c1sec_litserv}. Motivation, and Problem formulation are presented in Sections \ref{c1sec_motiv} and \ref{c1sec_prob} respectively. Section \ref{c1sec_contrib} includes the contribution of each chapter. The organization of the thesis is described is Section \ref{c1sec_organiz}. The chapter is concluded in Section \ref{c1sec_concl}.
 
-\section{Conclusion} 
+\section{Conclusion} \label{c1sec_concl}
+The chapter starts with a background of the overall work. A detailed literature survey is presented for three different classes of research trends related to the soft-computational optimization of printed antennas and arrays. The motivations and problem formulation for category are included in this chapter. Finally, the contributions of each chapter along with the organization of the whole thesis is presented. 

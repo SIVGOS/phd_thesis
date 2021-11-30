@@ -7,6 +7,7 @@ A level-1 auxiliary file: ackn.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: Abbreviation.aux
 A level-1 auxiliary file: Chapter_1.aux
+A level-1 auxiliary file: Chapter_2.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
 You're missing a field name---line 631 of file references.bib
@@ -14,7 +15,6 @@ You're missing a field name---line 631 of file references.bib
  : %  title={Application of Boolean PSO with adaptive velocity mutation to the design of optimal linear antenna arrays excited by uniformamplitude current distribution},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "softCompEngg_Book"
 Warning--empty booktitle in CuckooSerach
 Warning--empty journal in InvasiveWeed
 Warning--empty publisher in cadNASA

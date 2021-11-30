@@ -1828,7 +1828,7 @@ month={Feb}
 }
 
 @article{thinningGA,
-  title={Solving “Antenna Array Thinning Problem” Using Genetic Algorithm},
+  title={Solving ``Antenna Array Thinning Problem'' Using Genetic Algorithm},
   author={Jain, Rajashree and Mani, GS},
   journal={Applied Computational Intelligence and Soft Computing},
   volume={2012},
@@ -1925,4 +1925,18 @@ month={Feb}
   pages={46--52},
   year={2000},
   publisher={IEEE}
+}
+
+@article{Zadehparizi2017,
+  doi = {10.1007/s11277-017-5022-5},
+  url = {https://doi.org/10.1007/s11277-017-5022-5},
+  year = {2017},
+  month = oct,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {98},
+  number = {4},
+  pages = {3431--3441},
+  author = {Fatemeh Zadehparizi and Shahrokh Jam},
+  title = {Frequency Reconfigurable Antennas Design for Cognitive Radio Applications with Different Number of Sub-bands Based on Genetic Algorithm},
+  journal = {Wireless Personal Communications}
 }

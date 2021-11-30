@@ -17,5 +17,14 @@
 \contentsline {section}{\numberline {1.5}Methodology}{19}% 
 \contentsline {section}{\numberline {1.6}Contributions}{20}% 
 \contentsline {section}{\numberline {1.7}Organization of the Thesis}{21}% 
-\contentsline {section}{\numberline {1.8}Conclusion}{21}% 
-\contentsline {chapter}{Bibliography}{22}% 
+\contentsline {section}{\numberline {1.8}Conclusion}{22}% 
+\contentsline {chapter}{\numberline {2}Advances in Soft-Computational Approaches in the Design of Microstrip Antennas and Arrays}{23}% 
+\contentsline {section}{\numberline {2.1}Background}{23}% 
+\contentsline {subsection}{\numberline {2.1.1}Design of Microstrip Antennas}{23}% 
+\contentsline {subsection}{\numberline {2.1.2}Design of Antenna Arrays}{24}% 
+\contentsline {section}{\numberline {2.2}Problems in Soft-Computational Approaches for Antenna and Array Design}{25}% 
+\contentsline {subsection}{\numberline {2.2.1}Antenna Design Problems}{25}% 
+\contentsline {subsection}{\numberline {2.2.2}Array Synthesis Problems}{28}% 
+\contentsline {subsection}{\numberline {2.2.3}Array Thinning Problems}{29}% 
+\contentsline {subsection}{\numberline {2.2.4}Evolutionary Design of Metamaterial Structures}{30}% 
+\contentsline {chapter}{Bibliography}{32}% 

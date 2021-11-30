@@ -1,5 +1,26 @@
 \begin{thebibliography}{100}
 
+\bibitem{patch_miniaturize_ga}
+M.~Lamsalli, A.~El~Hamichi, M.~Boussouis, N.~A. Touhami, and T.~Elhamadi,
+  ``Genetic algorithm optimization for microstrip patch antenna
+  miniaturization,'' {\em Progress In Electromagnetics Research Letters},
+  vol.~60, pp.~113--120, 2016.
+
+\bibitem{optPatch}
+N.~Wang, X.~Wang, and J.~Xu, ``Design of a novel compact broadband patch
+  antenna using binary pso,'' {\em Microwave and Optical Technology Letters},
+  vol.~54, no.~2, pp.~434--438, 2012.
+
+\bibitem{arrayThin2}
+U.~Singh, R.~Salgotra, and M.~Rattan, ``A novel binary spider monkey
+  optimization algorithm for thinning of concentric circular antenna arrays,''
+  {\em IETE Journal of Research}, vol.~62, no.~6, pp.~736--744, 2016.
+
+\bibitem{optMtm}
+P.~Chen, C.~Chen, H.~Wang, J.~Tsai, and W.-X. Ni, ``Synthesis design of
+  artificial magnetic metamaterials using a genetic algorithm,'' {\em Optics
+  express}, vol.~16, no.~17, pp.~12806--12818, 2008.
+
 \bibitem{softCompBook}
 K.~Kumar, S.~Roy, and J.~P. Davim, {\em Soft Computing Techniques for
   Engineering Optimization}.
@@ -28,11 +49,6 @@ S.~Liang, T.~Feng, and G.~Sun, ``Sidelobe-level suppression for linear and
 P.~Ghosh and S.~Das, ``Synthesis of thinned planar concentric circular antenna
   arrays--a differential evolutionary approach,'' {\em Progress In
   Electromagnetics Research B}, vol.~29, pp.~63--82, 2011.
-
-\bibitem{arrayThin2}
-U.~Singh, R.~Salgotra, and M.~Rattan, ``A novel binary spider monkey
-  optimization algorithm for thinning of concentric circular antenna arrays,''
-  {\em IETE Journal of Research}, vol.~62, no.~6, pp.~736--744, 2016.
 
 \bibitem{CuckooSerach}
 M.~Khodier, ``Optimization of elliptical antenna arrays using the cuckoo search
@@ -556,5 +572,22 @@ K.~Y. Reddy, R.~B. Kumar, M.~Jijenth, K.~Suman, V.~Gangwar, and A.~Singh,
 H.~Li, F.~He, Y.~Chen, and J.~Luo, ``Multi-objective self-organizing
   optimization for constrained sparse array synthesis,'' {\em Swarm and
   Evolutionary Computation}, vol.~58, p.~100743, 2020.
+
+\bibitem{freqReconfCogn}
+F.~Zadehparizi and S.~Jam, ``Frequency reconfigurable antennas design for
+  cognitive radio applications with different number of sub-bands based on
+  genetic algorithm,'' {\em Wireless Personal Communications}, vol.~98,
+  pp.~3431--3441, Oct. 2017.
+
+\bibitem{arrayThin3}
+H.~Wu, C.~Liu, B.~Li, and X.~Xie, ``A novel binary butterfly mating
+  optimization algorithm with subarray strategy for thinning of large antenna
+  array,'' {\em Progress In Electromagnetics Research}, vol.~60, pp.~101--110,
+  2017.
+
+\bibitem{lh_mtm}
+W.~Xu, S.~Liu, and Y.~Dong, ``Design of structural left-handed material based
+  on topology optimization,'' {\em Journal of Wuhan University of
+  Technology-Mater. Sci. Ed.}, vol.~25, pp.~282--286, Apr. 2010.
 
 \end{thebibliography}
