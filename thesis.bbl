@@ -1,0 +1,560 @@
+\begin{thebibliography}{100}
+
+\bibitem{softCompBook}
+K.~Kumar, S.~Roy, and J.~P. Davim, {\em Soft Computing Techniques for
+  Engineering Optimization}.
+\newblock CRC Press, 2019.
+
+\bibitem{compCAD4Arry}
+M.~A. Panduro, C.~A. Brizuela, L.~I. Balderas, and D.~A. Acosta, ``A comparison
+  of genetic algorithms, particle swarm optimization and the differential
+  evolution method for the design of scannable circular antenna arrays,'' {\em
+  Progress In Electromagnetics Research}, vol.~13, pp.~171--186, 2009.
+
+\bibitem{arraySynth3}
+V.~Chakravarthy, K.~N. Babu, S.~Suresh, P.~C. Devi, and P.~M. Rao, ``Linear
+  array optimization using teaching learning based optimization,'' in {\em
+  Emerging ICT for Bridging the Future-Proceedings of the 49th Annual
+  Convention of the Computer Society of India CSI Volume 2}, pp.~183--190,
+  Springer, 2015.
+
+\bibitem{arraySynth4}
+S.~Liang, T.~Feng, and G.~Sun, ``Sidelobe-level suppression for linear and
+  circular antenna arrays via the cuckoo search--chicken swarm optimisation
+  algorithm,'' {\em IET Microwaves, Antennas \& Propagation}, vol.~11, no.~2,
+  pp.~209--218, 2017.
+
+\bibitem{arrayThin1}
+P.~Ghosh and S.~Das, ``Synthesis of thinned planar concentric circular antenna
+  arrays--a differential evolutionary approach,'' {\em Progress In
+  Electromagnetics Research B}, vol.~29, pp.~63--82, 2011.
+
+\bibitem{arrayThin2}
+U.~Singh, R.~Salgotra, and M.~Rattan, ``A novel binary spider monkey
+  optimization algorithm for thinning of concentric circular antenna arrays,''
+  {\em IETE Journal of Research}, vol.~62, no.~6, pp.~736--744, 2016.
+
+\bibitem{CuckooSerach}
+M.~Khodier, ``Optimization of elliptical antenna arrays using the cuckoo search
+  algorithm,'' {IEEE}, Sept. 2019.
+
+\bibitem{InvasiveWeed}
+S.~Karimkashi and A.~Kishk, ``Invasive weed optimization and its features in
+  electromagnetics,'' vol.~58, pp.~1269--1278, Apr. 2010.
+
+\bibitem{balanis}
+A.~B. Constantine, {\em Antenna theory: analysis and design}.
+\newblock Wiley-Interscience, 2005.
+
+\bibitem{cadNASA}
+G.~Hornby, A.~Globus, D.~Linden, and J.~Lohn, ``Automated antenna design with
+  evolutionary algorithms,'' in {\em Space 2006}, p.~7242, 2006.
+
+\bibitem{classicTheory}
+Y.~T. Lo, D.~Solomon, F.~Ore, D.~Harrison, and G.~Deschamps, ``Study of
+  microstrip antennas, microstrip phased arrays, and microstrip feed
+  networks.,'' tech. rep., ILLINOIS UNIV AT URBANA-CHAMPAIGN ELECTROMAGNETICS
+  LAB, 1977.
+
+\bibitem{phasedArrayHandbook}
+R.~J. Mailloux, {\em Phased array antenna handbook}.
+\newblock Artech house, 2017.
+
+\bibitem{thinnedArrayBook}
+C.~E. Clarke and T.~J. Shanley, ``Non-planar array'thinning'study.,'' tech.
+  rep., PHILCO BLUE BELL PA AERONUTRONIC DIV, 1965.
+
+\bibitem{mpa00}
+G.~A. Deschamps and W.~Sichak, ``Microstrip microwave antennas,'' in {\em
+  Proceedings of the Third Symposium on the USAF Antenna Research and
+  Development Program}, 1953.
+
+\bibitem{mpa02}
+J.~Howell, ``Microstrip antennas,'' {\em IEEE Transactions on Antennas and
+  Propagation}, vol.~23, no.~1, pp.~90--93, 1975.
+
+\bibitem{mpa01}
+F.~R. Zboril, ``New antennas on new nonmetallic materials,'' in {\em 1975 5th
+  European Microwave Conference}, pp.~658--662, 1975.
+
+\bibitem{mpaSurvTech}
+K.~Carver and J.~Mink, ``Microstrip antenna technology,'' {\em IEEE
+  transactions on antennas and propagation}, vol.~29, no.~1, pp.~2--24, 1981.
+
+\bibitem{mpaHist01}
+C.~Peixeiro, ``Microstrip patch antennas: An historical perspective of the
+  development,'' in {\em 2011 SBMO/IEEE MTT-S International Microwave and
+  Optoelectronics Conference (IMOC 2011)}, pp.~684--688, IEEE, 2011.
+
+\bibitem{txmPhasedArray}
+R.~F. Munson, ``Conformal microstrip antennas and microstrip phased arrays,''
+  {\em IEEE Transactions on Antennas and propagation}, vol.~22, no.~1,
+  pp.~74--78, 1974.
+
+\bibitem{mpaReview1992}
+D.~M. {Pozar}, ``Microstrip antennas,'' {\em Proceedings of the IEEE}, vol.~80,
+  pp.~79--91, Jan 1992.
+
+\bibitem{handbook}
+R.~Garg, P.~Bhartia, I.~J. Bahl, and A.~Ittipiboon, {\em Microstrip antenna
+  design handbook}.
+\newblock Artech house, 2001.
+
+\bibitem{practGuide3D}
+G.~A.~E. Vandenbosch and A.~Vasylchenko, ``A practical guide to 3d
+  electromagnetic software tools,'' in {\em Microstrip Antennas}, InTech, 2011.
+
+\bibitem{numericalbook}
+T.~Itoh, ed., {\em Numerical techniques for microwave and millimeter-wave
+  passive structures}.
+\newblock Wiley \& Sons, 1989.
+
+\bibitem{HPatch1}
+S.-C. Gao, L.-W. Li, M.-S. Leong, and T.~S. Yeo, ``Analysis of an h-shaped
+  patch antenna by using the fdtd method,'' {\em Progress In Electromagnetics
+  Research}, vol.~34, pp.~165--187, 2001.
+
+\bibitem{uslot1}
+G.~F. Khodae, J.~Nourinia, and C.~Ghobadi, ``A practical miniaturized u-slot
+  patch antenna with enhanced bandwidth,'' {\em Progress in Electromagnetics
+  Research}, vol.~3, pp.~47--62, 2008.
+
+\bibitem{smallPatch0}
+R.~{Waterhouse}, ``Small microstrip patch antenna,'' {\em Electronics Letters},
+  vol.~31, no.~8, pp.~604--605, 1995.
+
+\bibitem{BandSize0}
+S.~I. {Latif}, L.~{Shafai}, and S.~K. {Sharma}, ``Bandwidth enhancement and
+  size reduction of microstrip slot antennas,'' {\em IEEE Transactions on
+  Antennas and Propagation}, vol.~53, no.~3, pp.~994--1003, 2005.
+
+\bibitem{dualBandPatch1}
+S.~Maci, G.~B. Gentili, and G.~Avitabile, ``Single-layer dual frequency patch
+  antenna,'' {\em Electronics Letters}, vol.~29, no.~16, pp.~1441--1443, 1993.
+
+\bibitem{dualBandCircPol}
+Nasimuddi, Z.~N. {Chen}, and X.~{Qing}, ``Dual-band circularly polarized
+  $s$-shaped slotted patch antenna with a small frequency-ratio,'' {\em IEEE
+  Transactions on Antennas and Propagation}, vol.~58, no.~6, pp.~2112--2115,
+  2010.
+
+\bibitem{fractal1}
+C.~Puente-Baliarda, J.~Romeu, R.~Pous, and A.~Cardama, ``On the behavior of the
+  sierpinski multiband fractal antenna,'' {\em IEEE Transactions on Antennas
+  and propagation}, vol.~46, no.~4, pp.~517--524, 1998.
+
+\bibitem{slottedUWB}
+S.~Sadat, S.~Javan, {\em et~al.}, ``Design of a microstrip square-ring slot
+  antenna filled by an h-shape slot for uwb applications,'' in {\em 2007 IEEE
+  Antennas and Propagation Society International Symposium}, pp.~705--708,
+  IEEE, 2007.
+
+\bibitem{PMA01}
+K.~P. Ray, ``Design aspects of printed monopole antennas for ultra-wide band
+  applications,'' {\em International Journal of Antennas and Propagation},
+  vol.~2008, pp.~1--8, 2008.
+
+\bibitem{bandnotchCSRR1}
+T.-N. Chang and M.-C. Wu, ``Band-notched design for uwb antennas,'' {\em IEEE
+  Antennas and Wireless Propagation Letters}, vol.~7, pp.~636--640, 2008.
+
+\bibitem{bandnotchEBG1}
+M.~Yazdi and N.~Komjani, ``Design of a band-notched uwb monopole antenna by
+  means of an ebg structure,'' {\em IEEE Antennas and Wireless Propagation
+  Letters}, vol.~10, pp.~170--173, 2011.
+
+\bibitem{rcs1992}
+D.~M. {Pozar}, ``Rcs reduction for a microstrip antenna using a normally biased
+  ferrite substrate,'' {\em IEEE Microwave and Guided Wave Letters}, vol.~2,
+  no.~5, pp.~196--198, 1992.
+
+\bibitem{rcs2014}
+C.~M. {Dikmen}, S.~{Cimen}, and G.~{Cakir}, ``Planar octagonal-shaped uwb
+  antenna with reduced radar cross section,'' {\em IEEE Transactions on
+  Antennas and Propagation}, vol.~62, no.~6, pp.~2946--2953, 2014.
+
+\bibitem{rcs2016}
+Y.~{Liu}, Y.~{Hao}, K.~{Li}, and S.~{Gong}, ``Radar cross section reduction of
+  a microstrip antenna based on polarization conversion metamaterial,'' {\em
+  IEEE Antennas and Wireless Propagation Letters}, vol.~15, pp.~80--83, 2016.
+
+\bibitem{CompFeed01}
+H.~Wang, D.-G. Fang, and X.~Chen, ``A compact single layer monopulse microstrip
+  antenna array,'' {\em IEEE Transactions on antennas and propagation},
+  vol.~54, no.~2, pp.~503--509, 2006.
+
+\bibitem{CompFeed02}
+Y.~J. {Cheng}, Y.~X. {Guo}, and Z.~G. {Liu}, ``W-band large-scale high-gain
+  planar integrated antenna array,'' {\em IEEE Transactions on Antennas and
+  Propagation}, vol.~62, no.~6, pp.~3370--3373, 2014.
+
+\bibitem{mcEBG}
+H.~S. {Farahani}, M.~{Veysi}, M.~{Kamyab}, and A.~{Tadjalli}, ``Mutual coupling
+  reduction in patch antenna arrays using a uc-ebg superstrate,'' {\em IEEE
+  Antennas and Wireless Propagation Letters}, vol.~9, pp.~57--59, 2010.
+
+\bibitem{mcCSRR}
+M.~M. {Bait-Suwailam}, O.~F. {Siddiqui}, and O.~M. {Ramahi}, ``Mutual coupling
+  reduction between microstrip patch antennas using slotted-complementary
+  split-ring resonators,'' {\em IEEE Antennas and Wireless Propagation
+  Letters}, vol.~9, pp.~876--878, 2010.
+
+\bibitem{mcFSRR}
+A.~{Habashi}, J.~{Nourinia}, and C.~{Ghobadi}, ``Mutual coupling reduction
+  between very closely spaced patch antennas using low-profile folded
+  split-ring resonators (fsrrs),'' {\em IEEE Antennas and Wireless Propagation
+  Letters}, vol.~10, pp.~862--865, 2011.
+
+\bibitem{mimoSRR}
+M.~M. {Bait Suwailam}, M.~S. {Boybay}, and O.~M. {Ramahi}, ``Mutual coupling
+  reduction in mimo antennas using artificial magnetic materials,'' in {\em
+  2009 13th International Symposium on Antenna Technology and Applied
+  Electromagnetics and the Canadian Radio Science Meeting}, pp.~1--4, 2009.
+
+\bibitem{mimoRenonf}
+S.~{Soltani} and R.~D. {Murch}, ``A compact planar printed mimo antenna
+  design,'' {\em IEEE Transactions on Antennas and Propagation}, vol.~63,
+  no.~3, pp.~1140--1149, 2015.
+
+\bibitem{spa01}
+T.~{Ohira} and K.~{Gyoda}, ``Electronically steerable passive array radiator
+  antennas for low-cost analog adaptive beamforming,'' in {\em Proceedings 2000
+  IEEE International Conference on Phased Array Systems and Technology (Cat.
+  No.00TH8510)}, pp.~101--104, 2000.
+
+\bibitem{spaMems}
+L.~{Petit}, L.~{Dussopt}, and J.~. {Laheurte}, ``Mems-switched
+  parasitic-antenna array for radiation pattern diversity,'' {\em IEEE
+  Transactions on Antennas and Propagation}, vol.~54, no.~9, pp.~2624--2631,
+  2006.
+
+\bibitem{PSA1}
+Y.~Liu, K.~Lau, Q.~Xue, and C.~Chan, ``Experimental studies of printed
+  wide-slot antenna for wide-band applications,'' {\em IEEE Antennas and
+  Wireless Propagation Letters}, vol.~3, no.~1, pp.~273--275, 2004.
+
+\bibitem{slotAnalysis}
+Y.-S. Wang and S.-J. Chung, ``A short open-end slot antenna with equivalent
+  circuit analysis,'' {\em IEEE Transactions on Antennas and Propagation},
+  vol.~58, no.~5, pp.~1771--1775, 2010.
+
+\bibitem{pmaCSRR}
+F.~J. {Herraiz-Martinez}, G.~{Zamora}, F.~{Paredes}, F.~{Martin}, and
+  J.~{Bonache}, ``Multiband printed monopole antennas loaded with ocsrrs for
+  pans and wlans,'' {\em IEEE Antennas and Wireless Propagation Letters},
+  vol.~10, pp.~1528--1531, 2011.
+
+\bibitem{mtmReview1}
+T.~Ali, S.~Pathan, and R.~C. Biradar, ``Multiband, frequency reconfigurable,
+  and metamaterial antennas design techniques: Present and future research
+  directions,'' {\em Internet Technology Letters}, vol.~1, no.~6, p.~e19, 2018.
+
+\bibitem{mtmReview2}
+M.~{Fallahpour} and R.~{Zoughi}, ``Antenna miniaturization techniques: A review
+  of topology- and material-based methods,'' {\em IEEE Antennas and Propagation
+  Magazine}, vol.~60, no.~1, pp.~38--50, 2018.
+
+\bibitem{cadNASA2}
+J.~D. Lohn, D.~S. Linden, G.~S. Hornby, and W.~F. Kraus, ``Evolutionary design
+  of an x-band antenna for nasa's space technology 5 mission,'' in {\em IEEE
+  Antennas and Propagation Society Symposium, 2004.}, vol.~3, pp.~2313--2316,
+  IEEE, 2004.
+
+\bibitem{ga_em}
+J.~M. Johnson and V.~Rahmat-Samii, ``Genetic algorithms in engineering
+  electromagnetics,'' {\em IEEE Antennas and propagation Magazine}, vol.~39,
+  no.~4, pp.~7--21, 1997.
+
+\bibitem{circpol_anfis_ga}
+A.~A. Heidari and A.~Dadgarnia, ``Design and optimization of a circularly
+  polarized microstrip antenna for gps applications using anfis and ga,'' in
+  {\em 2011 XXXth URSI General Assembly and Scientific Symposium}, pp.~1--4,
+  IEEE, 2011.
+
+\bibitem{fractal_bowtie_ga}
+B.~R. Behera, ``Sierpinski bow-tie antenna with genetic algorithm,'' {\em
+  Engineering Science and Technology, an International Journal}, vol.~20,
+  no.~2, pp.~775--782, 2017.
+
+\bibitem{txm_opt}
+S.~Nanda, C.~Das, P.~Sahu, and R.~Mishra, ``Evolutionary technique based cad
+  model for microstrip antenna synthesis,'' in {\em TENCON 2017-2017 IEEE
+  Region 10 Conference}, pp.~1602--1605, IEEE, 2017.
+
+\bibitem{patch_feed_ga}
+R.~G. Mishra, R.~Mishra, P.~Kuchhal, and N.~P. Kumari, ``Optimization and
+  analysis of high gain wideband microstrip patch antenna using genetic
+  algorithm,'' {\em International Journal of Engineering \& Technology},
+  vol.~7, no.~1.5, pp.~176--179, 2018.
+
+\bibitem{gain_bw_opt_ga}
+P.~P. Chandran and S.~Viswasom, ``Gain and bandwidth optimization of a novel
+  microstrip patch antenna,'' in {\em 2014 Fourth International Conference on
+  Advances in Computing and Communications}, pp.~315--318, IEEE, 2014.
+
+\bibitem{mpa_triband_opt}
+K.~Fertas, H.~Kimouche, M.~Challal, H.~Aksas, R.~Aksas, and A.~Azrar, ``Design
+  and optimization of a cpw-fed tri-band patch antenna using genetic
+  algorithms,'' {\em ACES-Applied Computational Electromagnetics Society
+  Journal}, vol.~30, no.~7, 2015.
+
+\bibitem{mpa_multifit_ga}
+J.~Jayasinghe, J.~Anguera~Pros, D.~Uduwawala, {\em et~al.}, ``On the behavior
+  of several fitness functions for genetically optimized microstrip antennas,''
+  {\em International Journal of Scientific World, 2015. Vol. 3, 1}, 2015.
+
+\bibitem{opt_pifa_ga_2}
+J.~Jayasinghe and D.~Uduwawala, ``A novel multiband miniature planar inverted f
+  antenna design for bluetooth and wlan applications,'' {\em International
+  Journal of Antennas and Propagation}, vol.~2015, 2015.
+
+\bibitem{opt_pifa_ga}
+L.~Wakrim, S.~Ibnyaich, and M.~Hassani, ``Novel miniaturized multiband and
+  wideband pifa antenna for wireless applications,'' in {\em 3rd International
+  Conference on Automation, Control, Engineering and Computer Science},
+  pp.~3--6, 2016.
+
+\bibitem{rectpatch_miniaturize_ga}
+R.~Gupta, S.~Gurjar, and A.~Kumar, ``Using genetic algorithms reduction of
+  rectangular microstrip patches,'' {\em International Journal of Advanced
+  Research in Computer and Communication Engineering}, vol.~2, no.~4,
+  pp.~1643--1646, 2013.
+
+\bibitem{compCAD4Ant}
+M.~Akila, P.~Anusha, M.~Sindhu, and K.~T. Selvan, ``Examination of pso, ga-pso
+  and aco algorithms for the design optimization of printed antennas,'' in {\em
+  2017 IEEE Applied Electromagnetics Conference (AEMC)}, pp.~1--2, IEEE, 2017.
+
+\bibitem{auto_opt_matlab}
+A.~O.~A. Noor, ``An automated optimization technique of a mspa for broadband
+  communication,'' {\em Engineering and Technology Journal}, vol.~33, no.~2
+  Part (A) Engineering, 2015.
+
+\bibitem{txmLinP}
+A.~Derneryd, ``Linearly polarized microstrip antennas,'' {\em IEEE Transactions
+  on antennas and propagation}, vol.~24, no.~6, pp.~846--851, 1976.
+
+\bibitem{txmRect}
+A.~Derneryd, ``A theoretical investigation of the rectangular microstrip
+  antenna element,'' {\em IEEE Transactions on Antennas and Propagation},
+  vol.~26, no.~4, pp.~532--535, 1978.
+
+\bibitem{txmMc}
+H.~Pues and A.~Van~de Capelle, ``Accurate transmission-line model for the
+  rectangular microstrip antenna,'' in {\em IEE Proceedings H (Microwaves,
+  Optics and Antennas)}, vol.~131, pp.~334--340, IET, 1984.
+
+\bibitem{txmLossy}
+M.~{Himdi} and J.~P. {Daniel}, ``Analysis of printed linear slot antenna using
+  lossy transmission line model,'' {\em Electronics Letters}, vol.~28,
+  pp.~598--601, March 1992.
+
+\bibitem{txmPMA}
+S.~Bhattacharjee, R.~S. Kshetrimayum, and R.~Bhattacharjee, ``On the equivalent
+  circuit, input impedance, reflection coefficient, and bandwidth of printed
+  monopole antenna,'' {\em Microwave and Optical Technology Letters}, vol.~57,
+  no.~7, pp.~1535--1538, 2015.
+
+\bibitem{txm_wideband}
+A.~Katyal and A.~Basu, ``Analysis and optimisation of broadband stacked
+  microstrip antennas using transmission line model,'' {\em {IET} Microwaves,
+  Antennas {\&} Propagation}, vol.~11, pp.~81--91, Jan. 2017.
+
+\bibitem{gtlmThesis}
+A.~K. Bhattacharyya, {\em Generalized transmission line model of microstrip
+  patch antennas and some applications}.
+\newblock PhD thesis, IIT Kharagpur, 1985.
+
+\bibitem{gtlmMath}
+A.~K. Bhattacharyya, L.~Shafai, and R.~Gary, ``Microstrip antenna--a
+  generalized transmission line,'' {\em Progress In Electromagnetics Research},
+  vol.~4, pp.~45--84, 1991.
+
+\bibitem{gtlm2}
+A.~K. Bhattacharyya and R.~Garg, ``Generalised transmission line model for
+  microstrip patches,'' in {\em IEE Proceedings H (Microwaves, Antennas and
+  Propagation)}, vol.~132, pp.~93--98, IET, 1985.
+
+\bibitem{gtlmAnnular}
+A.~K. Bhattacharyya and R.~Garg, ``Input impedance of annular ring microstrip
+  antenna using circuit theory approach,'' {\em IEEE transactions on antennas
+  and propagation}, vol.~33, no.~4, pp.~369--374, 1985.
+
+\bibitem{gtlmSectorCirc}
+A.~K. Bhattacharyya and R.~Garg, ``Analysis of annular sector and circular
+  sector microstrip patch antennas,'' {\em Electromagnetics}, vol.~6, no.~3,
+  pp.~229--242, 1986.
+
+\bibitem{gtlmAnnuRing}
+A.~K. Bhattacharyya and R.~Garg, ``A microstrip array of concentric annular
+  rings,'' {\em IEEE transactions on antennas and propagation}, vol.~33, no.~6,
+  pp.~655--659, 1985.
+
+\bibitem{gtlmElliptRing}
+A.~K. {Bhattacharyya} and L.~{Shafai}, ``Theoretical and experimental
+  investigation of the elliptical annular ring antenna,'' {\em IEEE
+  Transactions on Antennas and Propagation}, vol.~36, pp.~1526--1530, Nov 1988.
+
+\bibitem{dualBandWLAN}
+U.~Chakraborty, A.~Kundu, S.~Chowdhury, and A.~Bhattacharjee, ``Compact
+  dual-band microstrip antenna for ieee 802.11 a wlan application,'' {\em IEEE
+  antennas and wireless propagation letters}, vol.~13, pp.~407--410, 2014.
+
+\bibitem{SlottedPatchModel}
+M.~{Tariqul Islam}, M.~{Nazmus Shakib}, N.~{Misran}, and B.~{Yatim}, ``Analysis
+  of broadband slotted microstrip patch antenna,'' in {\em Proceedings of the
+  2008 11th International Conference on Computer and Information Technology},
+  pp.~758--761, 2008.
+
+\bibitem{spiralSlotGnd}
+S.~Baek and S.~Lim, ``Miniaturised zeroth-order antenna on spiral slotted
+  ground plane,'' {\em Electronics letters}, vol.~45, no.~20, pp.~1012--1014,
+  2009.
+
+\bibitem{GndSRRPatch}
+A.~Sharma, S.~K. Gupta, B.~K. Kanaujia, G.~P. Pandey, and M.~Sharma, ``Design
+  and analysis of a meandered multiband antenna based on split ring
+  resonator,'' {\em Microwave and Optical Technology Letters}, vol.~55, no.~11,
+  pp.~2787--2795, 2013.
+
+\bibitem{RectEqCkt-der}
+F.~Abboud, J.~Damiano, and A.~Papiernik, ``Simple model for the input impedance
+  of coax-fed rectangular microstrip patch antenna for cad,'' {\em {IEE}
+  Proceedings H Microwaves, Antennas and Propagation}, vol.~135, no.~5, p.~323,
+  1988.
+
+\bibitem{mtm_ebg_eqckt2}
+M.~Karim, A.-Q. Liu, A.~Alphones, X.~Zhang, and A.~Yu, ``{CPW} band-stop filter
+  using unloaded and loaded {EBG} structures,'' {\em {IEE} Proceedings -
+  Microwaves, Antennas and Propagation}, vol.~152, no.~6, p.~434, 2005.
+
+\bibitem{Broadband_EqCkt}
+Y.~Kim and H.~Ling, ``Equivalent circuit modeling of broadband antennas using a
+  rational function approximation,'' {\em Microwave and Optical Technology
+  Letters}, vol.~48, no.~5, pp.~950--953, 2006.
+
+\bibitem{Fano_BW_Antenna}
+A.~Ghorbani, M.~A. Ansarizadeh, N.~J. McEwan, R.~A. Abd-alhameed, and D.~Zhou,
+  ``The bode-fano integrals as an objective measure of antenna bandwidth
+  reflection coefficient product limit,'' in {\em 2006 International {RF} and
+  Microwave Conference}, {IEEE}, Sept. 2006.
+
+\bibitem{UwbEqCktMethod}
+S.~Wang, A.~Niknejad, and R.~Brodersen, ``Circuit modeling methodology for
+  {UWB} omnidirectional small antennas,'' {\em {IEEE} Journal on Selected Areas
+  in Communications}, vol.~24, pp.~871--877, Apr. 2006.
+
+\bibitem{rectEqCkt}
+M.~Ansarizadeh, A.~Ghorbani, and R.~A. Abd-Alhameed, ``An approach to
+  equivalent circuit modeling of rectangular microstrip antennas,'' {\em
+  Progress In Electromagnetics Research B}, vol.~8, pp.~77--86, 2008.
+
+\bibitem{UwbNotchEqCkt}
+T.-G. Ma and S.-J. Wu, ``Ultrawideband band-notched folded strip monopole
+  antenna,'' {\em {IEEE} Transactions on Antennas and Propagation}, vol.~55,
+  pp.~2473--2479, Sept. 2007.
+
+\bibitem{UwbPmaEqCkt2}
+O.~K. Heong, G.~C. Hock, C.~K. Chakrabarty, and G.~T. Hock, ``Generalized
+  equivalent circuit model for ultra wideband antenna structure with double
+  steps for energy scavenging,'' {\em {IOP} Conference Series: Earth and
+  Environmental Science}, vol.~16, p.~012073, June 2013.
+
+\bibitem{UwbPmaEqCkt3}
+G.~Li, H.~Zhai, T.~Li, X.~Y. Ma, and C.-H. Liang, ``Design of a compact {UWB}
+  anenna integrated with {GSM/WCDMA/WLAN} bands,'' {\em Progress In
+  Electromagnetics Research}, vol.~136, pp.~409--419, 2013.
+
+\bibitem{UwbPmaEqCkt4}
+M.~Alibakhshikenari, E.~Limiti, M.~Naser-Moghadasi, B.~S. Virdee, and
+  R.~Sadeghzadeh, ``A new wideband planar antenna with band-notch functionality
+  at {GPS}, bluetooth and {WiFi} bands for integration in portable wireless
+  systems,'' {\em {AEU} - International Journal of Electronics and
+  Communications}, vol.~72, pp.~79--85, Feb. 2017.
+
+\bibitem{ana_eqckt_ex1}
+R.~M. van Schelven, D.~Cavallo, and A.~Neto, ``Equivalent circuit models of
+  finite slot antennas,'' {\em {IEEE} Transactions on Antennas and
+  Propagation}, vol.~67, pp.~4367--4376, July 2019.
+
+\bibitem{comp-aided-eqckt}
+Y.~Kim and H.~Ling, ``Realisable rational function approximations for the
+  equivalent circuit modelling of broadband antennas,'' {\em {IET} Microwaves,
+  Antennas {\&} Propagation}, vol.~1, no.~5, p.~1046, 2007.
+
+\bibitem{UwbPmaEqCkt1}
+Y.~Wang, J.~Li, and L.-X. Ran, ``An equivalent circuit modeling method for
+  ultra-wideband antennas,'' {\em Progress In Electromagnetics Research},
+  vol.~82, pp.~433--445, 2008.
+
+\bibitem{comp-aided-eqckt2}
+S.~Mukherjee and A.~Biswas, ``Computer aided equivalent circuit model of {SIW}
+  cavity backed triple band slot antenna,'' {\em International Journal of {RF}
+  and Microwave Computer-Aided Engineering}, vol.~27, p.~e21060, Oct. 2016.
+
+\bibitem{optEqCkt_ads}
+W.~H. A.~A. Amro and M.~K. Abdelazeez, ``Analysis and optimisation of
+  super-wideband monopole antenna with tri-band notch using a transmission line
+  model,'' {\em {IET} Microwaves, Antennas {\&} Propagation}, vol.~13,
+  pp.~1373--1381, July 2019.
+
+\bibitem{5gmmwave}
+W.~Hong, K.-H. Baek, and S.~Ko, ``Millimeter-wave 5g antennas for smartphones:
+  Overview and experimental demonstration,'' {\em IEEE Transactions on Antennas
+  and Propagation}, vol.~65, no.~12, pp.~6250--6261, 2017.
+
+\bibitem{5gmmwave_fr4}
+Z.~Chen and Y.~P. Zhang, ``Fr4 pcb grid array antenna for millimeter-wave 5g
+  mobile communications,'' in {\em 2013 IEEE MTT-S International Microwave
+  Workshop Series on RF and Wireless Technologies for Biomedical and Healthcare
+  Applications (IMWS-BIO)}, pp.~1--3, IEEE, 2013.
+
+\bibitem{phasedArray_russia}
+O.~G. Vendik and Y.~V. Yegorov, ``The first phased-array antennas in russia:
+  1955-1960,'' {\em IEEE Antennas and Propagation Magazine}, vol.~42, no.~4,
+  pp.~46--52, 2000.
+
+\bibitem{mmarrayRrev}
+A.~H. Naqvi and S.~Lim, ``Review of recent phased arrays for millimeter-wave
+  wireless communication,'' {\em Sensors}, vol.~18, no.~10, p.~3194, 2018.
+
+\bibitem{arrayTradeoffs}
+D.~Pinchera, ``On the trade-off between the main parameters of planar antenna
+  arrays,'' {\em Electronics}, vol.~9, no.~5, p.~739, 2020.
+
+\bibitem{arraySynth1}
+Z.~D. Zaharis, S.~K. Goudos, and T.~V. Yioultsis, ``Application of boolean pso
+  with adaptive velocity mutation to the design of optimal linear antenna
+  arrays excited by uniformamplitude current distribution,'' {\em Journal of
+  Electromagnetic Waves and Applications}, vol.~25, no.~10, pp.~1422--1436,
+  2011.
+
+\bibitem{nunUniformLinear}
+M.~A. Zaman and M.~Abdul~Matin, ``Nonuniformly spaced linear antenna array
+  design using firefly algorithm,'' {\em International Journal of Microwave
+  Science and Technology}, vol.~2012, 2012.
+
+\bibitem{thinningGA}
+R.~Jain and G.~Mani, ``Solving ``antenna array thinning problem'' using genetic
+  algorithm,'' {\em Applied Computational Intelligence and Soft Computing},
+  vol.~2012, 2012.
+
+\bibitem{arraySynth2}
+C.~Zhang and A.~Qing, ``Sidelobe level and sideband suppression in
+  time-modulated linear arrays by nsga-ii,'' in {\em 2017 IEEE International
+  Symposium on Antennas and Propagation \& USNC/URSI National Radio Science
+  Meeting}, pp.~531--532, IEEE, 2017.
+
+\bibitem{randomlySpacedArray}
+K.~Y. Reddy, R.~B. Kumar, M.~Jijenth, K.~Suman, V.~Gangwar, and A.~Singh,
+  ``Synthesis of randomly spaced planar antenna array with low peak side lobe
+  level (psll) using modified genetic algorithm,'' in {\em 2017 IEEE
+  International Conference on Antenna Innovations \& Modern Technologies for
+  Ground, Aircraft and Satellite Applications (iAIM)}, pp.~1--4, IEEE, 2017.
+
+\bibitem{selfOrgOpt}
+H.~Li, F.~He, Y.~Chen, and J.~Luo, ``Multi-objective self-organizing
+  optimization for constrained sparse array synthesis,'' {\em Swarm and
+  Evolutionary Computation}, vol.~58, p.~100743, 2020.
+
+\end{thebibliography}
