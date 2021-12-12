@@ -1,0 +1,100 @@
+% thesis.tex
+%
+% This file is root file for an example thesis written using the
+% ECTGU LaTeX Style file.
+
+
+
+%=====================================================================
+% DOCUMENT STYLE
+%=====================================================================
+% ECTGU M.Tech/B.Tech Thesis format default settings are:
+%   12pt, one-sided printing on a4 size paper
+\documentclass{ectguthesis}
+% For two-sided printing, with Chapter starting on odd-numbered pages,
+% use the following line instead:
+%%\documentclass[openright,twoside]{ectguthesis}
+
+%=====================================================================
+% OPTIONAL PACKAGES
+%=====================================================================
+% To include optional packages, use the \usepackage command.
+% For e.g., The package epsfig is used to bring in the Encapsulated
+%    PostScript figures into the document.
+%    The package times is used to change the fonts to Times Roman;
+%=====================================================================
+\usepackage{epsfig}
+\usepackage{times}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{cite}
+\usepackage[nottoc]{tocbibind}
+\usepackage{textcomp}
+%=====================================================================
+%  Single counter for theorems and theorem-like environments:
+%=====================================================================
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{assertion}[theorem]{Assertion}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{figger}[theorem]{Figure}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+
+%=====================================================================
+% End of Preamble, start of document
+%
+
+\begin{document}
+\pagenumbering{roman}
+\include{cover_mtechpr}
+\include{cover_2}
+\include{Declaration}
+\include{certificate}
+\include{ackn}
+%=====================================================================
+% Include the prelude for Title page, abstract, table of contents, etc
+% You need to modify it to contain your details
+%\include{prelude}
+
+%=====================================================================
+% Include the technical part of the report
+% Number of contributory chapters will depend on the individual works
+%Chapter 1, Chapter 2 and Chapter 7 are common to all
+\pagestyle{plain}
+\include{abstract}
+\newpage
+\include{Abbreviation}
+\tableofcontents
+\listoftables
+\listoffigures
+\newpage
+\pagenumbering{arabic}
+\thispagestyle{empty}
+\include{Chapter_1}
+\include{Chapter_2}
+\include{Chapter_3}
+\include{Chapter_4}
+\include{Chapter_5}
+\include{Chapter_6}
+%\include{mypubs}
+%=====================================================================
+
+%=====================================================================
+% BIBLIOGRAPHY
+%   This should follow the appendices, if any, otherwise summary and
+%   conclusions chapter.
+% Choose your bibliography style
+% plain is the basic style, others include ieeetr, siam, asm, etc
+\bibliographystyle{ieeetr}
+\bibliography{references}
+
+\end{document}

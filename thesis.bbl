@@ -21,6 +21,11 @@ P.~Chen, C.~Chen, H.~Wang, J.~Tsai, and W.-X. Ni, ``Synthesis design of
   artificial magnetic metamaterials using a genetic algorithm,'' {\em Optics
   express}, vol.~16, no.~17, pp.~12806--12818, 2008.
 
+\bibitem{metasurface2}
+S.~X. Ta and I.~Park, ``Compact wideband circularly polarized patch antenna
+  array using metasurface,'' {\em {IEEE} Antennas and Wireless Propagation
+  Letters}, vol.~16, pp.~1932--1936, 2017.
+
 \bibitem{softCompBook}
 K.~Kumar, S.~Roy, and J.~P. Davim, {\em Soft Computing Techniques for
   Engineering Optimization}.
@@ -589,5 +594,242 @@ H.~Wu, C.~Liu, B.~Li, and X.~Xie, ``A novel binary butterfly mating
 W.~Xu, S.~Liu, and Y.~Dong, ``Design of structural left-handed material based
   on topology optimization,'' {\em Journal of Wuhan University of
   Technology-Mater. Sci. Ed.}, vol.~25, pp.~282--286, Apr. 2010.
+
+\bibitem{metasurface1}
+C.~L. Holloway, E.~F. Kuester, J.~A. Gordon, J.~O{\textquotesingle}Hara,
+  J.~Booth, and D.~R. Smith, ``An overview of the theory and applications of
+  metasurfaces: The two-dimensional equivalents of metamaterials,'' {\em {IEEE}
+  Antennas and Propagation Magazine}, vol.~54, pp.~10--35, Apr. 2012.
+
+\bibitem{softCompMeta}
+H.~Yang, X.~Cao, F.~Yang, J.~Gao, S.~Xu, M.~Li, X.~Chen, Y.~Zhao, Y.~Zheng, and
+  S.~Li, ``A programmable metasurface with dynamic polarization, scattering and
+  focusing control,'' vol.~6, Oct. 2016.
+
+\bibitem{uwb_rcs}
+S.~J. Li, X.~Y. Cao, L.~M. Xu, L.~J. Zhou, H.~H. Yang, J.~F. Han, Z.~Zhang,
+  D.~Zhang, X.~Liu, C.~Zhang, Y.~J. Zheng, and Y.~Zhao, ``Ultra-broadband
+  reflective metamaterial with {RCS} reduction based on polarization convertor,
+  information entropy theory and genetic optimization algorithm,'' {\em
+  Scientific Reports}, vol.~6, Nov. 2016.
+
+\bibitem{optAlgBGAbook}
+R.~L. Haupt and S.~E. Haupt, {\em Practical genetic algorithms}.
+\newblock John Wiley \& Sons, 2004.
+
+\bibitem{optAlgEMbook}
+R.~L. Haupt and D.~H. Werner, {\em Genetic algorithms in electromagnetics}.
+\newblock John Wiley \& Sons, 2007.
+
+\bibitem{optAlgBPSO}
+J.~Kennedy and R.~C. Eberhart, ``A discrete binary version of the particle
+  swarm algorithm,'' in {\em 1997 IEEE International conference on systems,
+  man, and cybernetics. Computational cybernetics and simulation}, vol.~5,
+  pp.~4104--4108, IEEE, 1997.
+
+\bibitem{OptAlgBoolPSO4Ant}
+A.~Marandi, F.~Afshinmanesh, M.~Shahabadi, and F.~Bahrami, ``Boolean particle
+  swarm optimization and its application to the design of a dual-band
+  dual-polarized planar antenna,'' in {\em 2006 IEEE International Conference
+  on Evolutionary Computation}, pp.~3212--3218, IEEE, 2006.
+
+\bibitem{optAlgBinDE}
+G.~{Pampara}, A.~P. {Engelbrecht}, and N.~{Franken}, ``Binary differential
+  evolution,'' in {\em 2006 IEEE International Conference on Evolutionary
+  Computation}, pp.~1873--1879, 2006.
+
+\bibitem{optAlgModBinDE}
+L.~Wang, X.~Fu, Y.~Mao, M.~I. Menhas, and M.~Fei, ``A novel modified binary
+  differential evolution algorithm and its applications,'' {\em
+  Neurocomputing}, vol.~98, pp.~55--75, 2012.
+
+\bibitem{optAlgDE4AntennaRev}
+S.~Goudos, ``Antenna design using binary differential evolution: Application to
+  discrete-valued design problems.,'' {\em IEEE antennas and propagation
+  magazine}, vol.~59, no.~1, pp.~74--93, 2017.
+
+\bibitem{antSurrD01}
+B.~Liu, H.~Aliakbarian, Z.~Ma, G.~A. Vandenbosch, G.~Gielen, and P.~Excell,
+  ``An efficient method for antenna design optimization based on evolutionary
+  computation and machine learning techniques,'' {\em IEEE transactions on
+  antennas and propagation}, vol.~62, no.~1, pp.~7--18, 2014.
+
+\bibitem{surrMTM01}
+L.~Tenuti, M.~Salucci, G.~Oliveri, P.~Rocca, and A.~Massa, ``Surrogate-assisted
+  optimization of metamaterial devices for advanced antenna systems,'' in {\em
+  2015 IEEE Symposium Series on Computational Intelligence}, pp.~1154--1156,
+  IEEE, 2015.
+
+\bibitem{antSurrConstMO}
+P.~Singh, M.~Rossi, I.~Couckuyt, D.~Deschrijver, H.~Rogier, and T.~Dhaene,
+  ``Constrained multi-objective antenna design optimization using surrogates,''
+  {\em International Journal of Numerical Modelling: Electronic Networks,
+  Devices and Fields}, vol.~30, no.~6, p.~e2248, 2017.
+
+\bibitem{UwbPmaGaFdtd}
+J.~Kim, T.~Yoon, J.~Kim, and J.~Choi, ``Design of an ultra wide-band printed
+  monopole antenna using fdtd and genetic algorithm,'' {\em IEEE Microwave and
+  Wireless Components Letters}, vol.~15, no.~6, pp.~395--397, 2005.
+
+\bibitem{gaBook}
+A.~E. Eiben, J.~E. Smith, {\em et~al.}, {\em Introduction to evolutionary
+  computing}, vol.~53.
+\newblock Springer, 2003.
+
+\bibitem{gaImpl}
+A.~E. Drake and R.~E. Marks, ``Genetic algorithms in economics and finance:
+  Forecasting stock market prices and foreign exchange --- a review,'' {\em
+  Genetic algorithms and genetic programming in computational finance},
+  pp.~29--54, 2002.
+
+\bibitem{pma_stripline}
+R.~Azim, M.~T. Islam, and N.~Misran, ``Microstrip line-fed printed planar
+  monopole antenna for {UWB} applications,'' {\em Arabian Journal for Science
+  and Engineering}, vol.~38, pp.~2415--2422, Feb. 2013.
+
+\bibitem{pma_dualband}
+O.~Tze-Meng, T.~K. Geok, and A.~W. Reza, ``A dual-band omni-directional
+  microstrip antenna,'' {\em Progress In Electromagnetics Research}, vol.~106,
+  pp.~363--376, 2010.
+
+\bibitem{ML_WideBand01}
+G.~{Giunta}, C.~{Novi}, S.~{Maddio}, G.~{Pelosi}, M.~{Righini}, and
+  S.~{Selleri}, ``Efficient tolerance analysis on a low cost, compact size,
+  wideband multilayer patch antenna,'' in {\em 2017 IEEE International
+  Symposium on Antennas and Propagation USNC/URSI National Radio Science
+  Meeting}, pp.~2113--2114, July 2017.
+
+\bibitem{ML_DualBand01}
+B.~Hazarika, B.~Basu, and J.~Kumar, ``A multi-layered dual-band on-body
+  conformal integrated antenna for {WBAN} communication,'' {\em {AEU} -
+  International Journal of Electronics and Communications}, vol.~95,
+  pp.~226--235, Oct. 2018.
+
+\bibitem{ML_DualBand02}
+A.~Kaur, R.~Khanna, and M.~Kartikeyan, ``A multilayer dual wideband circularly
+  polarized microstrip antenna with {DGS} for {WLAN}/bluetooth/{ZigBee}/wi-max/
+  {IMT} band applications,'' {\em International Journal of Microwave and
+  Wireless Technologies}, vol.~9, pp.~317--325, Aug. 2015.
+
+\bibitem{ML_high_gain_parasitic_slot}
+S.~Sharma, L.~Shafai, and N.~Jacob, ``Investigation of wide-band microstrip
+  slot antenna,'' {\em {IEEE} Transactions on Antennas and Propagation},
+  vol.~52, pp.~865--872, Mar. 2004.
+
+\bibitem{5G_surv1}
+A.~Gupta and R.~K. Jha, ``A survey of 5g network: Architecture and emerging
+  technologies,'' {\em {IEEE} Access}, vol.~3, pp.~1206--1232, 2015.
+
+\bibitem{5G_surv2}
+V.~S. Pandi and J.~L. Priya, ``A survey on 5g mobile technology,'' in {\em 2017
+  {IEEE} International Conference on Power, Control, Signals and
+  Instrumentation Engineering ({ICPCSI})}, {IEEE}, Sept. 2017.
+
+\bibitem{iot-ant1}
+M.~de~Cos~G{\'o}mez, H.~F. {\'A}lvarez, C.~G. Gonz{\'a}lez, B.~P. Valcarce,
+  J.~Olenick, and F.~Las-Heras, ``Ultra-thin compact flexible antenna for iot
+  applications,'' in {\em 2019 13th European Conference on Antennas and
+  Propagation (EuCAP)}, pp.~1--4, March 2019.
+
+\bibitem{iot-ant2}
+Z.~{Su}, K.~{Klionovski}, R.~M. {Bilal}, and A.~{Shamim}, ``3d printed
+  near-isotropic asymmetric dipole antenna-on-package for iot applications,''
+  in {\em 2018 IEEE Indian Conference on Antennas and Propogation (InCAP)},
+  pp.~1--3, Dec 2018.
+
+\bibitem{iot-ant3}
+F.~{Ferrero} and C.~{Pham}, ``Low-cost antenna for iot deployment in developing
+  country,'' in {\em 12th European Conference on Antennas and Propagation
+  (EuCAP 2018)}, pp.~1--5, April 2018.
+
+\bibitem{5G_tutorial}
+M.~{Shafi}, A.~F. {Molisch}, P.~J. {Smith}, T.~{Haustein}, P.~{Zhu}, P.~{De
+  Silva}, F.~{Tufvesson}, A.~{Benjebbour}, and G.~{Wunder}, ``5g: A tutorial
+  overview of standards, trials, challenges, deployment, and practice,'' {\em
+  IEEE Journal on Selected Areas in Communications}, vol.~35, pp.~1201--1221,
+  June 2017.
+
+\bibitem{5G_standards}
+G.~Varrall, {\em 5G Spectrum and Standards}.
+\newblock Artech House, 2016.
+
+\bibitem{rad_loss}
+T.-S. Horng, S.-C. Wu, H.-Y. Yang, and N.~Alexopoulos, ``A generalized method
+  for distinguishing between radiation and surface-wave losses in microstrip
+  discontinuities,'' {\em IEEE transactions on microwave theory and
+  techniques}, vol.~38, no.~12, pp.~1800--1807, 1990.
+
+\bibitem{multi_conductor_analysis_book}
+C.~R. Paul, {\em Analysis of multiconductor transmission lines}.
+\newblock John Wiley \& Sons, 2007.
+
+\bibitem{vectorfitting1}
+G.~R. DeJean and M.~M. Tentzeris, ``The application of lumped element
+  equivalent circuits approach to the design of single-port microstrip
+  antennas,'' {\em {IEEE} Transactions on Antennas and Propagation}, vol.~55,
+  pp.~2468--2472, Sept. 2007.
+
+\bibitem{vectorfitting2}
+M.~E. Nazari, W.~Huang, and Z.~Alavizadeh, ``Return loss-bandwidth evaluation
+  for electrically small microstrip antennas,'' {\em Journal of Electromagnetic
+  Waves and Applications}, vol.~34, pp.~2220--2235, Aug. 2020.
+
+\bibitem{vectorfitting3}
+C.~Lange and M.~Leone, ``Validity of geometrical simplifications in the
+  application of a modal equivalent circuit for interconnection networks in
+  metallic enclosures,'' in {\em 2020 International Symposium on
+  Electromagnetic Compatibility - {EMC} {EUROPE}}, {IEEE}, Sept. 2020.
+
+\bibitem{vfit3_1}
+B.~Gustavsen and A.~Semlyen, ``Rational approximation of frequency domain
+  responses by vector fitting,'' {\em {IEEE} Transactions on Power Delivery},
+  vol.~14, pp.~1052--1061, July 1999.
+
+\bibitem{vfit3_2}
+B.~Gustavsen, ``Improving the pole relocating properties of vector fitting,''
+  {\em {IEEE} Transactions on Power Delivery}, vol.~21, pp.~1587--1592, July
+  2006.
+
+\bibitem{vfit3_3}
+D.~Deschrijver, M.~Mrozowski, T.~Dhaene, and D.~D. Zutter, ``Macromodeling of
+  multiport systems using a fast implementation of the vector fitting method,''
+  {\em {IEEE} Microwave and Wireless Components Letters}, vol.~18,
+  pp.~383--385, June 2008.
+
+\bibitem{antSoftAppReview}
+B.~Choudhury, S.~Thomas, and R.~M. Jha, ``Implementation of soft computing
+  optimization techniques in antenna engineering [antenna applications
+  corner],'' {\em IEEE Antennas and Propagation Magazine}, vol.~57, no.~6,
+  pp.~122--131, 2015.
+
+\bibitem{sparseDesignConstraints}
+C.~I. Coman, I.~E. Lager, and L.~P. Ligthart, ``Design considerations in sparse
+  array antennas,'' in {\em 2006 European Radar Conference}, pp.~72--75, IEEE,
+  2006.
+
+\bibitem{amplitudeTaperingHybrid}
+E.~Sandi, F.~Y. Zulkifli, and E.~T. Rahardjo, ``A hybrid technique using
+  combinatorial cyclic difference sets and binomial amplitude tapering for
+  linear sparse array antenna design,'' {\em Advanced Electromagnetics},
+  vol.~5, no.~3, pp.~73--79, 2016.
+
+\bibitem{SyntLargeSparse}
+P.~Gu, G.~Wang, Z.~Fan, and R.~Chen, ``An efficient approach for the synthesis
+  of large sparse planar array,'' {\em IEEE Transactions on Antennas and
+  Propagation}, vol.~67, no.~12, pp.~7320--7330, 2019.
+
+\bibitem{bayesian_regularization}
+F.~Burden and D.~Winkler, ``Bayesian regularization of neural networks,'' {\em
+  Artificial neural networks}, pp.~23--42, 2008.
+
+\bibitem{kumaresh_surrgoate}
+K.~Sarmah, S.~Goswami, and S.~Baruah, ``Surrogate model assisted design of csrr
+  structure using genetic algorithm for microstrip antenna application.,'' {\em
+  Radioengineering}, vol.~29, no.~1, 2020.
+
+\bibitem{pso_vs_ga}
+M.~Almufti, A.~Zebari, H.~Omer, {\em et~al.}, ``A comparative study of particle
+  swarm optimization and genetic algorithm,'' {\em Journal of Advanced Computer
+  Science \& Technology}, vol.~8, no.~2, pp.~40--45, 2019.
 
 \end{thebibliography}

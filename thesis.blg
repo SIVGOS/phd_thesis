@@ -8,6 +8,11 @@ A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: Abbreviation.aux
 A level-1 auxiliary file: Chapter_1.aux
 A level-1 auxiliary file: Chapter_2.aux
+A level-1 auxiliary file: Chapter_3.aux
+A level-1 auxiliary file: Chapter_4.aux
+A level-1 auxiliary file: Chapter_5.aux
+A level-1 auxiliary file: Chapter_6.aux
+A level-1 auxiliary file: mypubs.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
 You're missing a field name---line 631 of file references.bib
@@ -20,4 +25,5 @@ Warning--empty journal in InvasiveWeed
 Warning--empty publisher in cadNASA
 Warning--can't use both volume and number fields in txmMc
 Warning--can't use both volume and number fields in gtlm2
+Warning--empty journal in softCompMeta
 (There was 1 error message)
