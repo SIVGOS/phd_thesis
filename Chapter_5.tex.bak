@@ -143,7 +143,7 @@ $\phi$ (deg) Desired & $\theta$  (deg) Desired & $\phi$ (deg) Obtained & $\theta
 
 It is observed that the values of $\phi$ and $\theta$ obtained are almost the same as the required values of the parameters. This observation validates the accuracy of the ANN model to predict the values of $\delta_{AZ}$ and $\delta_{EL}$. It also validates how the problem is formulated where the excitation weights of the sparse array are obtained from the Hadamard product of the weight matrix, W of the URA, and the binary matrix B.
 
-The PSLL values are obtained from the normalized radiation pattern of the arrays. It is observed that the PSLL values of the sparse array are close to that of the original URA. Thus, there is no significant increase in the side-lobe level due to thinning the array. Fig. \ref{fig_5_8} shows the normalized radiation pattern of the antenna at $\phi$ = 30 degree and $\theta$ = 40 degree. For easier comparison, the values where the values of the radiation pattern are less than - 60 dB are flattened.
+The PSLL values are obtained from the normalized radiation pattern of the arrays. It is observed that the PSLL values of the sparse array are close to that of the original URA. Thus, there is no significant increase in the side-lobe level due to thinning the array. Fig. \ref{fig_5_8} shows the normalized radiation pattern of the antenna at $\phi$ = 30 degree and $\theta$ = 40 degree. For easier comparison, the values where the values of the radiation pattern are less than -- 60 dB are flattened.
 
 \begin{figure}
   \centering
@@ -154,7 +154,7 @@ The PSLL values are obtained from the normalized radiation pattern of the arrays
 
 From these figures, it is observed that the width and positions of the main lobe are identical for the URA and the sparse array. Although the sparse array has a larger number of side lobes, the values of these lobes are very small. Since the objective of the optimization problem was to suppress the PSLL only, the other side lobes are not significantly reduced.
 
-It is not possible to include all the radiation patterns in this paper. Therefore, the overall PSLL values of the URA and the proposed sparse array are compared in a 3D surface plot shown in Fig. \ref{fig_5_9}. Here the values of $\phi$ and $\theta$ are tuned over the range of - 45 degree to + 45 degree. It is observed that only at these two extreme points, the PSLL value of the sparse array is slightly higher than that of the original URA. As the $\phi$ and $\theta$ approach (0, 0), the values of the PSLL of the URA and sparse array become almost the same.
+It is not possible to include all the radiation patterns in this paper. Therefore, the overall PSLL values of the URA and the proposed sparse array are compared in a 3D surface plot shown in Fig. \ref{fig_5_9}. Here the values of $\phi$ and $\theta$ are tuned over the range of -- 45 degree to + 45 degree. It is observed that only at these two extreme points, the PSLL value of the sparse array is slightly higher than that of the original URA. As the $\phi$ and $\theta$ approach (0, 0), the values of the PSLL of the URA and sparse array become almost the same.
 
 \begin{figure}
   \centering
@@ -163,3 +163,36 @@ It is not possible to include all the radiation patterns in this paper. Therefor
   \caption{Variation of PSLL with the direction of the main lobe for (a) URA (b) the sparse array} \label{fig_5_9}
 \end{figure}
 
+\subsection{Analysis of the Peak Gain}
+
+As the number of elements is reduced to half, the peak gain of the antenna is also reduced. This section compares the gains of the original URA and the sparse array for all the possible angles of the elevation plane and the azimuthal plane ranging from -- 45 degree to 45 degree. From Fig. \ref{fig_5_10}, it is observed that as the distribution of the gains with the angle of the main lobe shows a similar trend for both the original URA and the sparse array. The difference in gain is maximum at the edges and reduces as the azimuth and elevation angles are close to zero. The difference in gain observed is 2 dB whereas the maximum difference is 4.5 dB.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.95\linewidth]{Fig-naun_10.eps}\\
+  \caption{(a) Distribution of the peak gain of the URA, (b) Distribution of the peak gain of the sparse array, (c) Difference between peak gains of URA and Sparse array} \label{fig_5_10}
+\end{figure}
+
+\subsection{Analysis of the Beam-width}
+The beam-width is another important factor to be considered when a sparse array is synthesized. The beam-width and PSLL are often considered related constraints in many applications \cite{arrayTradeoffs}. The beam-widths of the original URA and the synthesized sparse scan-array are plotted for azimuth angles and elevation angles in the range from -- 45 degree to 45 degree in Fig. \ref{fig_5_11}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.95\linewidth]{Fig-naun_11.eps}\\
+  \caption{Distribution of the beam-width for (a) the original URA and (b) the synthesized sparse array} \label{fig_5_11}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\linewidth]{Fig-naun_12.eps}\\
+  \caption{Histogram of the beam widths of the URA and the sparse planar array.} \label{fig_5_12}
+\end{figure}
+
+From Fig. \ref{fig_5_11} (a) and (b) it is observed that the beam-width of the two arrays exhibit almost similar variations with the scan-angles. The maximum beam-width of the URA is 36 degree whereas that of the sparse array is 29 degree. The histogram of the beam-widths of the two arrays is shown in Fig. \ref{fig_5_12}. The sparse array has more scan-angles where the beam width is between 10-12 degrees. Beyond the beam-width of 16 degree, the number of points is lower in case of the sparse array as compared to the URA. It infers that the sparse array has narrower beam-widths than the URA. 
+
+\section{Conclusion}
+A technique for synthesizing a sparse array from a $16\times 16$ URA is presented. The excitation weight matrix, W of the URA are estimated using an ANN model from the desired scan-angle. The PSO is used for obtaining a binary matrix B, such that the Hadamard product of B and W yields the excitation weights of the sparse antenna array. The experimental results show that the desired scan-angles of the sparse array are accurately obtained using this technique.
+
+The PSLL of the URA and the sparse array are compared for all possible scan-angles in a range of -- 45 degree to + 45 degree for both the elevation plane and the azimuthal plane. It is observed that the PSLL of the synthesized sparse array is almost the same as that of the URA except at the extreme ends of the scanning range.
+
+The overall scan angle of the proposed antenna array is 90 degree for both the azimuth plane and the elevation plane. The array comprises cosine antenna elements that represent printed antennas used in 5G millimeter-wave wireless communication. A comparative analysis of the original URA and the sparse array is observed in terms of gain and beam-width. It is observed that although there is a slight reduction in the gain of the sparse array, the beam-width is less indicating a better resolution for radar or directional wireless communication.

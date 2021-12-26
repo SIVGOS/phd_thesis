@@ -818,6 +818,11 @@ P.~Gu, G.~Wang, Z.~Fan, and R.~Chen, ``An efficient approach for the synthesis
   of large sparse planar array,'' {\em IEEE Transactions on Antennas and
   Propagation}, vol.~67, no.~12, pp.~7320--7330, 2019.
 
+\bibitem{simDrivOptBook}
+S.~Koziel and S.~Ogurtsov, {\em Antenna design by simulation-driven
+  optimization}.
+\newblock Springer, 2014.
+
 \bibitem{bayesian_regularization}
 F.~Burden and D.~Winkler, ``Bayesian regularization of neural networks,'' {\em
   Artificial neural networks}, pp.~23--42, 2008.

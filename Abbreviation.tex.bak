@@ -1,0 +1,39 @@
+\begin{abbreviation}
+\begin{itemize}
+\item AEDT: Ansys$^{\circledR}$ Electronics Desktop
+\item AF: Array Factor
+\item ANFIS: Adaptive Neuro-Fuzzy Inference System
+\item ANN: Artificial Neural Network
+\item BPSO: Boolean Particle Swarm Optimization
+\item CAD: Computer Aided Design
+\item DE: Differential Evolution
+\item EBG: Electromagnetic Band-Gap
+\item EM: Electromagnetic
+\item FA: Firefly Algorithm
+\item FDTD: Finite Difference Time Domain
+\item FEM: Finite Elements Method
+\item GA: Genetic Algorithm
+\item HFSS: High Frequency System Simulator
+\item HPBW: Half Power Beam Width
+\item ISM: Industrial, Science and Medical
+\item MPA: Micostrip patch antenna
+\item MoM: Method of Moments
+\item PCB: Printed Circuit Board
+\item PIFA: Planar Inverted-F Antenna
+\item PMA: Printed monopole antenna
+\item PSLL: Peak Side-Lobe Level
+\item PSO: Particle Swarm Optimization
+\item RSPA: Randomly Spaced Planar Array
+\item SBL: Side-Band Level
+\item SBT: Sierpinski Bow-Tie
+\item SIW: Substrate Integrated Waveguide
+\item SLL: Side-Lobe Level
+\item SMO: Spider Monkey Optimization
+\item SWB: Super Wide Band
+\item TLBO: Teaching Learning Based Optimization
+\item TLM: Transmission Line Model
+\item ULA: Uniform Linear Array
+\item URA: Uniform Rectangular Array
+\item UWB: Ultra-wide band
+\end{itemize}
+\end{abbreviation} 

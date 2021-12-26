@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  12 DEC 2021 01:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  27 DEC 2021 01:56
 entering extended mode
 **D:/PhD/THESIS/THESIS_Template/thesis.tex
 (D:/PhD/THESIS/THESIS_Template/thesis.tex
@@ -464,547 +464,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 ])
 \openout2 = `ackn.aux'.
 
- (ackn.tex [3
+ (ackn.tex) [3
 
 
-]) [4]
+]
 \openout2 = `abstract.aux'.
 
  (abstract.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [5
-
-
-
-])
-\openout2 = `Abbreviation.aux'.
-
- (Abbreviation.tex
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 3.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [6
+) [4
+
+
+
+] [5])
+\openout2 = `Abbreviation.aux'.
+
+
+(Abbreviation.tex
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 3.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+[6
 
 
 
 ] [7]) (thesis.toc [8
 
 
-] [9])
+] [9] [10])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [10] (thesis.lot)
+ [11] (thesis.lot)
 \tf@lot=\write4
 \openout4 = `thesis.lot'.
 
- [11
+ [12
 
 ] (thesis.lof
-
-LaTeX Warning: Citation `patch_miniaturize_ga' on page xii undefined on input l
-ine 4.
-
-
-LaTeX Warning: Citation `optPatch' on page xii undefined on input line 5.
-
-
-LaTeX Warning: Citation `patch_miniaturize_ga' on page xii undefined on input l
-ine 8.
-
-
-LaTeX Warning: Citation `arrayThin2' on page xii undefined on input line 9.
-
-
-LaTeX Warning: Citation `optMtm' on page xii undefined on input line 10.
-
-
-LaTeX Warning: Citation `metasurface2' on page xii undefined on input line 11.
-
-
-LaTeX Warning: Citation `patch_miniaturize_ga' on page xii undefined on input l
-ine 12.
-
-
 Overfull \hbox (16.92755pt too wide) in paragraph at lines 26--26
  \OT1/ptm/m/n/12 along with de-mar-ca-tions show-ing re-spec-tive LCR sec-tions
  for the printed monopole 
  []
 
-[12
+[13
 
-] [13])
+] [14])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [14]
+ [15]
 \openout2 = `Chapter_1.aux'.
 
  (Chapter_1.tex
 Chapter 1.
-
-LaTeX Warning: Citation `softCompBook' on page 1 undefined on input line 12.
-
-
-LaTeX Warning: Citation `compCAD4Arry' on page 1 undefined on input line 12.
-
 [1
 
 
-]
-
-LaTeX Warning: Citation `arraySynth3' on page 2 undefined on input line 16.
-
-
-LaTeX Warning: Citation `arraySynth4' on page 2 undefined on input line 17.
-
-
-LaTeX Warning: Citation `arrayThin1' on page 2 undefined on input line 18.
-
-
-LaTeX Warning: Citation `arrayThin2' on page 2 undefined on input line 19.
-
-
-LaTeX Warning: Citation `CuckooSerach' on page 2 undefined on input line 20.
-
-
-LaTeX Warning: Citation `InvasiveWeed' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Citation `balanis' on page 2 undefined on input line 32.
-
-[2]
-
-LaTeX Warning: Citation `cadNASA' on page 3 undefined on input line 36.
-
-
+] [2]
 Overfull \hbox (16.07236pt too wide) in paragraph at lines 36--37
 [][]\OT1/ptm/m/n/12 Because of the lim-i-ta-tions of the tra-di-tional ap-proac
 hes for an-tenna de-sign, soft-computational
  []
 
-[3]
-
-LaTeX Warning: Citation `classicTheory' on page 4 undefined on input line 56.
-
-
-LaTeX Warning: Citation `phasedArrayHandbook' on page 4 undefined on input line
- 56.
-
-
-LaTeX Warning: Citation `thinnedArrayBook' on page 4 undefined on input line 56
-.
-
-[4]
-
-LaTeX Warning: Citation `mpa00' on page 5 undefined on input line 63.
-
-
-LaTeX Warning: Citation `mpa02' on page 5 undefined on input line 63.
-
-
-LaTeX Warning: Citation `mpa01' on page 5 undefined on input line 63.
-
-
-LaTeX Warning: Citation `mpaSurvTech' on page 5 undefined on input line 63.
-
-
-LaTeX Warning: Citation `mpaHist01' on page 5 undefined on input line 63.
-
-
-LaTeX Warning: Citation `txmPhasedArray' on page 5 undefined on input line 63.
-
-
-LaTeX Warning: Citation `mpaReview1992' on page 5 undefined on input line 65.
-
-
-LaTeX Warning: Citation `handbook' on page 5 undefined on input line 67.
-
-
-LaTeX Warning: Citation `practGuide3D' on page 5 undefined on input line 67.
-
-[5]
-
-LaTeX Warning: Citation `practGuide3D' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `practGuide3D' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `handbook' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `numericalbook' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `HPatch1' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `uslot1' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `smallPatch0' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `BandSize0' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `dualBandPatch1' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `dualBandCircPol' on page 6 undefined on input line 72.
-
-
-
-LaTeX Warning: Citation `fractal1' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `slottedUWB' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `PMA01' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `bandnotchCSRR1' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `bandnotchEBG1' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `rcs1992' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `rcs2014' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `rcs2016' on page 6 undefined on input line 72.
-
-
-LaTeX Warning: Citation `CompFeed01' on page 6 undefined on input line 74.
-
-
-LaTeX Warning: Citation `CompFeed02' on page 6 undefined on input line 74.
-
-
-LaTeX Warning: Citation `mcEBG' on page 6 undefined on input line 74.
-
-
-LaTeX Warning: Citation `mcCSRR' on page 6 undefined on input line 74.
-
-
-LaTeX Warning: Citation `mcFSRR' on page 6 undefined on input line 74.
-
-
-LaTeX Warning: Citation `mimoSRR' on page 6 undefined on input line 74.
-
-
-LaTeX Warning: Citation `mimoSRR' on page 6 undefined on input line 74.
-
-
-LaTeX Warning: Citation `mimoRenonf' on page 6 undefined on input line 74.
-
-
-LaTeX Warning: Citation `spa01' on page 6 undefined on input line 74.
-
-
-LaTeX Warning: Citation `spaMems' on page 6 undefined on input line 74.
-
-
-LaTeX Warning: Citation `PSA1' on page 6 undefined on input line 76.
-
-
-LaTeX Warning: Citation `PMA01' on page 6 undefined on input line 76.
-
-
-LaTeX Warning: Citation `slotAnalysis' on page 6 undefined on input line 76.
-
-
-LaTeX Warning: Citation `pmaCSRR' on page 6 undefined on input line 76.
-
-[6]
-
-LaTeX Warning: Citation `mtmReview1' on page 7 undefined on input line 78.
-
-
-LaTeX Warning: Citation `mtmReview2' on page 7 undefined on input line 78.
-
-
-LaTeX Warning: Citation `cadNASA2' on page 7 undefined on input line 82.
-
-
-LaTeX Warning: Citation `cadNASA' on page 7 undefined on input line 83.
-
-
-LaTeX Warning: Citation `ga_em' on page 7 undefined on input line 84.
-
-[7]
-
-LaTeX Warning: Citation `circpol_anfis_ga' on page 8 undefined on input line 85
-.
-
-
-LaTeX Warning: Citation `fractal_bowtie_ga' on page 8 undefined on input line 8
-6.
-
-
-LaTeX Warning: Citation `txm_opt' on page 8 undefined on input line 87.
-
-
-LaTeX Warning: Citation `patch_feed_ga' on page 8 undefined on input line 88.
-
-
-LaTeX Warning: Citation `gain_bw_opt_ga' on page 8 undefined on input line 89.
-
-[8]
-
-LaTeX Warning: Citation `mpa_triband_opt' on page 9 undefined on input line 90.
-
-
-
-LaTeX Warning: Citation `mpa_multifit_ga' on page 9 undefined on input line 91.
-
-
-
-LaTeX Warning: Citation `opt_pifa_ga_2' on page 9 undefined on input line 92.
-
-
-LaTeX Warning: Citation `opt_pifa_ga' on page 9 undefined on input line 93.
-
-
-LaTeX Warning: Citation `rectpatch_miniaturize_ga' on page 9 undefined on input
- line 94.
-
-[9]
-
-LaTeX Warning: Citation `compCAD4Ant' on page 10 undefined on input line 95.
-
-
-LaTeX Warning: Citation `auto_opt_matlab' on page 10 undefined on input line 96
-.
-
-
-LaTeX Warning: Citation `txmPhasedArray' on page 10 undefined on input line 100
-.
-
-
-LaTeX Warning: Citation `txmLinP' on page 10 undefined on input line 100.
-
-
-LaTeX Warning: Citation `txmRect' on page 10 undefined on input line 100.
-
-
-LaTeX Warning: Citation `txmMc' on page 10 undefined on input line 100.
-
-
-LaTeX Warning: Citation `txmLossy' on page 10 undefined on input line 100.
-
-
-LaTeX Warning: Citation `txmPMA' on page 10 undefined on input line 100.
-
-
-LaTeX Warning: Citation `txm_opt' on page 10 undefined on input line 100.
-
-
-LaTeX Warning: Citation `txm_wideband' on page 10 undefined on input line 100.
-
-
-LaTeX Warning: Citation `gtlmThesis' on page 10 undefined on input line 100.
-
-
-LaTeX Warning: Citation `gtlmMath' on page 10 undefined on input line 100.
-
-
-LaTeX Warning: Citation `gtlm2' on page 10 undefined on input line 100.
-
-
-LaTeX Warning: Citation `gtlmAnnular' on page 10 undefined on input line 100.
-
-
-LaTeX Warning: Citation `gtlmSectorCirc' on page 10 undefined on input line 100
-.
-
-
-LaTeX Warning: Citation `gtlmAnnuRing' on page 10 undefined on input line 100.
-
-
-LaTeX Warning: Citation `gtlmElliptRing' on page 10 undefined on input line 100
-.
-
-
-LaTeX Warning: Citation `smallPatch0' on page 10 undefined on input line 102.
-
-
-LaTeX Warning: Citation `BandSize0' on page 10 undefined on input line 102.
-
-
-LaTeX Warning: Citation `HPatch1' on page 10 undefined on input line 102.
-
-
-LaTeX Warning: Citation `uslot1' on page 10 undefined on input line 102.
-
-
-LaTeX Warning: Citation `dualBandCircPol' on page 10 undefined on input line 10
-2.
-
-
-LaTeX Warning: Citation `dualBandWLAN' on page 10 undefined on input line 102.
-
-
-LaTeX Warning: Citation `fractal1' on page 10 undefined on input line 102.
-
-
-LaTeX Warning: Citation `slottedUWB' on page 10 undefined on input line 102.
-
-
-LaTeX Warning: Citation `bandnotchCSRR1' on page 10 undefined on input line 102
-.
-
-
-LaTeX Warning: Citation `bandnotchEBG1' on page 10 undefined on input line 102.
-
-
-
-LaTeX Warning: Citation `SlottedPatchModel' on page 10 undefined on input line 
-102.
-
-
-LaTeX Warning: Citation `spiralSlotGnd' on page 10 undefined on input line 102.
-
-
-
-LaTeX Warning: Citation `GndSRRPatch' on page 10 undefined on input line 102.
-
-[10]
-
-LaTeX Warning: Citation `RectEqCkt-der' on page 11 undefined on input line 107.
-
-
-
-LaTeX Warning: Citation `mtm_ebg_eqckt2' on page 11 undefined on input line 108
-.
-
-
-LaTeX Warning: Citation `Broadband_EqCkt' on page 11 undefined on input line 10
-9.
-
-
-LaTeX Warning: Citation `Fano_BW_Antenna' on page 11 undefined on input line 11
-0.
-
-[11]
-
-LaTeX Warning: Citation `UwbEqCktMethod' on page 12 undefined on input line 111
-.
-
-
-LaTeX Warning: Citation `rectEqCkt' on page 12 undefined on input line 112.
-
-
-LaTeX Warning: Citation `UwbNotchEqCkt' on page 12 undefined on input line 113.
-
-
-
-LaTeX Warning: Citation `UwbPmaEqCkt2' on page 12 undefined on input line 114.
-
-
-LaTeX Warning: Citation `UwbPmaEqCkt3' on page 12 undefined on input line 115.
-
-[12]
-
-LaTeX Warning: Citation `UwbPmaEqCkt4' on page 13 undefined on input line 116.
-
-
-LaTeX Warning: Citation `ana_eqckt_ex1' on page 13 undefined on input line 117.
-
-
-
-LaTeX Warning: Citation `comp-aided-eqckt' on page 13 undefined on input line 1
-18.
-
-[13]
-
-LaTeX Warning: Citation `UwbPmaEqCkt1' on page 14 undefined on input line 119.
-
-
-LaTeX Warning: Citation `comp-aided-eqckt2' on page 14 undefined on input line 
-120.
-
-
-LaTeX Warning: Citation `optEqCkt_ads' on page 14 undefined on input line 121.
-
-
-LaTeX Warning: Citation `5gmmwave' on page 14 undefined on input line 126.
-
-
-LaTeX Warning: Citation `5gmmwave_fr4' on page 14 undefined on input line 126.
-
-[14]
-
-LaTeX Warning: Citation `phasedArrayHandbook' on page 15 undefined on input lin
-e 128.
-
-
-LaTeX Warning: Citation `phasedArray_russia' on page 15 undefined on input line
- 128.
-
-
-LaTeX Warning: Citation `txmPhasedArray' on page 15 undefined on input line 128
-.
-
-
-LaTeX Warning: Citation `mmarrayRrev' on page 15 undefined on input line 128.
-
-
-LaTeX Warning: Citation `arrayTradeoffs' on page 15 undefined on input line 130
-.
-
-
-LaTeX Warning: Citation `arraySynth1' on page 15 undefined on input line 133.
-
-
-LaTeX Warning: Citation `arrayThin1' on page 15 undefined on input line 134.
-
-
-LaTeX Warning: Citation `nunUniformLinear' on page 15 undefined on input line 1
-35.
-
-[15]
-
-LaTeX Warning: Citation `thinningGA' on page 16 undefined on input line 136.
-
-
-LaTeX Warning: Citation `arraySynth3' on page 16 undefined on input line 137.
-
-
-LaTeX Warning: Citation `arrayThin2' on page 16 undefined on input line 138.
-
-
-LaTeX Warning: Citation `arraySynth2' on page 16 undefined on input line 139.
-
-
-LaTeX Warning: Citation `randomlySpacedArray' on page 16 undefined on input lin
-e 140.
-
-[16]
-
-LaTeX Warning: Citation `selfOrgOpt' on page 17 undefined on input line 141.
-
-[17] [18]
-
-LaTeX Warning: Citation `softCompBook' on page 19 undefined on input line 170.
-
+[3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
 [19]
 File: soft-flow1.eps Graphic file (type eps)
  <soft-flow1.eps> [20]) [21] [22]
@@ -1017,13 +551,6 @@ Chapter 2.
 
 
 ]
-
-LaTeX Warning: Citation `balanis' on page 24 undefined on input line 14.
-
-
-LaTeX Warning: Citation `cadNASA' on page 24 undefined on input line 18.
-
-
 Overfull \hbox (16.07236pt too wide) in paragraph at lines 18--19
 [][]\OT1/ptm/m/n/12 Because of the lim-i-ta-tions of the tra-di-tional ap-proac
 hes for an-tenna de-sign, soft-computational
@@ -1034,414 +561,40 @@ Overfull \hbox (3.6745pt too wide) in paragraph at lines 27--27
 []\OT1/ptm/b/n/17.28 Problems in Soft-Computational Ap-proaches for An-tenna
  []
 
-
-LaTeX Warning: Citation `patch_miniaturize_ga' on page 25 undefined on input li
-ne 38.
-
 [25]
 File: fig_2_1.eps Graphic file (type eps)
  <fig_2_1.eps>
-
-LaTeX Warning: Citation `patch_miniaturize_ga' on page 26 undefined on input li
-ne 43.
-
-
-LaTeX Warning: Citation `patch_miniaturize_ga' on page 26 undefined on input li
-ne 43.
-
 File: fig_2_2a.eps Graphic file (type eps)
-<fig_2_2a.eps>
+ <fig_2_2a.eps>
 File: fig_2_2b.eps Graphic file (type eps)
  <fig_2_2b.eps>
-
-LaTeX Warning: Citation `optPatch' on page 26 undefined on input line 50.
-
-
-LaTeX Warning: Citation `optPatch' on page 26 undefined on input line 50.
-
-
-LaTeX Warning: Citation `optPatch' on page 26 undefined on input line 53.
-
 File: fig_2_3.eps Graphic file (type eps)
-<fig_2_3.eps>
-
-LaTeX Warning: Citation `patch_miniaturize_ga' on page 26 undefined on input li
-ne 58.
-
-
-LaTeX Warning: Citation `freqReconfCogn' on page 26 undefined on input line 61.
-
-
-
-LaTeX Warning: Citation `arraySynth1' on page 26 undefined on input line 64.
-
-[26] [27]
-
-LaTeX Warning: Citation `arraySynth1' on page 28 undefined on input line 71.
-
-
-LaTeX Warning: Citation `arraySynth2' on page 28 undefined on input line 71.
-
-
-LaTeX Warning: Citation `arraySynth3' on page 28 undefined on input line 71.
-
-
-LaTeX Warning: Citation `arraySynth4' on page 28 undefined on input line 71.
-
-
-LaTeX Warning: Citation `compCAD4Arry' on page 28 undefined on input line 73.
-
-
-LaTeX Warning: Citation `compCAD4Arry' on page 28 undefined on input line 73.
-
+ <fig_2_3.eps> [26] [27]
 [28]
-
-LaTeX Warning: Citation `arrayThin1' on page 29 undefined on input line 78.
-
-
-LaTeX Warning: Citation `arrayThin2' on page 29 undefined on input line 78.
-
 File: fig_2_4.eps Graphic file (type eps)
-<fig_2_4.eps>
-
-LaTeX Warning: Citation `arrayThin2' on page 29 undefined on input line 83.
-
-
-LaTeX Warning: Citation `arrayThin2' on page 29 undefined on input line 83.
-
-
-LaTeX Warning: Citation `arrayThin3' on page 29 undefined on input line 86.
-
-[29]
-
-LaTeX Warning: Citation `optMtm' on page 30 undefined on input line 91.
-
-
-LaTeX Warning: Citation `lh_mtm' on page 30 undefined on input line 91.
-
+ <fig_2_4.eps> [29]
 File: fig_2_5.eps Graphic file (type eps)
-<fig_2_5.eps>
-
-LaTeX Warning: Citation `optMtm' on page 30 undefined on input line 96.
-
-
-LaTeX Warning: Citation `optMtm' on page 30 undefined on input line 96.
-
-
-LaTeX Warning: Citation `metasurface1' on page 30 undefined on input line 100.
-
-
-LaTeX Warning: Citation `metasurface2' on page 30 undefined on input line 100.
-
-[30]
+ <fig_2_5.eps> [30]
 File: fig_2_6.eps Graphic file (type eps)
  <fig_2_6.eps>
-
-LaTeX Warning: Citation `metasurface2' on page 31 undefined on input line 105.
-
-
-LaTeX Warning: Citation `softCompMeta' on page 31 undefined on input line 108.
-
-
-LaTeX Warning: Citation `uwb_rcs' on page 31 undefined on input line 108.
-
-
 Overfull \hbox (11.64012pt too wide) in paragraph at lines 110--110
 []\OT1/ptm/b/n/17.28 Techniques and Meth-ods for the use of Soft-Computational
  []
 
-[31]
-
-LaTeX Warning: Citation `compCAD4Arry' on page 32 undefined on input line 114.
-
-
-LaTeX Warning: Citation `optAlgBGAbook' on page 32 undefined on input line 116.
-
-
-
-LaTeX Warning: Citation `optAlgEMbook' on page 32 undefined on input line 116.
-
-
-LaTeX Warning: Citation `optAlgBPSO' on page 32 undefined on input line 116.
-
-
-LaTeX Warning: Citation `arraySynth1' on page 32 undefined on input line 116.
-
-
-LaTeX Warning: Citation `OptAlgBoolPSO4Ant' on page 32 undefined on input line 
-116.
-
-
-LaTeX Warning: Citation `optAlgBinDE' on page 32 undefined on input line 116.
-
-
-LaTeX Warning: Citation `optAlgModBinDE' on page 32 undefined on input line 116
-.
-
-
-LaTeX Warning: Citation `optAlgDE4AntennaRev' on page 32 undefined on input lin
-e 116.
-
-
-LaTeX Warning: Citation `optAlgModBinDE' on page 32 undefined on input line 116
-.
-
-
-LaTeX Warning: Citation `arraySynth3' on page 32 undefined on input line 121.
-
-
-LaTeX Warning: Citation `arraySynth4' on page 32 undefined on input line 122.
-
-
-LaTeX Warning: Citation `arrayThin1' on page 32 undefined on input line 123.
-
-[32]
-
-LaTeX Warning: Citation `arrayThin2' on page 33 undefined on input line 124.
-
-
-LaTeX Warning: Citation `CuckooSerach' on page 33 undefined on input line 125.
-
-
-LaTeX Warning: Citation `InvasiveWeed' on page 33 undefined on input line 126.
-
-
-LaTeX Warning: Citation `arraySynth2' on page 33 undefined on input line 130.
-
-
-LaTeX Warning: Citation `arraySynth3' on page 33 undefined on input line 130.
-
-
-LaTeX Warning: Citation `arraySynth4' on page 33 undefined on input line 130.
-
-
-LaTeX Warning: Citation `compCAD4Arry' on page 33 undefined on input line 130.
-
-
-LaTeX Warning: Citation `arrayThin1' on page 33 undefined on input line 139.
-
-
-LaTeX Warning: Citation `arrayThin2' on page 33 undefined on input line 139.
-
-
-LaTeX Warning: Citation `arrayThin3' on page 33 undefined on input line 139.
-
-
-LaTeX Warning: Citation `arrayThin2' on page 33 undefined on input line 139.
-
-
-LaTeX Warning: Citation `arrayThin3' on page 33 undefined on input line 139.
-
-[33]
-
-LaTeX Warning: Citation `patch_miniaturize_ga' on page 34 undefined on input li
-ne 142.
-
-
-LaTeX Warning: Citation `optPatch' on page 34 undefined on input line 142.
-
-
-LaTeX Warning: Citation `freqReconfCogn' on page 34 undefined on input line 142
-.
-
-
-LaTeX Warning: Citation `arraySynth1' on page 34 undefined on input line 142.
-
-
-LaTeX Warning: Citation `patch_miniaturize_ga' on page 34 undefined on input li
-ne 144.
-
+[31] [32] [33]
 File: fig_2_7.eps Graphic file (type eps)
-<fig_2_7.eps>
-
-LaTeX Warning: Citation `patch_miniaturize_ga' on page 34 undefined on input li
-ne 149.
-
-
-LaTeX Warning: Citation `optPatch' on page 34 undefined on input line 152.
-
-
-LaTeX Warning: Citation `arraySynth1' on page 34 undefined on input line 152.
-
-
-LaTeX Warning: Citation `antSurrD01' on page 34 undefined on input line 157.
-
-[34] [35]
-
-LaTeX Warning: Citation `surrMTM01' on page 36 undefined on input line 159.
-
-
-LaTeX Warning: Citation `antSurrConstMO' on page 36 undefined on input line 159
-.
-
-) [36]
+ <fig_2_7.eps> [34] [35]) [36]
 \openout2 = `Chapter_3.aux'.
 
  (Chapter_3.tex
 Chapter 3.
-
-LaTeX Warning: Citation `mpa00' on page 37 undefined on input line 4.
-
-
-LaTeX Warning: Citation `mpa02' on page 37 undefined on input line 4.
-
-
-LaTeX Warning: Citation `txmPhasedArray' on page 37 undefined on input line 4.
-
-
-LaTeX Warning: Citation `mpaSurvTech' on page 37 undefined on input line 4.
-
-
-LaTeX Warning: Citation `mpaHist01' on page 37 undefined on input line 4.
-
-
-LaTeX Warning: Citation `txmPhasedArray' on page 37 undefined on input line 4.
-
-
-LaTeX Warning: Citation `mpaReview1992' on page 37 undefined on input line 6.
-
-
-LaTeX Warning: Citation `handbook' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `handbook' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `practGuide3D' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `smallPatch0' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `BandSize0' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `HPatch1' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `uslot1' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `dualBandCircPol' on page 37 undefined on input line 8.
-
-
-
-LaTeX Warning: Citation `dualBandWLAN' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `fractal1' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `slottedUWB' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `bandnotchCSRR1' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `bandnotchEBG1' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `SlottedPatchModel' on page 37 undefined on input line 
-8.
-
-
-LaTeX Warning: Citation `spiralSlotGnd' on page 37 undefined on input line 8.
-
-
-LaTeX Warning: Citation `GndSRRPatch' on page 37 undefined on input line 8.
-
 [37
 
 
 
-]
-
-LaTeX Warning: Citation `rectEqCkt' on page 38 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Broadband_EqCkt' on page 38 undefined on input line 10
-.
-
-
-LaTeX Warning: Citation `UwbEqCktMethod' on page 38 undefined on input line 10.
-
-
-
-LaTeX Warning: Citation `UwbPmaEqCkt1' on page 38 undefined on input line 10.
-
-
-LaTeX Warning: Citation `UwbPmaEqCkt2' on page 38 undefined on input line 10.
-
-
-LaTeX Warning: Citation `UwbPmaEqCkt3' on page 38 undefined on input line 10.
-
-
-LaTeX Warning: Citation `UwbPmaEqCkt4' on page 38 undefined on input line 10.
-
-
-LaTeX Warning: Citation `UwbNotchEqCkt' on page 38 undefined on input line 10.
-
-
-LaTeX Warning: Citation `UwbPmaGaFdtd' on page 38 undefined on input line 12.
-
-
-LaTeX Warning: Citation `cadNASA' on page 38 undefined on input line 12.
-
-
-LaTeX Warning: Citation `compCAD4Arry' on page 38 undefined on input line 12.
-
-
-LaTeX Warning: Citation `antSurrD01' on page 38 undefined on input line 12.
-
-
-LaTeX Warning: Citation `surrMTM01' on page 38 undefined on input line 12.
-
-
-LaTeX Warning: Citation `antSurrConstMO' on page 38 undefined on input line 12.
-
-
-
-LaTeX Warning: Citation `patch_miniaturize_ga' on page 38 undefined on input li
-ne 14.
-
-[38]
-
-LaTeX Warning: Citation `freqReconfCogn' on page 39 undefined on input line 16.
-
-
-
-LaTeX Warning: Citation `optMtm' on page 39 undefined on input line 18.
-
-
-LaTeX Warning: Citation `lh_mtm' on page 39 undefined on input line 18.
-
-
-LaTeX Warning: Citation `arraySynth1' on page 39 undefined on input line 20.
-
-
-LaTeX Warning: Citation `arrayThin1' on page 39 undefined on input line 20.
-
-
-LaTeX Warning: Citation `arraySynth3' on page 39 undefined on input line 20.
-
-
-LaTeX Warning: Citation `arraySynth2' on page 39 undefined on input line 20.
-
-
-LaTeX Warning: Citation `arraySynth4' on page 39 undefined on input line 20.
-
-
-LaTeX Warning: Citation `compCAD4Arry' on page 39 undefined on input line 20.
-
+] [38]
 File: bc-flowchart.eps Graphic file (type eps)
-<bc-flowchart.eps> [39] [40]
-
-LaTeX Warning: Citation `gaBook' on page 41 undefined on input line 52.
-
-
-LaTeX Warning: Citation `gaImpl' on page 41 undefined on input line 52.
-
-
+ <bc-flowchart.eps> [39] [40]
 Overfull \hbox (5.84924pt too wide) in paragraph at lines 54--55
 [][]\OT1/ptm/m/n/12 Like any other soft-computing tech-nique, ge-netic al-go-ri
 thm also has some hyper-parameters
@@ -1475,70 +628,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (Chapter_4.tex
 Chapter 4.
-
-LaTeX Warning: Citation `handbook' on page 50 undefined on input line 4.
-
-
-LaTeX Warning: Citation `pma_stripline' on page 50 undefined on input line 4.
-
-
-LaTeX Warning: Citation `pma_dualband' on page 50 undefined on input line 4.
-
-
-LaTeX Warning: Citation `pma_stripline' on page 50 undefined on input line 4.
-
-
-LaTeX Warning: Citation `PMA01' on page 50 undefined on input line 4.
-
-
-LaTeX Warning: Citation `ML_WideBand01' on page 50 undefined on input line 6.
-
-
-LaTeX Warning: Citation `ML_DualBand01' on page 50 undefined on input line 6.
-
-
-LaTeX Warning: Citation `ML_DualBand02' on page 50 undefined on input line 6.
-
-
-LaTeX Warning: Citation `ML_high_gain_parasitic_slot' on page 50 undefined on i
-nput line 6.
-
-
-LaTeX Warning: Citation `5G_surv1' on page 50 undefined on input line 8.
-
-
-LaTeX Warning: Citation `5G_surv2' on page 50 undefined on input line 8.
-
-
-LaTeX Warning: Citation `iot-ant1' on page 50 undefined on input line 8.
-
-
-LaTeX Warning: Citation `iot-ant2' on page 50 undefined on input line 8.
-
-
-LaTeX Warning: Citation `iot-ant3' on page 50 undefined on input line 8.
-
 [50
 
 
 
 ]
-
-LaTeX Warning: Citation `5G_tutorial' on page 51 undefined on input line 10.
-
-
-LaTeX Warning: Citation `5G_standards' on page 51 undefined on input line 10.
-
 File: Fig-aeue_1.eps Graphic file (type eps)
-<Fig-aeue_1.eps>
-
-LaTeX Warning: Citation `rad_loss' on page 51 undefined on input line 23.
-
-[51]
-
-LaTeX Warning: Citation `UwbPmaEqCkt1' on page 52 undefined on input line 48.
-
-[52]
+ <Fig-aeue_1.eps> [51] [52]
 File: Fig-aeue_2a.eps Graphic file (type eps)
  <Fig-aeue_2a.eps>
 File: Fig-aeue_2b.eps Graphic file (type eps)
@@ -1547,41 +643,7 @@ Overfull \hbox (11.40013pt too wide) in paragraph at lines 52--54
  [][][]     [] 
  []
 
-
-LaTeX Warning: Citation `multi_conductor_analysis_book' on page 53 undefined on
- input line 57.
-
-[53]
-
-LaTeX Warning: Citation `handbook' on page 54 undefined on input line 85.
-
-
-LaTeX Warning: Citation `vectorfitting1' on page 54 undefined on input line 88.
-
-
-
-LaTeX Warning: Citation `vectorfitting2' on page 54 undefined on input line 88.
-
-
-
-LaTeX Warning: Citation `vectorfitting3' on page 54 undefined on input line 88.
-
-
-
-LaTeX Warning: Citation `vfit3_1' on page 54 undefined on input line 88.
-
-
-LaTeX Warning: Citation `vfit3_2' on page 54 undefined on input line 88.
-
-
-LaTeX Warning: Citation `vfit3_3' on page 54 undefined on input line 88.
-
-[54]
-
-LaTeX Warning: Citation `antSoftAppReview' on page 55 undefined on input line 1
-23.
-
-[55]
+[53] [54] [55]
 File: Fig-aeue_3.eps Graphic file (type eps)
  <Fig-aeue_3.eps> [56] [57]
 File: Fig-aeue_4a.eps Graphic file (type eps)
@@ -1604,106 +666,29 @@ File: Fig-aeue_7.eps Graphic file (type eps)
 
  (Chapter_5.tex
 Chapter 5.
-
-LaTeX Warning: Citation `5gmmwave' on page 63 undefined on input line 4.
-
-
-LaTeX Warning: Citation `5gmmwave_fr4' on page 63 undefined on input line 4.
-
-
-LaTeX Warning: Citation `phasedArrayHandbook' on page 63 undefined on input lin
-e 6.
-
-
-LaTeX Warning: Citation `phasedArray_russia' on page 63 undefined on input line
- 6.
-
-
-LaTeX Warning: Citation `txmPhasedArray' on page 63 undefined on input line 6.
-
-
-LaTeX Warning: Citation `mmarrayRrev' on page 63 undefined on input line 6.
-
-
-LaTeX Warning: Citation `phasedArrayHandbook' on page 63 undefined on input lin
-e 8.
-
-
-LaTeX Warning: Citation `sparseDesignConstraints' on page 63 undefined on input
- line 8.
-
-
-LaTeX Warning: Citation `sparseDesignConstraints' on page 63 undefined on input
- line 10.
-
 [63
 
 
 
-]
-
-LaTeX Warning: Citation `thinningGA' on page 64 undefined on input line 12.
-
-
-LaTeX Warning: Citation `nunUniformLinear' on page 64 undefined on input line 1
-2.
-
-
-LaTeX Warning: Citation `amplitudeTaperingHybrid' on page 64 undefined on input
- line 12.
-
-
-LaTeX Warning: Citation `randomlySpacedArray' on page 64 undefined on input lin
-e 14.
-
-
-LaTeX Warning: Citation `selfOrgOpt' on page 64 undefined on input line 14.
-
-
-LaTeX Warning: Citation `SyntLargeSparse' on page 64 undefined on input line 14
-.
-
-
-LaTeX Warning: Citation `sparseDesignConstraints' on page 64 undefined on input
- line 18.
-
-[64]
+] [64]
 File: Fig-naun_1.eps Graphic file (type eps)
  <Fig-naun_1.eps>
 File: Fig-naun_2a.eps Graphic file (type eps)
  <Fig-naun_2a.eps>
 File: Fig-naun_2b.eps Graphic file (type eps)
- <Fig-naun_2b.eps>
-
-LaTeX Warning: Citation `phasedArrayHandbook' on page 65 undefined on input lin
-e 50.
-
-[65]
+ <Fig-naun_2b.eps> [65]
 File: Fig-naun_3a.eps Graphic file (type eps)
- <Fig-naun_3a.eps>
+
+<Fig-naun_3a.eps>
 File: Fig-naun_3b.eps Graphic file (type eps)
  <Fig-naun_3b.eps> [66]
-
-LaTeX Warning: Reference `simDrivOptBook' on page 67 undefined on input line 64
-.
-
 File: Fig-naun_4.eps Graphic file (type eps)
-<Fig-naun_4.eps>
-
-LaTeX Warning: Citation `bayesian_regularization' on page 67 undefined on input
- line 72.
-
-
-LaTeX Warning: Citation `kumaresh_surrgoate' on page 67 undefined on input line
- 72.
-
+ <Fig-naun_4.eps>
 File: Fig-naun_5.eps Graphic file (type eps)
-<Fig-naun_5.eps> [67]
-
-LaTeX Warning: Citation `pso_vs_ga' on page 68 undefined on input line 85.
-
+ <Fig-naun_5.eps>
+[67]
 File: Fig-naun_6.eps Graphic file (type eps)
-<Fig-naun_6.eps> [68]
+ <Fig-naun_6.eps> [68]
 File: Fig-naun_7.eps Graphic file (type eps)
  <Fig-naun_7.eps> [69]
 
@@ -1722,51 +707,41 @@ File: Fig-naun_9b.eps Graphic file (type eps)
 [71]
 File: Fig-naun_10.eps Graphic file (type eps)
  <Fig-naun_10.eps>
-
-LaTeX Warning: Citation `arrayTradeoffs' on page 72 undefined on input line 177
-.
-
 File: Fig-naun_11.eps Graphic file (type eps)
-<Fig-naun_11.eps>
+ <Fig-naun_11.eps>
 File: Fig-naun_12.eps Graphic file (type eps)
  <Fig-naun_12.eps> [72] [73]) [74]
 \openout2 = `Chapter_6.aux'.
 
- (Chapter_6.tex
+
+(Chapter_6.tex
 Chapter 6.
-) [75
+[75
 
 
 
-]
+] [76] [77]) [78] (thesis.bbl [79
+
+
+] [80] [81] [82] [83] [84] [85] [86]
+[87] [88] [89] [90] [91] [92] [93] [94]) [95]
 \openout2 = `mypubs.aux'.
 
- (mypubs.tex [76
+ (mypubs.tex [96
 
 
-
-]) [77] (thesis.bbl [78
-
-
-] [79] [80] [81] [82] [83]
-[84] [85] [86] [87] [88] [89] [90] [91] [92] [93]) [94] (thesis.aux
-(cover_mtechpr.aux) (cover_2.aux) (Declaration.aux) (certificate.aux) (ackn.aux
-) (abstract.aux) (Abbreviation.aux) (Chapter_1.aux) (Chapter_2.aux)
-(Chapter_3.aux) (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux) (mypubs.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+]) [97]
+(thesis.aux (cover_mtechpr.aux) (cover_2.aux) (Declaration.aux)
+(certificate.aux) (ackn.aux) (abstract.aux) (Abbreviation.aux) (Chapter_1.aux)
+(Chapter_2.aux) (Chapter_3.aux) (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux)
+(mypubs.aux)) ) 
 Here is how much of TeX's memory you used:
  3309 strings out of 492946
  44445 string characters out of 3135534
- 103718 words of memory out of 3000000
+ 105412 words of memory out of 3000000
  7011 multiletter control sequences out of 15000+200000
  21638 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,16n,27p,187296b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (110 pages, 312388 bytes).
+Output written on thesis.dvi (114 pages, 330336 bytes).

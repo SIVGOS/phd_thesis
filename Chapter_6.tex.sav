@@ -1,0 +1,28 @@
+\chapter{Conclusion and Future Direction}
+\label{chap:chap6}
+%\minitoc
+This chapter summarizes the overall findings and the outcomes derived out of the work. The chapter also highlights some of the possible future directions that may extend the work.
+
+\section{Chapter Wise Findings}
+The design and optimization of printed antennas is a vast domain of research. There have been research works worldwide in various areas of the domain. The present work primarily focuses on three  aspects of the domain. The findings of each domain are summarized as follows.
+\begin{itemize}
+\item \textbf{Optimization of Printed Antennas}: In \emph{Chapter \ref{chap:chap3}}, the optimization of the physical dimensions of a printed slot antenna is presented. Here, the primary contribution is the implementation of genetic algorithm within the script interface of a commercially available full-wave electromagnetic solver. The proposed approach significantly reduces the computational cost of optimizing printed antennas using a soft-computational optimization algorithm.
+
+    The approach is used for optimizing the feeding position of the printed slot antenna. The performance of the antenna is validated form simulation and measurement results. Since a full-wave solver is used to compute the cost function of the optimization process, the performance of the optimized antenna agrees closely with measurement results.
+
+\item \textbf{Analytical Modeling of Printed Antennas}: \emph{Chapter \ref{chap:chap4}} includes the design of a dual band antenna. The antenna has a omnidirectional radiation pattern at the 2.4 GHz ISM band whereas a directional radiation pattern at the C-band of sub 6 GHz 5G wireless communication.
+
+    The proposed antenna is a hybrid of a printed monopole antenna excited by a microstrip line feed and a microstrip patch antenna excited by proximity coupled microstrip antenna. An equivalent circuit model of them proposed antenna is derived to explain the working of the antenna. The equivalent circuit model has two RLC networks corresponding to the two parts of the antenna each of which is responsible for a resonant frequency. The values of the lumped elements of the equivalent circuit model are estimated using GA. It is shown that the derived equivalent circuit model is able to mimic the current distribution of the antenna at different parts of the antenna at its resonant frequencies. It may be concluded that an analytical model of an antenna derived using soft-computational techniques are capable of explaining an antenna closely.
+
+\item \textbf{Computer Aided Design of Printed Antenna Array}: The design of a printed array is presented in \emph{Chapter \ref{chap:chap5}}. In this work, a $16\times 16$ rectangular array is thinned to minimize the peak side lobe level (PSLL). The number of elements of the array is reduced by 50\% using PSO to minimize the SLL for the entire range of scan angles.
+
+    The proposed sparse array has a scanning range of $\pm$45 degree in both azimuth and elevation plane. The objective function is defined in a way to minimize the PSLL of the sparse array for the main lobe in multiple possible directions in this range. The gain and bandwidth of the sparse array is almost the same as the original URA.
+\end{itemize}
+
+\section{Future Direction}
+The design and optimization of printed antennas and arrays is an active area of research. The present work touches three of the most significant areas of research in the domain of antenna research. The work on each of these areas may be extended further in order to design something that may be readily deployed for real world applications. Some of the possible future directions extending the current work are as follows.
+\begin{itemize}
+\item Genetic Algorithm is implemented in the Python script interface of AEDT to optimize a printed antenna as discussed in \emph{Chapter \ref{chap:chap3}}. More optimization algorithms such as particle swarm optimization, differential evolution, etc. may be implemented in a similar approach as there are use cases where these algorithms yield better optimization performance in comparison to genetic algorithm.
+\item The proposed computer aided equivalent circuit model of a multi-layer antenna, discussed in \emph{Chapter \ref{chap:chap4}}, may be used as a physics-based surrogate model to optimize the physical dimensions of the antenna to improve its performance in terms of gain, bandwidth, resonant frequency, etc. Physics based surrogate models are low-fidelity models that may be computed faster at a much less computing cost. The design time of the antenna is significantly reduced when surrogate models are used to compute the cost function.
+\item In  \emph{Chapter \ref{chap:chap5}}, the design of a printed sparse array is presented. 
+\end{itemize} 
