@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  27 DEC 2021 01:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  27 DEC 2021 02:19
 entering extended mode
-**D:/PhD/THESIS/THESIS_Template/thesis.tex
-(D:/PhD/THESIS/THESIS_Template/thesis.tex
+**D:/PhD/THESIS/phd_thesis/thesis.tex
+(D:/PhD/THESIS/phd_thesis/thesis.tex
 LaTeX2e <2018-12-01>
 (ectguthesis.cls
 Document Class: ectguthesis 20012/09/20 ECT GU Thesis Format
@@ -737,11 +737,11 @@ Chapter 6.
 (mypubs.aux)) ) 
 Here is how much of TeX's memory you used:
  3309 strings out of 492946
- 44445 string characters out of 3135534
+ 44175 string characters out of 3135534
  105412 words of memory out of 3000000
  7011 multiletter control sequences out of 15000+200000
  21638 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,16n,27p,187296b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,16n,27p,187291b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (114 pages, 330336 bytes).
+Output written on thesis.dvi (114 pages, 326716 bytes).
