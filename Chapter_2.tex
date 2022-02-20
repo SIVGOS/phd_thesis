@@ -40,14 +40,14 @@ In \cite{patch_miniaturize_ga}, the dimensions of a rectangular patch antenna ar
 \begin{figure}
   \centering
   \includegraphics[width=0.3\linewidth]{fig_2_1.eps}\\
-  \caption{Frequency reconfigurable E-shaped patch design schematic using RF switches with optimization parameters listed. \cite{patch_miniaturize_ga}} \label{fig_2_1}
+  \caption[Frequency reconfigurable E-shaped patch design schematic using RF switches with optimization parameters listed.] {Frequency reconfigurable E-shaped patch design schematic using RF switches with optimization parameters listed. \cite{patch_miniaturize_ga}} \label{fig_2_1}
 \end{figure}
 
 \begin{figure}
   \centering
   \subfigure[Divisions of the rectangular patch]{\includegraphics[width=0.3\linewidth]{fig_2_2a.eps}}~~~~~~~~~~~~~~~~~~~~~
   \subfigure[Optimized antenna]{\includegraphics[width=0.3\linewidth]{fig_2_2b.eps}}\\
-  \caption{Division of the patch (Gray: metal, White: without metal) (a) Division of patch area (b) optimized patch \cite{optPatch}} \label{fig_2_2}
+  \caption [Division of the patch (Gray: metal, White: without metal) (a) Division of patch area (b) optimized patch]{Division of the patch (Gray: metal, White: without metal) (a) Division of patch area (b) optimized patch \cite{optPatch}} \label{fig_2_2}
 \end{figure}
 
 An example of a discrete problem is \cite{optPatch}. In this work, binary particle swarm optimization (PSO) technique is used to design a wide-band antenna. In this work, initially, a rectangular patch is taken. The patch is divided into smaller blocks in which the presence and absence of metallization are found using the binary PSO. The original rectangular patch antenna and the final design are shown in Figure \ref{fig_2_2} (a) and (b) respectively. The optimized antenna is basically a slotted rectangular patch antenna in which the position of the slots is obtained algorithmically. The final design has an irregular geometry. The frequency responses of the return loss (S11) parameter of the antenna before and after optimization are shown in Figure \ref{fig_2_3}.
@@ -55,7 +55,7 @@ An example of a discrete problem is \cite{optPatch}. In this work, binary partic
 \begin{figure}
   \centering
   \includegraphics[width=0.3\linewidth]{fig_2_3.eps}\\
-  \caption{Computed S11 curves versus frequency. \cite{patch_miniaturize_ga}} \label{fig_2_3}
+  \caption [Computed S11 curves versus frequency]{Computed S11 curves versus frequency. \cite{patch_miniaturize_ga}} \label{fig_2_3}
 \end{figure}
 
 In \cite{freqReconfCogn} a similar approach is presented using GA for designing an antenna for cognitive ratio application. In this work, the optimization is applied to find the slot shape and the switches locations in the ground plane of monopole antennas for adjustment of the bandwidth. Here, the switches in the ground plane help in exciting the antenna at different modes. Each mode has its own resonance frequency. Hence, using the switch the resonant frequency of the antenna can be tuned. By using an optimum number of switches, the frequency tuning can be performed by adjusting the minimum possible number of switches without compromising the performance of the antenna.
@@ -80,7 +80,7 @@ In \cite{arrayThin1}, a thinned concentric planar circular antenna array of isot
 \begin{figure}
   \centering
   \includegraphics[width=0.35\linewidth]{fig_2_4.eps}\\
-  \caption{440 isotropic elements (dark shows ON and light as OFF) in ten ring concentric circular antenna array. \cite{arrayThin2}} \label{fig_2_4}
+  \caption [Isotropic elements (dark shows ON and light as OFF) in ten ring concentric circular antenna array]{440 isotropic elements (dark shows ON and light as OFF) in ten ring concentric circular antenna array. \cite{arrayThin2}} \label{fig_2_4}
 \end{figure}
 
 Binary butterfly mating optimization (BBMO) algorithm along with a subarray strategy for thinning of antenna array is proposed in \cite{arrayThin3}. Here, the subarray strategy is dividing the linear array into two parts, one part with a fixed number of element turned on in the middle of the array and the rest elements on the edge of array composing another subarray. In order to reduce the complexity of the thinning process, BBMO algorithm is used to optimize the element on the edge of an array. The proposed BBMO with subarray strategy is used to synthesize a linear sparse antenna array in order to reduce maximum sidelobe level and at the same time keeping the percentage of thinning equal to or more than the desired level.
@@ -93,19 +93,19 @@ One of the earliest works that reported the use of evolutionary-based approaches
 \begin{figure}
   \centering
   \includegraphics[width=0.35\linewidth]{fig_2_5.eps}\\
-  \caption{The best fitness plotted as a function of generation (top). The unit cells show the best structures (elite) at different generations during the evolution process of the GA (bottom). \cite{optMtm}} \label{fig_2_5}
+  \caption[The best fitness plotted as a function of generation (top). The unit cells show the best structures (elite) at different generations during the evolution process of the GA (bottom)]{The best fitness plotted as a function of generation (top). The unit cells show the best structures (elite) at different generations during the evolution process of the GA (bottom). \cite{optMtm}} \label{fig_2_5}
 \end{figure}
 
 \subsection{Evolutionary Design of Metasurfaces}
 Metasurfaces are controllable smart surfaces that have a wide range of applications in the design of antennas and other electromagnetic devices. Metasurfaces were proposed in \cite{metasurface1} as a two-dimensional equivalent of the three-dimensional resonant particle type metamaterials. Later, single metamaterial unit cells, also known as planar metamaterials became popular. In the recent years, planar metamaterial unit cells (such as SRR, CSRR, Mushroom-Type EBG unit cell etc.) have been widely reported in the design of microstrip antennas, filters, phase-shifters etc. However, metasurfaces are nowadays incorporated with arrays to reduce the mutual coupling between elements \cite{metasurface2}. In a metasurface based design of microstrip antenna array, the array is sandwitched between two dielectric substrates. The lower face of the lower substrate has the ground plane and the upper face of the upper substrate has the metasurface. The structure is illustrated in Figure \ref{fig_2_6}.
- 
+
 \begin{figure}
   \centering
   \includegraphics[width=0.6\linewidth]{fig_2_6.eps}\\
-  \caption{Cross sectional view of a meta-surface based microstrip antenna array \cite{metasurface2}} \label{fig_2_6}
+  \caption [Cross sectional view of a meta-surface based microstrip antenna array]{Cross sectional view of a meta-surface based microstrip antenna array \cite{metasurface2}} \label{fig_2_6}
 \end{figure}
 
-Design of metasurfaces is one of the highly emerging techniques for the improvement of antenna arrays. Genetic algorithm is used for optimization purposes in the design of programmable metasurfaces for active dynamic polarization, scattering and focusing control in \cite{softCompMeta}. In a similar work \cite{uwb_rcs}, a metasurface is designed for reduction of radar cross section (RCS) of an antenna array using polarization convertor and genetic algorithm. 
+Design of metasurfaces is one of the highly emerging techniques for the improvement of antenna arrays. Genetic algorithm is used for optimization purposes in the design of programmable metasurfaces for active dynamic polarization, scattering and focusing control in \cite{softCompMeta}. In a similar work \cite{uwb_rcs}, a metasurface is designed for reduction of radar cross section (RCS) of an antenna array using polarization convertor and genetic algorithm.
 
 \section{Techniques and Methods for the use of Soft-Computational Approaches in Design of Antennas and Arrays} \label{c2sec_methods}
 So far, the various problems in the use of soft-computational approaches for the design of microstrip antennas, arrays and metamaterials are discussed. In this section, the various methods and techniques for the use of soft-computational approaches in the design of antennas and other electromagnetic devices are discussed briefly.
@@ -113,7 +113,7 @@ So far, the various problems in the use of soft-computational approaches for the
 \subsection{Evolutionary Optimization Algorithms}
 Evolutionary optimization algorithms are inspired by nature. One of the most commonly used evolutionary algorithm is the genetic algorithm (GA). It mimics the Darwin's theory of natural selection in the evolution of a species. Particle swarm optimization (PSO), another popular algorithm mimics swarm intelligence that include the behavior of ant colonies, bird flocking, animal herding, bacterial growth, fish schooling and microbial intelligence. In recent times, a large number of evolutionary algorithms have been reported enlisted as follows. Differential evolution (DE) is another popular algorithm that is widely used in antenna design. None of these algorithms guarantee global maxima, and based on problem the performance of the algorithms vary \cite{compCAD4Arry}.
 
-In the design of antennas, metamaterial structures and arrays, most of the optimization problems are discrete value problems. The classical GA, PSO, and DE are, on the other hand, designed for continuous value problems. However, there are several variants of these algorithms to address discrete value problems. These methods include binary-coded genetic algorithm (BGA) \cite{optAlgBGAbook, optAlgEMbook}, Binary PSO (BinPSO) \cite{optAlgBPSO}, Boolean PSO \cite{arraySynth1, OptAlgBoolPSO4Ant}, Binary differential evolution \cite{optAlgBinDE, optAlgModBinDE}. In \cite{optAlgDE4AntennaRev}, a detailed analysis of these algorithms is presented along with design of a patch antenna and an array using the novel binary differential evolution (NBDE) algorithm presented in \cite{optAlgModBinDE}. 
+In the design of antennas, metamaterial structures and arrays, most of the optimization problems are discrete value problems. The classical GA, PSO, and DE are, on the other hand, designed for continuous value problems. However, there are several variants of these algorithms to address discrete value problems. These methods include binary-coded genetic algorithm (BGA) \cite{optAlgBGAbook, optAlgEMbook}, Binary PSO (BinPSO) \cite{optAlgBPSO}, Boolean PSO \cite{arraySynth1, OptAlgBoolPSO4Ant}, Binary differential evolution \cite{optAlgBinDE, optAlgModBinDE}. In \cite{optAlgDE4AntennaRev}, a detailed analysis of these algorithms is presented along with design of a patch antenna and an array using the novel binary differential evolution (NBDE) algorithm presented in \cite{optAlgModBinDE}.
 
 Apart from these standard evolutionary algorithms, many new evolutionary algorithms have been presented in the recent years. Some of these algorithms, enlisted as follows, are reported in the design of antennas and array design.
 
@@ -146,7 +146,7 @@ The flow diagram of genetic algorithm based design of a rectangular patch antenn
 \begin{figure}
   \centering
   \includegraphics[width=0.4\linewidth]{fig_2_7.eps}\\
-  \caption{A block diagram of genetic algorithm function used in this design \cite{patch_miniaturize_ga}} \label{fig_2_7}
+  \caption[A block diagram of genetic algorithm function used in this design]{A block diagram of genetic algorithm function used in this design \cite{patch_miniaturize_ga}} \label{fig_2_7}
 \end{figure}
 
 In \cite{optPatch}, the EM solver used is IE3D. Here, the design parameters are written to a file which is read by the IE3D solver. After simulation, the IE3D solver writes the data to another file which is read from MATLAB for computation of the cost function and the design parameters for the next iteration. A custom EM solver is used in \cite{arraySynth1} for an array synthesis problem involving impedance matching in a similar approach.
@@ -160,4 +160,3 @@ Surrogate models based approaches are being explored for various antenna design 
 
 \section{Conclusion}
 The various problems in soft-computational approaches for designing of antennas and arrays are summarized. Soft-computational approaches have a number of advantages over the traditional approaches for antenna design. Evolutionary-based algorithms are basically search algorithms which can find an optimized solution in the solution space. Soft-computational tools can be helpful if the search space is large. Techniques such as surrogate model helps in reducing computation time; however, synthesis of the surrogate model is another area of research.
- 

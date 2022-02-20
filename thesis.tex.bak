@@ -34,6 +34,7 @@
 \usepackage{cite}
 \usepackage[nottoc]{tocbibind}
 \usepackage{textcomp}
+\usepackage{nottocite}
 %=====================================================================
 %  Single counter for theorems and theorem-like environments:
 %=====================================================================
@@ -76,7 +77,6 @@
 \include{Chapter_4}
 \include{Chapter_5}
 \include{Chapter_6}
-\include{mypubs}
 %=====================================================================
 
 %=====================================================================
@@ -87,5 +87,5 @@
 % plain is the basic style, others include ieeetr, siam, asm, etc
 \bibliographystyle{ieeetr}
 \bibliography{references}
-
+\include{mypubs}
 \end{document}

@@ -2256,3 +2256,53 @@ month={April}
   title = {Macromodeling of Multiport Systems Using a Fast Implementation of the Vector Fitting Method},
   journal = {{IEEE} Microwave and Wireless Components Letters}
 }
+
+
+@article{bayesian_regularization,
+  title={Bayesian regularization of neural networks},
+  author={Burden, Frank and Winkler, Dave},
+  journal={Artificial neural networks},
+  pages={23--42},
+  year={2008},
+  publisher={Springer}
+}
+
+@article{kumaresh_surrgoate,
+  title={Surrogate Model Assisted Design of CSRR Structure using Genetic Algorithm for Microstrip Antenna Application.},
+  author={Sarmah, Kumaresh and Goswami, Sivaranjan and Baruah, Sunandan},
+  journal={Radioengineering},
+  volume={29},
+  number={1},
+  year={2020}
+}
+
+@article{pso_vs_ga,
+  title={A comparative study of particle swarm optimization and genetic algorithm},
+  author={Almufti, M and Zebari, A and Omer, H and others},
+  journal={Journal of Advanced Computer Science \& Technology},
+  volume={8},
+  number={2},
+  pages={40--45},
+  year={2019}
+}
+
+@article{mimo_conformal,
+  title={Conformal antenna array for MIMO applications},
+  author={Elwi, Taha A and Abbas, Z and Noori, Mohammed and Al-Naiemy, Yahiea and Salih, Ethar Y and Hamed, Marwa M and others},
+  journal={Journal of Electromagnetic Analysis and Applications},
+  volume={6},
+  number={04},
+  pages={43},
+  year={2014},
+  publisher={Scientific Research Publishing}
+}
+
+@article{mimoDualBand,
+  title={Dual-band eight-antenna array design for MIMO applications in 5G mobile terminals},
+  author={Li, Jianxing and Zhang, Xiaoke and Wang, Zhi and Chen, Xiaoming and Chen, Juan and Li, Yingsong and Zhang, Anxue},
+  journal={IEEE Access},
+  volume={7},
+  pages={71636--71644},
+  year={2019},
+  publisher={IEEE}
+}

@@ -1,31 +1,5 @@
 \begin{thebibliography}{100}
 
-\bibitem{patch_miniaturize_ga}
-M.~Lamsalli, A.~El~Hamichi, M.~Boussouis, N.~A. Touhami, and T.~Elhamadi,
-  ``Genetic algorithm optimization for microstrip patch antenna
-  miniaturization,'' {\em Progress In Electromagnetics Research Letters},
-  vol.~60, pp.~113--120, 2016.
-
-\bibitem{optPatch}
-N.~Wang, X.~Wang, and J.~Xu, ``Design of a novel compact broadband patch
-  antenna using binary pso,'' {\em Microwave and Optical Technology Letters},
-  vol.~54, no.~2, pp.~434--438, 2012.
-
-\bibitem{arrayThin2}
-U.~Singh, R.~Salgotra, and M.~Rattan, ``A novel binary spider monkey
-  optimization algorithm for thinning of concentric circular antenna arrays,''
-  {\em IETE Journal of Research}, vol.~62, no.~6, pp.~736--744, 2016.
-
-\bibitem{optMtm}
-P.~Chen, C.~Chen, H.~Wang, J.~Tsai, and W.-X. Ni, ``Synthesis design of
-  artificial magnetic metamaterials using a genetic algorithm,'' {\em Optics
-  express}, vol.~16, no.~17, pp.~12806--12818, 2008.
-
-\bibitem{metasurface2}
-S.~X. Ta and I.~Park, ``Compact wideband circularly polarized patch antenna
-  array using metasurface,'' {\em {IEEE} Antennas and Wireless Propagation
-  Letters}, vol.~16, pp.~1932--1936, 2017.
-
 \bibitem{softCompBook}
 K.~Kumar, S.~Roy, and J.~P. Davim, {\em Soft Computing Techniques for
   Engineering Optimization}.
@@ -54,6 +28,11 @@ S.~Liang, T.~Feng, and G.~Sun, ``Sidelobe-level suppression for linear and
 P.~Ghosh and S.~Das, ``Synthesis of thinned planar concentric circular antenna
   arrays--a differential evolutionary approach,'' {\em Progress In
   Electromagnetics Research B}, vol.~29, pp.~63--82, 2011.
+
+\bibitem{arrayThin2}
+U.~Singh, R.~Salgotra, and M.~Rattan, ``A novel binary spider monkey
+  optimization algorithm for thinning of concentric circular antenna arrays,''
+  {\em IETE Journal of Research}, vol.~62, no.~6, pp.~736--744, 2016.
 
 \bibitem{CuckooSerach}
 M.~Khodier, ``Optimization of elliptical antenna arrays using the cuckoo search
@@ -231,6 +210,16 @@ M.~M. {Bait Suwailam}, M.~S. {Boybay}, and O.~M. {Ramahi}, ``Mutual coupling
   reduction in mimo antennas using artificial magnetic materials,'' in {\em
   2009 13th International Symposium on Antenna Technology and Applied
   Electromagnetics and the Canadian Radio Science Meeting}, pp.~1--4, 2009.
+
+\bibitem{mimoConformal}
+T.~A. Elwi, Z.~Abbas, M.~Noori, Y.~Al-Naiemy, E.~Y. Salih, M.~M. Hamed, {\em
+  et~al.}, ``Conformal antenna array for mimo applications,'' {\em Journal of
+  Electromagnetic Analysis and Applications}, vol.~6, no.~04, p.~43, 2014.
+
+\bibitem{mimoDualBand}
+J.~Li, X.~Zhang, Z.~Wang, X.~Chen, J.~Chen, Y.~Li, and A.~Zhang, ``Dual-band
+  eight-antenna array design for mimo applications in 5g mobile terminals,''
+  {\em IEEE Access}, vol.~7, pp.~71636--71644, 2019.
 
 \bibitem{mimoRenonf}
 S.~{Soltani} and R.~D. {Murch}, ``A compact planar printed mimo antenna
@@ -578,6 +567,17 @@ H.~Li, F.~He, Y.~Chen, and J.~Luo, ``Multi-objective self-organizing
   optimization for constrained sparse array synthesis,'' {\em Swarm and
   Evolutionary Computation}, vol.~58, p.~100743, 2020.
 
+\bibitem{patch_miniaturize_ga}
+M.~Lamsalli, A.~El~Hamichi, M.~Boussouis, N.~A. Touhami, and T.~Elhamadi,
+  ``Genetic algorithm optimization for microstrip patch antenna
+  miniaturization,'' {\em Progress In Electromagnetics Research Letters},
+  vol.~60, pp.~113--120, 2016.
+
+\bibitem{optPatch}
+N.~Wang, X.~Wang, and J.~Xu, ``Design of a novel compact broadband patch
+  antenna using binary pso,'' {\em Microwave and Optical Technology Letters},
+  vol.~54, no.~2, pp.~434--438, 2012.
+
 \bibitem{freqReconfCogn}
 F.~Zadehparizi and S.~Jam, ``Frequency reconfigurable antennas design for
   cognitive radio applications with different number of sub-bands based on
@@ -590,6 +590,11 @@ H.~Wu, C.~Liu, B.~Li, and X.~Xie, ``A novel binary butterfly mating
   array,'' {\em Progress In Electromagnetics Research}, vol.~60, pp.~101--110,
   2017.
 
+\bibitem{optMtm}
+P.~Chen, C.~Chen, H.~Wang, J.~Tsai, and W.-X. Ni, ``Synthesis design of
+  artificial magnetic metamaterials using a genetic algorithm,'' {\em Optics
+  express}, vol.~16, no.~17, pp.~12806--12818, 2008.
+
 \bibitem{lh_mtm}
 W.~Xu, S.~Liu, and Y.~Dong, ``Design of structural left-handed material based
   on topology optimization,'' {\em Journal of Wuhan University of
@@ -600,6 +605,11 @@ C.~L. Holloway, E.~F. Kuester, J.~A. Gordon, J.~O{\textquotesingle}Hara,
   J.~Booth, and D.~R. Smith, ``An overview of the theory and applications of
   metasurfaces: The two-dimensional equivalents of metamaterials,'' {\em {IEEE}
   Antennas and Propagation Magazine}, vol.~54, pp.~10--35, Apr. 2012.
+
+\bibitem{metasurface2}
+S.~X. Ta and I.~Park, ``Compact wideband circularly polarized patch antenna
+  array using metasurface,'' {\em {IEEE} Antennas and Wireless Propagation
+  Letters}, vol.~16, pp.~1932--1936, 2017.
 
 \bibitem{softCompMeta}
 H.~Yang, X.~Cao, F.~Yang, J.~Gao, S.~Xu, M.~Li, X.~Chen, Y.~Zhao, Y.~Zheng, and
