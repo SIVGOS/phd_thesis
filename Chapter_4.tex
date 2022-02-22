@@ -1,6 +1,6 @@
 \chapter{Design of a Dual-Band Multilayer Antenna and its Equivalent Circuit Modeling with Vector-Fitting and Genetic Algorithm}
 \label{chap:chap4}
-\section{Introduction}\label{intro}
+\section{Introduction}\label{c4sec:intro}
 Antennas can be broadly classified as directional antennas and omnidirectional antennas. Conventional microstrip antennas, because of its ground plane, provides a directional radiation pattern \cite{handbook}. A printed monopole, on the contrary, provides an omnidirectional radiation pattern \cite{pma_stripline, pma_dualband}. Printed monopoles are variants of microstrip antenna which is characterized by the absence of a ground plane below the patch. A printed monopole excited by a microstrip line has a ground plane below the feed line \cite{pma_stripline}. Printed monopoles are low profile antennas for high gain and high bandwidth with an omnidirectional radiation pattern\cite{PMA01}.
 
 A number of techniques have been explored for building and improving microstrip antennas in the last few decades. One of these techniques is to build multi-layer structures of printed antennas. Multi-layer printed antennas are known for providing wide bandwidth \cite{ML_WideBand01}, resonance at more than one band \cite{ML_DualBand01, ML_DualBand02}, and high gain \cite{ML_high_gain_parasitic_slot}.
@@ -9,8 +9,8 @@ Recent trends show that 5G standards are mostly set around directional communica
 
 In this paper, a multi-layer, dual-band antenna is presented which provides an omnidirectional radiation pattern at the 2.4 GHz ISM band and a high-gain, directional radiation pattern at a wide band ranging from 3.6 GHz to 4.2 GHz. The band between 3.6 GHz to 4.2 GHz is important because it covers most of the sub-bands of the 5G C-band \cite{5G_tutorial, 5G_standards}. The proposed antenna can be used at the hub of an IoT network operating at the 2.4 GHz ISM band for providing a 5G back-haul link. The hub is usually a fixed device which can be installed in such a way that it has a directional link with the nearest 5G base station. An equivalent circuit model of the antenna is derived to explain the behavior of the antenna. The circuit parameters are obtained with vector-fitting and also with genetic algorithm.
 
-The printed monopole as well as the superstrate affects the resonant frequencies of the antenna. Hence, each parameter can be tuned to optimize its overall performance. The design details of the proposed antenna along with the formulation of the equivalent circuit model is discussed in Section \ref{sec:design}. Section \ref{sec:analysis} presents an analysis of the antenna with the equivalent circuit model. The simulation and measurement results of the antenna are presented in Section \ref{sec:expt_results}. Finally, the communication is concluded in Section \ref{sec:concl}. All full-wave simulation results reported are performed with Ansys Electronic Desktop (AEDT).
-\section{Design Details of the Proposed Antenna}\label{sec:design}
+The printed monopole as well as the superstrate affects the resonant frequencies of the antenna. Hence, each parameter can be tuned to optimize its overall performance. The design details of the proposed antenna along with the formulation of the equivalent circuit model is discussed in Section \ref{c4sec:design}. Section \ref{c4sec:analysis} presents an analysis of the antenna with the equivalent circuit model. The simulation and measurement results of the antenna are presented in Section \ref{c4sec:expt_results}. Finally, the chapter is concluded in Section \ref{c4sec:concl}. All full-wave simulation results reported are performed with Ansys Electronic Desktop (AEDT).
+\section{Design Details of the Proposed Antenna}\label{c4sec:design}
 The proposed antenna is the hybrid of a printed monopole antenna and a microstrip antenna. The printed monopole antenna has an omnidirectional radiation pattern at the 2.4 GHz ISM band. The microstrip antenna has a directional pattern at the C band. The capacitor represents the physical separation between the two branches. The design details of the antenna and its equivalent circuit model are discussed in this section.
 
 \begin{figure}[t]
@@ -81,7 +81,7 @@ f_r = \frac{1}{2\pi \sqrt{L_p C_p}}
 
 Here, the resonant frequency of the printed monopole antenna is 2.4 GHz.
 
-\section{Modeling and Analysis of the Proposed Antenna}\label{sec:analysis}
+\section{Modeling and Analysis of the Proposed Antenna}\label{c4sec:analysis}
 The mathematical expressions for estimating the values of the inductance and a capacitance of an equivalent circuit model are derived under many simplifying assumption \cite{handbook}. The accuracy of such empirical relationships is not high for practical antennas. In order to overcome these limitations, computational techniques are used. In the following sections, the parameters of the equivalent circuit model are estimated with Vector Fitting technique and the Genetic Algorithm.
 
 \subsection{Analysis of the Equivalent Circuit Model with Vector Fitting Technique}
@@ -163,7 +163,7 @@ Here, the values of the circuit parameters obtained from the genetic algorithm a
 
 The current density of the antenna obtained from full-wave simulation at 2.4 GHz and 4.1 GHz are shown in Figure \ref{fig-ckt-current} (b) and (c) respectively. It is observed that the current density is higher at the printed monopole antenna at 2.4 GHz and the current density is higher at the superstrate at 4.1 GHz. Thus, the equivalent circuit model perfectly explains the behavior of the antenna.
 
-\section{Experimental Results and Discussions}\label{sec:expt_results}
+\section{Experimental Results and Discussions}\label{c4sec:expt_results}
 This section covers the details of the experiments performed for determining the physical dimensions of the antenna and for evaluating its performance. These experiments include a parametric study of the antenna dimensions and evaluation of its resonant frequencies, gains, and radiation patterns through simulation and measurement.
 
 \subsection{A Parametric Study of the Antenna Dimensions}
@@ -195,7 +195,7 @@ The co-polar and the cross-polar radiation patterns are measured for both the pr
 \caption{Radiation pattern of the antenna in the (a) YZ Plane at 2.4 GHz (b) XZ Plane at 2.4 GHz, (c) YZ Plane at 4.2 GHz, (d) XZ Plane at 4.2 GHz}\label{fig-pat}
 \end{figure}
 
-\section{Discussions and Conclusion}\label{sec:concl}
+\section{Discussions and Conclusion}\label{c4sec:concl}
 From the analysis and the experimental results it is observed that the proposed antenna has two distinct far-field radiation patterns at its two resonant frequencies. An equivalent circuit model of the antenna is also proposed. The behavior of the antenna is explained with the equivalent circuit model. The parameters of the equivalent circuit model are obtained using vector-fitting technique and genetic algorithm. The accuracy of the equivalent circuit model is validated through comparison of its output current with the simulation results of the antenna.
 
 The proposed antenna has an omnidirectional radiation pattern at the 2.4 GHz ISM band. At the C-band, the primary radiating element is the superstrate and the antenna has a directional radiation pattern with a higher gain due to the presence of the ground plane. At this band, the antenna is more suitable for directional communication. The antenna finds its possible applications in an IoT or WiFi network with a 5G backbone. 

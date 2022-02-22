@@ -3,7 +3,7 @@
 %\minitoc
 This chapter summarizes the overall findings and the outcomes derived out of the work. The chapter also highlights some of the possible future directions that may extend the work.
 
-\section{Chapter Wise Findings}
+\section{Chapter Wise Findings}\label{c6sec_findings}
 The design and optimization of printed antennas is a vast domain of research. There have been research works worldwide in various areas of the domain. The present work primarily focuses on three  aspects of the domain. The findings of each domain are summarized as follows.
 \begin{itemize}
 \item \textbf{Optimization of Printed Antennas}: In \emph{Chapter \ref{chap:chap3}}, the optimization of the physical dimensions of a printed slot antenna is presented. Here, the primary contribution is the implementation of genetic algorithm within the script interface of a commercially available full-wave electromagnetic solver. The proposed approach significantly reduces the computational cost of optimizing printed antennas using a soft-computational optimization algorithm.
@@ -19,7 +19,7 @@ The design and optimization of printed antennas is a vast domain of research. Th
     The proposed sparse array has a scanning range of $\pm$45 degree in both azimuth and elevation plane. The objective function is defined in a way to minimize the PSLL of the sparse array for the main lobe in multiple possible directions in this range. The gain and bandwidth of the sparse array is almost the same as the original URA.
 \end{itemize}
 
-\section{Limitations}
+\section{Limitations}\label{c6sec_limitations}
 The primary limitations of the present works are as follows:
 \begin{itemize}
 \item In the first work, only the feeding position of the printed slot antenna is optimized using genetic algorithm implemented using the script interface of AEDT. Since AEDT is a frequency domain finite elements solver, the time required for computing a single iteration of the optimization process is high. As a result, the computation time increases exponentially with the number of dimensions to be optimized. The optimization of multiple physical dimensions of the antenna may take a long time using this approach.
@@ -27,15 +27,15 @@ The primary limitations of the present works are as follows:
 \item The performance of the sparse array synthesized in the third work is validated through the phased array toolbox of Matlab. Because of the large size of the array and its inherent design complexities, the antenna could not be manufactured. The performance of the antenna could not be validated from measurement results. Without the measurement results, the applicability of the antenna in a real-world situation could not be ascertained.
 \end{itemize}
 
-\section{Conclusion}
+\section{Conclusion}\label{c6sec_cncl}
 The application of soft-computational optimization algorithms are explored in three different areas of printed antenna and array design. These approaches include the optimization of the physical dimensions of an antenna, obtaining the physical dimensions of an antenna, and the optimization of a printed antenna array. Each work is supported by experimental results and discussions. In the first work, an implementation of the genetic algorithm within a commercially available full-wave solver for optimization of the physical dimensions is presented. The second work covers the synthesis of an equivalent circuit model of a dual-band antenna using particle sward optimization algorithm. The resonant frequency and the current distribution of the antenna are predicted with the equivalent circuit model with high accuracy. The third work includes the synthesis of a sparse planar array from a uniform rectangular array.
 
 From these works, it is observed that the soft-computational optimization algorithms may be applied to solve a variety of problems in the domain of printed antenna and array design. Different problems require different approaches for fitting these algorithms in the most suitable manner. Although there have been a significant amount of research in the recent years in this direction, there are still many unexplored areas that require further investigation.
 
-\section{Future Direction}
+\section{Future Direction}\label{c6sec_future}
 The design and optimization of printed antennas and arrays is an active area of research. The present work touches three of the most significant areas of research in the domain of antenna research. The work on each of these areas may be extended further in order to design something that may be readily deployed for real world applications. Some of the possible future directions extending the current work are as follows.
 \begin{itemize}
 \item Genetic Algorithm is implemented in the Python script interface of AEDT to optimize a printed antenna as discussed in \emph{Chapter \ref{chap:chap3}}. More optimization algorithms such as particle swarm optimization, differential evolution, etc. may be implemented in a similar approach as there are use cases where these algorithms yield better optimization performance in comparison to genetic algorithm.
 \item The proposed computer aided equivalent circuit model of a multi-layer antenna, discussed in \emph{Chapter \ref{chap:chap4}}, may be used as a physics-based surrogate model to optimize the physical dimensions of the antenna to improve its performance in terms of gain, bandwidth, resonant frequency, etc. Physics based surrogate models are low-fidelity models that may be computed faster at a much less computing cost. The design time of the antenna is significantly reduced when surrogate models are used to compute the cost function.
-\item In  \emph{Chapter \ref{chap:chap5}}, the design of a printed sparse array is presented. Because of the large size of the antenna, it could not be fabricated and the performance of the array could not be evaluated from measurement results. Fabrication of such large planar arrays is a challenge in itself. There is a scope of further research in finding a cost-effective and efficient approach for fabricating such array along with the feeding mechanism. 
+\item In  \emph{Chapter \ref{chap:chap5}}, the design of a printed sparse array is presented. Because of the large size of the antenna, it could not be fabricated and the performance of the array could not be evaluated from measurement results. Fabrication of such large planar arrays is a challenge in itself. There is a scope of further research in finding a cost-effective and efficient approach for fabricating such array along with the feeding mechanism.
 \end{itemize} 

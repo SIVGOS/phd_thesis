@@ -61,7 +61,7 @@ The sign of the correlation depends on the choice of the coordinate system. Here
 \subsection{Mapping the Radiation Angle to the Progressive Phase Shift using ANN}
 From Fig. \ref{fig_5_3} (a) it is observed as $\delta_{AZ}$ and $\delta_{EL}$ is varied from -135 degree to +135 degree, the corresponding values of $\phi$ and $\theta$ vary from -45 degree to +45 degree. The elevation component of the radiation pattern shows a consistent linear correlation with the value of $\delta_{EL}$. However, the relation between $\theta$ and $\delta_{AZ}$ is not consistent. It is evident from this observation that the value of $\theta$ depends upon both $\delta_{AZ}$ and $\delta_{EL}$.
 
-For modeling such systems, computational approaches are more suitable than analytical approaches since the computational models can detect hidden patterns in the data that cannot be observed or modeled analytically \ref{simDrivOptBook}. An artificial neural network (ANN) model is trained to map the angle of the major lobe ($\phi$, $\theta$) with the progressive phase angle ($\delta_{AZ}$, $\delta_{EL}$). The architecture of the ANN model is shown in Fig. \ref{fig_5_4}.
+For modeling such systems, computational approaches are more suitable than analytical approaches since the computational models can detect hidden patterns in the data that cannot be observed or modeled analytically \cite{simDrivOptBook}. An artificial neural network (ANN) model is trained to map the angle of the major lobe ($\phi$, $\theta$) with the progressive phase angle ($\delta_{AZ}$, $\delta_{EL}$). The architecture of the ANN model is shown in Fig. \ref{fig_5_4}.
 
 \begin{figure}
   \centering
@@ -188,9 +188,9 @@ The beam-width is another important factor to be considered when a sparse array 
   \caption{Histogram of the beam widths of the URA and the sparse planar array.} \label{fig_5_12}
 \end{figure}
 
-From Fig. \ref{fig_5_11} (a) and (b) it is observed that the beam-width of the two arrays exhibit almost similar variations with the scan-angles. The maximum beam-width of the URA is 36 degree whereas that of the sparse array is 29 degree. The histogram of the beam-widths of the two arrays is shown in Fig. \ref{fig_5_12}. The sparse array has more scan-angles where the beam width is between 10-12 degrees. Beyond the beam-width of 16 degree, the number of points is lower in case of the sparse array as compared to the URA. It infers that the sparse array has narrower beam-widths than the URA. 
+From Fig. \ref{fig_5_11} (a) and (b) it is observed that the beam-width of the two arrays exhibit almost similar variations with the scan-angles. The maximum beam-width of the URA is 36 degree whereas that of the sparse array is 29 degree. The histogram of the beam-widths of the two arrays is shown in Fig. \ref{fig_5_12}. The sparse array has more scan-angles where the beam width is between 10-12 degrees. Beyond the beam-width of 16 degree, the number of points is lower in case of the sparse array as compared to the URA. It infers that the sparse array has narrower beam-widths than the URA.
 
-\section{Conclusion}
+\section{Conclusion} \ref{c5sec_cncl}
 A technique for synthesizing a sparse array from a $16\times 16$ URA is presented. The excitation weight matrix, W of the URA are estimated using an ANN model from the desired scan-angle. The PSO is used for obtaining a binary matrix B, such that the Hadamard product of B and W yields the excitation weights of the sparse antenna array. The experimental results show that the desired scan-angles of the sparse array are accurately obtained using this technique.
 
 The PSLL of the URA and the sparse array are compared for all possible scan-angles in a range of -- 45 degree to + 45 degree for both the elevation plane and the azimuthal plane. It is observed that the PSLL of the synthesized sparse array is almost the same as that of the URA except at the extreme ends of the scanning range.

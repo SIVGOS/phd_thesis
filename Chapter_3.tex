@@ -1,6 +1,6 @@
 \chapter{Simulation-Driven Optimization of Slot Antenna using Genetic Algorithm}
 \label{chap:chap3}
-\section{Introduction}
+\section{Introduction}\label{c3sec_intro}
 Microstrip antennas were the first printed patch antennas. The concept of microstrip antennas was first proposed in 1953 by G. A. Deschamps et al. \cite{mpa00}. Microstrip antennas and arrays were practically fabricated in the 1970s in several contemporary works such as \cite{mpa02} and \cite{txmPhasedArray}. The design trends until the beginning of the 1980s were covered in a survey work by K. R. Karver et al \cite{mpaSurvTech}. This review gives significant insights into the design trends until that period. The number of works related to microstrip antennas increased exponentially over the years after 1980 \cite{mpaHist01}. The designing of microstrip antenna arrays was another trend that evolved almost simultaneously. At that time, microstrip antennas were known for their disadvantages of low gain and bandwidth. This may be a reason why many researchers considered the design of compact, rigid and planar arrays using microstrip antennas to enhance the gain. In 1974, a phased array of microstrip antenna elements was proposed by R. F. Munson \cite{txmPhasedArray}.
 
 In the initial phase, most of the works on microstrip antennas were related to feeding mechanisms. These works were based on some simplifying approximations for making them computationally simple. These models provide useful information regarding impedance, radiation patterns, efficiency and bandwidth of the antennas \cite{mpaReview1992}. The two most commonly used feeding mechanisms for microstrip antennas are the microstrip line feed and the coaxial feed. These two techniques are widely in practice since the 1970s.
@@ -21,9 +21,9 @@ Soft-computational algorithms are also widely used for the design of arrays. Arr
 
 Traditionally, computational tools such as Matlab or Python are used for implementing optimization algorithms, whereas antennas are simulated with commercially available full-wave solvers such as AEDT (or HFSS), CST studio, etc. Setting up different software applications together in order to perform the optimization is a computationally intensive task. AEDT provides an Iron-Python script interface which can be used for automating certain simulation tasks. It is a limited implementation of Python that lacks support for many packages, crucial for implementing computationally intensive algorithms. Here, the genetic algorithm is implemented with Iron-Python that functions within AEDT and does not need any external libraries to be installed.
 
-The remaining part of this communication are arranged as follows. Section \ref{sec-prop-alg} contains the details of the proposed method for implementing the genetic algorithm in AEDT. Section \ref{sec-exp-details} covers the details of the experiment formulated to test the proposed approach. The experimental results are discussed in Section \ref{expt-res}. Finally, the description is concluded in Section \ref{concl}.
+The remaining part of this chapter are arranged as follows. Section \ref{c3sec-prop-alg} contains the details of the proposed method for implementing the genetic algorithm in AEDT. Section \ref{c3sec-exp-details} covers the details of the experiment formulated to test the proposed approach. The experimental results are discussed in Section \ref{c3sec_expt-res}. Finally, the chapter is concluded in Section \ref{c3sec_concl}.
 
-\section{Details of the Proposed Algorithm} \label{sec-prop-alg}
+\section{Details of the Proposed Algorithm} \label{c3sec-prop-alg}
 \begin{figure}
   \centering
   \includegraphics[width=0.6\linewidth]{bc-flowchart.eps}\\
@@ -71,8 +71,8 @@ Most of the terminologies used in genetic algorithm are directly borrowed from b
 
 The steps discussed are presented as a flowchart in the context of antenna design in Fig. \ref{ga-flow}. Here, all terminologies of genetic algorithm are replaced by antenna design terminologies in order to make the process easily relatable to the context of antenna design. Crossover is not performed in this case and the next generation is obtained from the set of dimensions with the minimum value of the loss function through the process of mutation by adding some small random numbers.
 
-\section{Experimental Details} \label{sec-exp-details}
-This section covers the details of an experimental evaluation of genetic algorithm for optimizing a printed antenna. The method discussed in the Section \ref{sec-prop-alg} is used here to optimize an H-shaped slot antenna. Slot antennas are printed antennas. Unlike microstrip antennas, the slot antenna has a slotted section etched from the ground plane. Slot antennas are excited with a microstrip line present at the opposite face of the PCB. Coplanar wave-guide (CPW) may also be used for exciting a slot antenna.
+\section{Experimental Details} \label{c3sec-exp-details}
+This section covers the details of an experimental evaluation of genetic algorithm for optimizing a printed antenna. The method discussed in the Section \ref{c3sec-prop-alg} is used here to optimize an H-shaped slot antenna. Slot antennas are printed antennas. Unlike microstrip antennas, the slot antenna has a slotted section etched from the ground plane. Slot antennas are excited with a microstrip line present at the opposite face of the PCB. Coplanar wave-guide (CPW) may also be used for exciting a slot antenna.
 
 A dual-band H-shaped slot antenna is designed that resonates at 2.4 GHz and 3.6 GHz. The top view and the bottom view of the proposed antenna are shown in Fig. \ref{h-shaped-topology}. The antenna has several dimensions. The size of the search space increases exponentially increases with the dimensionality and therefore the number of iterations required to obtain the optimized dimensions of the antenna also become very large. A full-wave electromagnetic solver may take several minutes to simulate an antenna and generate the performance parameters. The actual computation time depends on the size and complexity of the antenna.
 
@@ -114,7 +114,7 @@ The script interface of AEDT enables an user to create elements, change variable
 
 These problems are addressed by writing own programs for micro-tasks such as generating random numbers, dividing mathematical expressions into smaller arithmetic blocks, etc. In order to obtain the s11 parameters for evaluating the cost function,, the results are first exported to a CSV file and then read programmatically and parsed the data.
 
-\section{Experimental Results} \label{expt-res}
+\section{Experimental Results} \label{c3sec_expt-res}
 This section provides the details of the optimized antenna. The optimized H-shaped slot antenna is fabricated on a copper-FR4 PCB board. The fabricated antenna is shown in Fig. \ref{h-shaped-fab}. The performance of the antenna is evaluated from the return loss parameter (S11) plot and the far field radiation patter. In Fig. \ref{fig-s11-opt}, the simulated and the measured $S_{11}$ parameter plot of the antenna are shown. It is observed that the optimized dual-band antenna has resonant frequencies at 2.4 GHz and 3.6 GHz. The radiation patterns of the antenna at the two resonant frequencies are shown in Fig. \ref{fig-pattern}.
 
 \begin{figure}
@@ -142,7 +142,7 @@ The radiation pattern of the antenna was not optimized. It is observed that the 
 
 From the experimental results discussed, it is observed that the optimization algorithm is capable of meeting design criteria as specified in the cost function. However, the optimization algorithm cannot ensure that the other parameters of the antenna are also within conventionally acceptable limits. Constructing more complex cost functions may help in meeting multiple design goals. The high time requirement of full-wave techniques is the biggest drawback of this approach. To meet multiple design goals, it is important to tune multiple physical dimensions of the antenna. This leads to an exponential increase of the number of simulations to be performed.
 
-\section{Conclusion}\label{concl}
+\section{Conclusion}\label{c3sec_concl}
 Genetic algorithm is one of the most popular bio-inspired optimization techniques. It has a wide range of application in various fields. There are many different implementations of this algorithm for various problems. An implementation of the genetic algorithm is presented for optimization of printed antenna with Ansys AEDT. The feed position of a H-shaped slot antenna is optimized with the proposed technique. The full-wave electromagnetic solver is used in each iteration of the optimization loop to calculate the cost function.
 
 This approach guarantees a minimum difference between simulation and measurement results. However, the approach does not guarantee good performance of other electromagnetic parameters that may be desirable in a given case. Further, full-wave electromagnetic solvers require more time and computational resources as compared to other approximation based approaches. It is therefore not always feasible to optimize multiple dimensions of an antenna with this approach. The number of iterations required increases with the number of dimensions to be optimized. A time required for the optimization process in this case may range from several hours to several days depending upon the complexity of the design and the capacity of the computational hardware. However, the time required in this case is less compared to the optimetric tool that comes in-built with AEDT. The optimetric tool simulates the antenna for all possible values of the design parameters without any feedback loop. The feedback loop in genetic algorithm helps in significantly reducing the number of simulations required.

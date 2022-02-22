@@ -17,7 +17,7 @@ Arrays of printed antennas are most commonly used for millimeter-wave communicat
 
 The PSLL, gain and beam-width of the synthesized sparse planar array are compared with the original URA. It is observed that the synthesized sparse array yields a narrower beam-width than the original sparse array. A narrower beam-width is indicative of a better resolution of the scanning array \cite{sparseDesignConstraints}.
 
-The remaining sections of the paper are arranged as follows. The design details of the $16\times16$ URA are presented in Section II. Section III covers the details of the synthesis and optimization of the sparse array followed by the experimental results and discussions in Section IV. The paper is concluded in Section V.
+The remaining sections of the chapter are arranged as follows. The design details of the $16\times16$ URA are presented in Section \ref{c5sec_design}. Section \ref{c5sec_synth} covers the details of the synthesis and optimization of the sparse array followed by the experimental results and discussions in Section \ref{c5sec_res}. The chapter is concluded in Section \ref{c5sec_cncl}.
 
 Matlab Phased Array System Toolbox$^{\circledR}$ is used for computing all radiation patterns used and presented in this work.
 
@@ -190,7 +190,7 @@ The beam-width is another important factor to be considered when a sparse array 
 
 From Fig. \ref{fig_5_11} (a) and (b) it is observed that the beam-width of the two arrays exhibit almost similar variations with the scan-angles. The maximum beam-width of the URA is 36 degree whereas that of the sparse array is 29 degree. The histogram of the beam-widths of the two arrays is shown in Fig. \ref{fig_5_12}. The sparse array has more scan-angles where the beam width is between 10-12 degrees. Beyond the beam-width of 16 degree, the number of points is lower in case of the sparse array as compared to the URA. It infers that the sparse array has narrower beam-widths than the URA.
 
-\section{Conclusion}
+\section{Conclusion} \label{c5sec_cncl}
 A technique for synthesizing a sparse array from a $16\times 16$ URA is presented. The excitation weight matrix, W of the URA are estimated using an ANN model from the desired scan-angle. The PSO is used for obtaining a binary matrix B, such that the Hadamard product of B and W yields the excitation weights of the sparse antenna array. The experimental results show that the desired scan-angles of the sparse array are accurately obtained using this technique.
 
 The PSLL of the URA and the sparse array are compared for all possible scan-angles in a range of -- 45 degree to + 45 degree for both the elevation plane and the azimuthal plane. It is observed that the PSLL of the synthesized sparse array is almost the same as that of the URA except at the extreme ends of the scanning range.
