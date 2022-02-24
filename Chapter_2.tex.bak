@@ -1,7 +1,7 @@
 \chapter{Advances in Soft-Computational Approaches in the Design of Microstrip Antennas and Arrays}
 \label{chap:chap2}
 \section{Background} \label{c2sec_background}
-Antenna design technologies have significantly advanced in the last decade. Computer aided methods are emerging as a solution to build more complex patch antennas and arrays with better efficiency and performance. Soft-computational approaches in the design of antennas and arrays have unleashed highly optimized geometries that cannot be designed by humans. This advancement has contributed towards the development of compact and reliable communication gadgets that have helped in connecting the whole world.
+Antenna design technologies have significantly advanced in the last decade. Computer aided methods are emerging as a solution to build more complex patch antennas and arrays with better efficiency and performance. Soft-computational approaches in the design of antennas and arrays have unleashed highly optimized geometries that cannot be designed by humans. This advancement has contributed towards the development of compact and reliable communication gadgets that are crucial in connecting the whole world.
 
 \subsection{Design of Microstrip Antennas}
 Microstrip antennas are low profile, light, conformal and durable antennas which are ideal for use in portable and compact communication devices. Microstrip antennas are usually fabricated on a PCB board which can be integrated with other electronic circuits easily. There are three approaches for the analysis and designing of microstrip antennas:
@@ -10,6 +10,8 @@ Microstrip antennas are low profile, light, conformal and durable antennas which
 \item Cavity model
 \item Full-wave model
 \end{itemize}
+
+The transmission model and the cavity model have been used for analysis and synthesis of microstrip antennas for several decades. The two models are analytical in nature and hence provides high insights into the working of an antenna. The accuracy of these models, however, is not high. Full-wave models, on the other hand, yield very high accuracy. These models numerically solves wave equations with boundary conditions defined by the geometrical structure of an electromagnetic solver. These models yield highly accurate estimation of the behavior of an antenna.
 
 The transmission line model is least accurate but gives more insights to the designing and working of antennas. The full-wave model, on the other hand, provides the least insights to the designing of an antenna but have the highest accuracy. The cavity model has accuracy between the transmission line model and the full-wave model. It provides some insights into the design and working of the antenna \cite{balanis}.
 
@@ -158,5 +160,5 @@ A full-wave EM simulation involves a huge set of computations and hence such sim
 
 Surrogate models based approaches are being explored for various antenna design problems in the recent years. In \cite{surrMTM01}, a surrogate model assisted optimization technique for metamaterial devices is proposed. Surrogate models are explored in \cite{antSurrConstMO} for constrained, multi-objective antenna design problems.
 
-\section{Conclusion}
+\section{Conclusion}\label{c2sec_cncl}
 The various problems in soft-computational approaches for designing of antennas and arrays are summarized. Soft-computational approaches have a number of advantages over the traditional approaches for antenna design. Evolutionary-based algorithms are basically search algorithms which can find an optimized solution in the solution space. Soft-computational tools can be helpful if the search space is large. Techniques such as surrogate model helps in reducing computation time; however, synthesis of the surrogate model is another area of research.
