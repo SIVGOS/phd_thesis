@@ -7,11 +7,13 @@ A number of techniques have been explored for building and improving microstrip 
 
 Recent trends show that 5G standards are mostly set around directional communication techniques where spatial diversity is utilized to its maximum potential \cite{5G_surv1, 5G_surv2}. Low cost deployment of IoT, on the other hand, relies on traditional ISM band communication with omnidirectional antennas \cite{iot-ant1,iot-ant2,iot-ant3}. When a 5G back-haul link is to be provided to an IoT network in star topology, the traditional approach is to use separate antennas at the hub for 2.4 GHz ISM band and 5G. This adds up to the size and complexity of the system.
 
-In this paper, a multi-layer, dual-band antenna is presented which provides an omnidirectional radiation pattern at the 2.4 GHz ISM band and a high-gain, directional radiation pattern at a wide band ranging from 3.6 GHz to 4.2 GHz. The band between 3.6 GHz to 4.2 GHz is important because it covers most of the sub-bands of the 5G C-band \cite{5G_tutorial, 5G_standards}. The proposed antenna can be used at the hub of an IoT network operating at the 2.4 GHz ISM band for providing a 5G back-haul link. The hub is usually a fixed device which can be installed in such a way that it has a directional link with the nearest 5G base station. An equivalent circuit model of the antenna is derived to explain the behavior of the antenna. The circuit parameters are obtained with vector-fitting and also with genetic algorithm.
+In this chapter, a multi-layer, dual-band antenna is presented which provides an omnidirectional radiation pattern at the 2.4 GHz ISM band and a high-gain, directional radiation pattern at a wide band ranging from 3.6 GHz to 4.2 GHz. The band between 3.6 GHz to 4.2 GHz is important because it covers most of the sub-bands of the 5G C-band \cite{5G_tutorial, 5G_standards}. The proposed antenna can be used at the hub of an IoT network operating at the 2.4 GHz ISM band for providing a 5G back-haul link. The hub is usually a fixed device which can be installed in such a way that it has a directional link with the nearest 5G base station. An equivalent circuit model of the antenna is derived to explain the behavior of the antenna. The circuit parameters are obtained with vector-fitting and also with genetic algorithm.
 
 The printed monopole as well as the superstrate affects the resonant frequencies of the antenna. Hence, each parameter can be tuned to optimize its overall performance. The design details of the proposed antenna along with the formulation of the equivalent circuit model is discussed in Section \ref{c4sec:design}. Section \ref{c4sec:analysis} presents an analysis of the antenna with the equivalent circuit model. The simulation and measurement results of the antenna are presented in Section \ref{c4sec:expt_results}. Finally, the chapter is concluded in Section \ref{c4sec:concl}. All full-wave simulation results reported are performed with Ansys Electronic Desktop (AEDT).
 \section{Design Details of the Proposed Antenna}\label{c4sec:design}
-The proposed antenna is the hybrid of a printed monopole antenna and a microstrip antenna. The printed monopole antenna has an omnidirectional radiation pattern at the 2.4 GHz ISM band. The microstrip antenna has a directional pattern at the C band. The capacitor represents the physical separation between the two branches. The design details of the antenna and its equivalent circuit model are discussed in this section.
+The proposed antenna is the hybrid of a printed monopole antenna and a microstrip antenna. The printed monopole antenna has an omnidirectional radiation pattern at the 2.4 GHz ISM band. The microstrip antenna has a directional pattern at the C band. 
+%The capacitor represents the physical separation between the two branches.
+The design details of the antenna and its equivalent circuit model are discussed in this section.
 
 \begin{figure}[t]
 \centering
@@ -43,7 +45,7 @@ Height of the substrate and superstrate, $h$ & 1.5 \\ \hline
 \end{table}
 
 \subsection{Formulation of the Equivalent Circuit Model of the Antenna}
-The antenna with the dimensions shown in Table \ref{table-dims} is fabricated using copper-FR4 epoxy printed circuit board (PCB). The fabricated antenna structure is shown in Fig. \ref{FabEqckt} (a). An equivalent circuit model of the proposed antenna is also derived from the analysis. Fig. \ref{FabEqckt} (b) shows the equivalent circuit along with demarcations showing respective LCR sections for the printed monopole and the superstrate.
+The antenna with the dimensions shown in Table \ref{table-dims} is fabricated using copper-FR4 epoxy printed circuit board (PCB). The fabricated antenna structure is shown in Fig. \ref{FabEqckt} (a). An equivalent circuit model of the proposed antenna is derived from the analysis. Fig. \ref{FabEqckt} (b) shows the equivalent circuit along with demarcations showing respective LCR sections for the printed monopole and the superstrate.
 
 The equivalent circuit is derived from the fundamental transmission line theory. Here, the printed monopole patch for its first resonant frequency is modeled as a narrow-band parallel LCR circuit \cite{UwbPmaEqCkt1}. The inductor, $L_p$, and the capacitor, $C_p$ correspond to the printed monopole. The superstrate is represented with the equivalent circuit of a transmission line model with a series inductor, $L_s$, and a shunt capacitor, $C_s$. The capacitor $C_c$ represents the coupling between the printed monopole and the superstrate. The inductance $L_{f}$ and the capacitance $C_{f}$ represent the microstrip line feed used. The two load resistances $R_{Rad1}$ and $R_{Rad2}$ correspond to the radiation resistances of the printed monopole and the superstrate respectively. $R_{\text{in}}$ is the input impedance of the source which is equal to $50~\Omega$.
 
@@ -90,7 +92,7 @@ One of the techniques used for numerically estimating the equivalent circuit par
 The Thevenin Equivalent load impedance of the equivalent circuit model can be expressed as Equation \ref{eq_Zin}.
 {\small
 \begin{equation}\label{eq_Zin}
-Z_{L} = sL_f/2 + \left[\left(\frac{1}{sC_f}+sL_s+\left(\frac{1}{C_s} || R_{Rad2}\right)\right) || \left(\frac{1}{C_f}\right) || \left(sL_f/2 + \left(sL_p || \frac{1}{sC_p} || R_{Rad1}\right)\right)\right]
+Z_{L} = sL_f/2 + \left[\left(\frac{1}{sC_f}+sL_s+\left(\frac{1}{sC_s} || R_{Rad2}\right)\right) || \left(\frac{1}{sC_f}\right) || \left(sL_f/2 + \left(sL_p || \frac{1}{sC_p} || R_{Rad1}\right)\right)\right]
 \end{equation}}
 The return loss (S11) parameter can be calculated from the obtained value of $Z_{\text{in}}$ using Equation \ref{eq_Zin_s11}.
 
