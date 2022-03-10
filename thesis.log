@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  5 MAR 2022 02:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  11 MAR 2022 03:17
 entering extended mode
 **D:/PhD/THESIS/phd_thesis/thesis.tex
 (D:/PhD/THESIS/phd_thesis/thesis.tex
@@ -513,7 +513,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
  [12
 
 ] (thesis.lof
-Overfull \hbox (16.92755pt too wide) in paragraph at lines 26--26
+Overfull \hbox (16.92755pt too wide) in paragraph at lines 27--27
  \OT1/ptm/m/n/12 along with de-mar-ca-tions show-ing re-spec-tive LCR sec-tions
  for the printed monopole 
  []
@@ -542,17 +542,19 @@ hes for an-tenna de-sign, soft-computational
 [19]
 File: soft-flow1.eps Graphic file (type eps)
  <soft-flow1.eps> [20]
-Overfull \hbox (3.09181pt too wide) in paragraph at lines 191--192
+File: approach.eps Graphic file (type eps)
+ <approach.eps>
+Overfull \hbox (3.09181pt too wide) in paragraph at lines 199--200
 \OT1/ptm/m/n/12 ter, Sec-tion 2.1[] con-tains the the-o-ret-i-cal back-ground o
 f the re-search work. The soft-computational
  []
 
-[21]) [22]
+[21] [22]) [23]
 \openout2 = `Chapter_2.aux'.
 
  (Chapter_2.tex
 Chapter 2.
-[23
+[24
 
 
 
@@ -562,12 +564,12 @@ Overfull \hbox (16.07236pt too wide) in paragraph at lines 18--19
 hes for an-tenna de-sign, soft-computational
  []
 
-[24]
+[25]
 Overfull \hbox (3.6745pt too wide) in paragraph at lines 27--27
 []\OT1/ptm/b/n/17.28 Problems in Soft-Computational Ap-proaches for An-tenna
  []
 
-[25]
+[26]
 File: fig_2_1.eps Graphic file (type eps)
  <fig_2_1.eps>
 File: fig_2_2a.eps Graphic file (type eps)
@@ -575,40 +577,40 @@ File: fig_2_2a.eps Graphic file (type eps)
 File: fig_2_2b.eps Graphic file (type eps)
  <fig_2_2b.eps>
 File: fig_2_3.eps Graphic file (type eps)
- <fig_2_3.eps> [26] [27]
-[28]
+ <fig_2_3.eps> [27] [28]
+[29]
 File: fig_2_4.eps Graphic file (type eps)
- <fig_2_4.eps> [29]
+ <fig_2_4.eps> [30]
 File: fig_2_5.eps Graphic file (type eps)
- <fig_2_5.eps> [30]
+ <fig_2_5.eps> [31]
 File: fig_2_6.eps Graphic file (type eps)
  <fig_2_6.eps>
 Overfull \hbox (11.64012pt too wide) in paragraph at lines 110--110
 []\OT1/ptm/b/n/17.28 Techniques and Meth-ods for the use of Soft-Computational
  []
 
-[31] [32] [33]
+[32] [33] [34]
 File: fig_2_7.eps Graphic file (type eps)
- <fig_2_7.eps> [34] [35]) [36]
+ <fig_2_7.eps> [35] [36]) [37]
 \openout2 = `Chapter_3.aux'.
 
  (Chapter_3.tex
 Chapter 3.
-[37
+[38
 
 
 
 ]
 File: bc-flowchart.eps Graphic file (type eps)
- <bc-flowchart.eps> [38] [39]
+ <bc-flowchart.eps> [39] [40]
 Overfull \hbox (5.84924pt too wide) in paragraph at lines 54--55
 [][]\OT1/ptm/m/n/12 Like any other soft-computing tech-nique, ge-netic al-go-ri
 thm also has some hyper-parameters
  []
 
-[40] [41]
+[41] [42]
 File: bc-ga-flow.eps Graphic file (type eps)
- <bc-ga-flow.eps> [42]
+ <bc-ga-flow.eps> [43]
 File: bc-ant_top.eps Graphic file (type eps)
  <bc-ant_top.eps>
 File: bc-ant_back.eps Graphic file (type eps)
@@ -616,11 +618,11 @@ File: bc-ant_back.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43] [44]
+[44] [45]
 File: bc-fab-front-h-slot.eps Graphic file (type eps)
  <bc-fab-front-h-slot.eps>
 File: bc-fab-back-h-slot.eps Graphic file (type eps)
- <bc-fab-back-h-slot.eps> [45]
+ <bc-fab-back-h-slot.eps> [46]
 File: bc-s11_res.eps Graphic file (type eps)
 
 <bc-s11_res.eps>
@@ -629,18 +631,18 @@ File: bc-patterns.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[46]) [47] [48]
+[47]) [48] [49]
 \openout2 = `Chapter_4.aux'.
 
  (Chapter_4.tex
 Chapter 4.
-[49
+[50
 
 
 
 ]
 File: Fig-aeue_1.eps Graphic file (type eps)
- <Fig-aeue_1.eps> [50] [51]
+ <Fig-aeue_1.eps> [51] [52]
 File: Fig-aeue_2a.eps Graphic file (type eps)
  <Fig-aeue_2a.eps>
 File: Fig-aeue_2b.eps Graphic file (type eps)
@@ -649,59 +651,59 @@ Overfull \hbox (11.40013pt too wide) in paragraph at lines 54--56
  [][][]     [] 
  []
 
-[52] [53] [54]
+[53] [54] [55]
 File: Fig-aeue_3.eps Graphic file (type eps)
- <Fig-aeue_3.eps> [55] [56]
+ <Fig-aeue_3.eps> [56] [57]
 File: Fig-aeue_4a.eps Graphic file (type eps)
  <Fig-aeue_4a.eps>
 File: Fig-aeue_4b.eps Graphic file (type eps)
  <Fig-aeue_4b.eps>
 File: Fig-aeue_4c.eps Graphic file (type eps)
 
-<Fig-aeue_4c.eps> [57]
+<Fig-aeue_4c.eps> [58]
 File: Fig-aeue_5.eps Graphic file (type eps)
  <Fig-aeue_5.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Fig-aeue_6.eps Graphic file (type eps)
-<Fig-aeue_6.eps> [58] [59]
+<Fig-aeue_6.eps> [59] [60]
 File: Fig-aeue_7.eps Graphic file (type eps)
- <Fig-aeue_7.eps> [60]) [61]
+ <Fig-aeue_7.eps> [61]) [62]
 \openout2 = `Chapter_5.aux'.
 
  (Chapter_5.tex
 Chapter 5.
-[62
+[63
 
 
 
-] [63]
+] [64]
 File: Fig-naun_1.eps Graphic file (type eps)
  <Fig-naun_1.eps>
 File: Fig-naun_2a.eps Graphic file (type eps)
  <Fig-naun_2a.eps>
 File: Fig-naun_2b.eps Graphic file (type eps)
- <Fig-naun_2b.eps> [64]
+ <Fig-naun_2b.eps> [65]
 File: Fig-naun_3a.eps Graphic file (type eps)
 
 <Fig-naun_3a.eps>
 File: Fig-naun_3b.eps Graphic file (type eps)
- <Fig-naun_3b.eps> [65]
+ <Fig-naun_3b.eps> [66]
 File: Fig-naun_4.eps Graphic file (type eps)
  <Fig-naun_4.eps>
 File: Fig-naun_5.eps Graphic file (type eps)
  <Fig-naun_5.eps>
-[66]
+[67]
 File: Fig-naun_6.eps Graphic file (type eps)
- <Fig-naun_6.eps> [67]
+ <Fig-naun_6.eps> [68]
 File: Fig-naun_7.eps Graphic file (type eps)
- <Fig-naun_7.eps> [68]
+ <Fig-naun_7.eps> [69]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 122.
 
-[69]
+[70]
 File: Fig-naun_8a.eps Graphic file (type eps)
  <Fig-naun_8a.eps>
 File: Fig-naun_8b.eps Graphic file (type eps)
@@ -710,44 +712,44 @@ File: Fig-naun_9a.eps Graphic file (type eps)
  <Fig-naun_9a.eps>
 File: Fig-naun_9b.eps Graphic file (type eps)
  <Fig-naun_9b.eps>
-[70]
+[71]
 File: Fig-naun_10.eps Graphic file (type eps)
  <Fig-naun_10.eps>
 File: Fig-naun_11.eps Graphic file (type eps)
  <Fig-naun_11.eps>
 File: Fig-naun_12.eps Graphic file (type eps)
- <Fig-naun_12.eps> [71] [72]) [73]
+ <Fig-naun_12.eps> [72] [73] [74])
+[75]
 \openout2 = `Chapter_6.aux'.
 
-
-(Chapter_6.tex
+ (Chapter_6.tex
 Chapter 6.
-[74
+[76
 
 
 
-] [75] [76]) [77] (thesis.bbl [78
+] [77] [78]) [79] (thesis.bbl [80
 
 
-] [79] [80] [81] [82] [83] [84] [85]
-[86] [87] [88] [89] [90] [91] [92] [93]) [94]
+] [81] [82] [83] [84] [85] [86] [87]
+[88] [89] [90] [91] [92] [93] [94] [95]) [96]
 \openout2 = `mypubs.aux'.
 
- (mypubs.tex [95
+ (mypubs.tex [97
 
 
-]) [96]
+]) [98]
 (thesis.aux (cover_mtechpr.aux) (cover_2.aux) (Declaration.aux)
 (certificate.aux) (ackn.aux) (abstract.aux) (Abbreviation.aux) (Chapter_1.aux)
 (Chapter_2.aux) (Chapter_3.aux) (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux)
 (mypubs.aux)) ) 
 Here is how much of TeX's memory you used:
- 3318 strings out of 492946
- 44332 string characters out of 3135534
- 104499 words of memory out of 3000000
- 7020 multiletter control sequences out of 15000+200000
+ 3324 strings out of 492946
+ 44439 string characters out of 3135534
+ 104520 words of memory out of 3000000
+ 7025 multiletter control sequences out of 15000+200000
  21638 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,16n,27p,187291b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (113 pages, 324644 bytes).
+Output written on thesis.dvi (115 pages, 327632 bytes).
