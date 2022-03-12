@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  11 MAR 2022 03:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  13 MAR 2022 02:52
 entering extended mode
 **D:/PhD/THESIS/phd_thesis/thesis.tex
 (D:/PhD/THESIS/phd_thesis/thesis.tex
@@ -375,33 +375,53 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-\c@theorem=\count115
+("C:\Program Files\MiKTeX 2.9\tex/latex/booktabs\booktabs.sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen128
+\lightrulewidth=\dimen129
+\cmidrulewidth=\dimen130
+\belowrulesep=\dimen131
+\belowbottomsep=\dimen132
+\aboverulesep=\dimen133
+\abovetopsep=\dimen134
+\cmidrulesep=\dimen135
+\cmidrulekern=\dimen136
+\defaultaddspace=\dimen137
+\@cmidla=\count115
+\@cmidlb=\count116
+\@aboverulesep=\dimen138
+\@belowrulesep=\dimen139
+\@thisruleclass=\count117
+\@lastruleclass=\count118
+\@thisrulewidth=\dimen140
+)
+\c@theorem=\count119
  (thesis.aux
 (cover_mtechpr.aux) (cover_2.aux) (Declaration.aux) (certificate.aux) (ackn.aux
 ) (abstract.aux) (Abbreviation.aux) (Chapter_1.aux) (Chapter_2.aux)
 (Chapter_3.aux) (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux) (mypubs.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 59.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 57.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 59.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -538,23 +558,38 @@ Overfull \hbox (16.07236pt too wide) in paragraph at lines 36--37
 hes for an-tenna de-sign, soft-computational
  []
 
-[3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
-[19]
+[3] [4] [5] [6] [7] [8] [9]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 101.
+
+
+Overfull \hbox (3.10828pt too wide) in paragraph at lines 107--107
+[]\OT1/ptm/m/n/12 Reference| 
+ []
+
+
+Overfull \hbox (2.48666pt too wide) in paragraph at lines 105--124
+[][][] 
+ []
+
+[10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
 File: soft-flow1.eps Graphic file (type eps)
- <soft-flow1.eps> [20]
+ <soft-flow1.eps>
+[21]
 File: approach.eps Graphic file (type eps)
  <approach.eps>
-Overfull \hbox (3.09181pt too wide) in paragraph at lines 199--200
+Overfull \hbox (3.09181pt too wide) in paragraph at lines 226--227
 \OT1/ptm/m/n/12 ter, Sec-tion 2.1[] con-tains the the-o-ret-i-cal back-ground o
 f the re-search work. The soft-computational
  []
 
-[21] [22]) [23]
+[22] [23]) [24]
 \openout2 = `Chapter_2.aux'.
 
  (Chapter_2.tex
 Chapter 2.
-[24
+[25
 
 
 
@@ -564,12 +599,12 @@ Overfull \hbox (16.07236pt too wide) in paragraph at lines 18--19
 hes for an-tenna de-sign, soft-computational
  []
 
-[25]
+[26]
 Overfull \hbox (3.6745pt too wide) in paragraph at lines 27--27
 []\OT1/ptm/b/n/17.28 Problems in Soft-Computational Ap-proaches for An-tenna
  []
 
-[26]
+[27]
 File: fig_2_1.eps Graphic file (type eps)
  <fig_2_1.eps>
 File: fig_2_2a.eps Graphic file (type eps)
@@ -577,40 +612,40 @@ File: fig_2_2a.eps Graphic file (type eps)
 File: fig_2_2b.eps Graphic file (type eps)
  <fig_2_2b.eps>
 File: fig_2_3.eps Graphic file (type eps)
- <fig_2_3.eps> [27] [28]
-[29]
+ <fig_2_3.eps> [28] [29]
+[30]
 File: fig_2_4.eps Graphic file (type eps)
- <fig_2_4.eps> [30]
+ <fig_2_4.eps> [31]
 File: fig_2_5.eps Graphic file (type eps)
- <fig_2_5.eps> [31]
+ <fig_2_5.eps> [32]
 File: fig_2_6.eps Graphic file (type eps)
  <fig_2_6.eps>
 Overfull \hbox (11.64012pt too wide) in paragraph at lines 110--110
 []\OT1/ptm/b/n/17.28 Techniques and Meth-ods for the use of Soft-Computational
  []
 
-[32] [33] [34]
+[33] [34] [35]
 File: fig_2_7.eps Graphic file (type eps)
- <fig_2_7.eps> [35] [36]) [37]
+ <fig_2_7.eps> [36] [37]) [38]
 \openout2 = `Chapter_3.aux'.
 
  (Chapter_3.tex
 Chapter 3.
-[38
+[39
 
 
 
 ]
 File: bc-flowchart.eps Graphic file (type eps)
- <bc-flowchart.eps> [39] [40]
+ <bc-flowchart.eps> [40] [41]
 Overfull \hbox (5.84924pt too wide) in paragraph at lines 54--55
 [][]\OT1/ptm/m/n/12 Like any other soft-computing tech-nique, ge-netic al-go-ri
 thm also has some hyper-parameters
  []
 
-[41] [42]
+[42] [43]
 File: bc-ga-flow.eps Graphic file (type eps)
- <bc-ga-flow.eps> [43]
+ <bc-ga-flow.eps> [44]
 File: bc-ant_top.eps Graphic file (type eps)
  <bc-ant_top.eps>
 File: bc-ant_back.eps Graphic file (type eps)
@@ -618,11 +653,11 @@ File: bc-ant_back.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44] [45]
+[45] [46]
 File: bc-fab-front-h-slot.eps Graphic file (type eps)
  <bc-fab-front-h-slot.eps>
 File: bc-fab-back-h-slot.eps Graphic file (type eps)
- <bc-fab-back-h-slot.eps> [46]
+ <bc-fab-back-h-slot.eps> [47]
 File: bc-s11_res.eps Graphic file (type eps)
 
 <bc-s11_res.eps>
@@ -631,18 +666,18 @@ File: bc-patterns.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[47]) [48] [49]
+[48]) [49] [50]
 \openout2 = `Chapter_4.aux'.
 
  (Chapter_4.tex
 Chapter 4.
-[50
+[51
 
 
 
 ]
 File: Fig-aeue_1.eps Graphic file (type eps)
- <Fig-aeue_1.eps> [51] [52]
+ <Fig-aeue_1.eps> [52] [53]
 File: Fig-aeue_2a.eps Graphic file (type eps)
  <Fig-aeue_2a.eps>
 File: Fig-aeue_2b.eps Graphic file (type eps)
@@ -651,59 +686,59 @@ Overfull \hbox (11.40013pt too wide) in paragraph at lines 54--56
  [][][]     [] 
  []
 
-[53] [54] [55]
+[54] [55] [56]
 File: Fig-aeue_3.eps Graphic file (type eps)
- <Fig-aeue_3.eps> [56] [57]
+ <Fig-aeue_3.eps> [57] [58]
 File: Fig-aeue_4a.eps Graphic file (type eps)
  <Fig-aeue_4a.eps>
 File: Fig-aeue_4b.eps Graphic file (type eps)
  <Fig-aeue_4b.eps>
 File: Fig-aeue_4c.eps Graphic file (type eps)
 
-<Fig-aeue_4c.eps> [58]
+<Fig-aeue_4c.eps> [59]
 File: Fig-aeue_5.eps Graphic file (type eps)
  <Fig-aeue_5.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Fig-aeue_6.eps Graphic file (type eps)
-<Fig-aeue_6.eps> [59] [60]
+<Fig-aeue_6.eps> [60] [61]
 File: Fig-aeue_7.eps Graphic file (type eps)
- <Fig-aeue_7.eps> [61]) [62]
+ <Fig-aeue_7.eps> [62]) [63]
 \openout2 = `Chapter_5.aux'.
 
  (Chapter_5.tex
 Chapter 5.
-[63
+[64
 
 
 
-] [64]
+] [65]
 File: Fig-naun_1.eps Graphic file (type eps)
  <Fig-naun_1.eps>
 File: Fig-naun_2a.eps Graphic file (type eps)
  <Fig-naun_2a.eps>
 File: Fig-naun_2b.eps Graphic file (type eps)
- <Fig-naun_2b.eps> [65]
+ <Fig-naun_2b.eps> [66]
 File: Fig-naun_3a.eps Graphic file (type eps)
 
 <Fig-naun_3a.eps>
 File: Fig-naun_3b.eps Graphic file (type eps)
- <Fig-naun_3b.eps> [66]
+ <Fig-naun_3b.eps> [67]
 File: Fig-naun_4.eps Graphic file (type eps)
  <Fig-naun_4.eps>
 File: Fig-naun_5.eps Graphic file (type eps)
  <Fig-naun_5.eps>
-[67]
+[68]
 File: Fig-naun_6.eps Graphic file (type eps)
- <Fig-naun_6.eps> [68]
+ <Fig-naun_6.eps> [69]
 File: Fig-naun_7.eps Graphic file (type eps)
- <Fig-naun_7.eps> [69]
+ <Fig-naun_7.eps> [70]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 122.
 
-[70]
+[71]
 File: Fig-naun_8a.eps Graphic file (type eps)
  <Fig-naun_8a.eps>
 File: Fig-naun_8b.eps Graphic file (type eps)
@@ -712,44 +747,44 @@ File: Fig-naun_9a.eps Graphic file (type eps)
  <Fig-naun_9a.eps>
 File: Fig-naun_9b.eps Graphic file (type eps)
  <Fig-naun_9b.eps>
-[71]
+[72]
 File: Fig-naun_10.eps Graphic file (type eps)
  <Fig-naun_10.eps>
 File: Fig-naun_11.eps Graphic file (type eps)
  <Fig-naun_11.eps>
 File: Fig-naun_12.eps Graphic file (type eps)
- <Fig-naun_12.eps> [72] [73] [74])
-[75]
+ <Fig-naun_12.eps> [73] [74] [75])
+[76]
 \openout2 = `Chapter_6.aux'.
 
  (Chapter_6.tex
 Chapter 6.
-[76
+[77
 
 
 
-] [77] [78]) [79] (thesis.bbl [80
+] [78] [79]) [80] (thesis.bbl [81
 
 
-] [81] [82] [83] [84] [85] [86] [87]
-[88] [89] [90] [91] [92] [93] [94] [95]) [96]
+] [82] [83] [84] [85] [86] [87] [88]
+[89] [90] [91] [92] [93] [94] [95] [96]) [97]
 \openout2 = `mypubs.aux'.
 
- (mypubs.tex [97
+ (mypubs.tex [98
 
 
-]) [98]
+]) [99]
 (thesis.aux (cover_mtechpr.aux) (cover_2.aux) (Declaration.aux)
 (certificate.aux) (ackn.aux) (abstract.aux) (Abbreviation.aux) (Chapter_1.aux)
 (Chapter_2.aux) (Chapter_3.aux) (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux)
 (mypubs.aux)) ) 
 Here is how much of TeX's memory you used:
- 3324 strings out of 492946
- 44439 string characters out of 3135534
- 104520 words of memory out of 3000000
- 7025 multiletter control sequences out of 15000+200000
+ 3383 strings out of 492946
+ 45217 string characters out of 3135534
+ 109257 words of memory out of 3000000
+ 7080 multiletter control sequences out of 15000+200000
  21638 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,16n,27p,187291b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (115 pages, 327632 bytes).
+Output written on thesis.dvi (116 pages, 332692 bytes).

@@ -96,6 +96,34 @@ The following are some research works where soft-computational optimization tech
 \item The optimization of a broad-band printed monopole antenna is reported in \cite{auto_opt_matlab}. Here, a methodology is presented where the actual antenna is simulated on a full-wave EM solver. The optimization algorithm, on the other hand, runs on Matlab. A visual basic application (VBA) is created for controlling the full-wave EM solver. The matlab code iteratively writes the parameters of the antenna on a file. The file is read by the VBA and feeds the dimensions to the full-wave solver. The result is again written to a file that is read by Matlab. The use of a full-wave solver makes the objective function more accurate and reliable than conventional methods using a transmission line model or some soft-computational model such as neural networks.
 \end{itemize}
 
+A brief summary of the literatures on antenna optimization is presented in Table \ref{tab_litsurv_1}
+
+\begin{table}[]
+\caption{Brief summary of literatures on Antenna Optimization}
+\label{tab_litsurv_1}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llll@{}}
+\toprule
+Serial No. & Focus Area & Reference & Year \\ \midrule
+1 & Soft-computational synthesis of wired monopole & \textbackslash{}cite\{cadNASA2\} & 2004 \\
+2 & \begin{tabular}[c]{@{}l@{}}Computer aided synthesis of\\    \\ an antenna for NASA’s ST-5 mission\end{tabular} & \textbackslash{}cite\{cadNASA\} & 2006 \\
+3 & Tutorial paper on the use of genetic algorithm for electromagnetic   application & \textbackslash{}cite\{ga\_em\} & 1997 \\
+4 & Optimization of polarized antenna with ANFIS and GA & \textbackslash{}cite\{circpol\_anfis\_ga\} & 2011 \\
+5 & Optimization of a fractal antenna with GA & \textbackslash{}cite\{fractal\_bowtie\_ga\} & 2017 \\
+6 & Transmission line model used as surrogate model for antenna   optimization. & \textbackslash{}cite\{txm\_opt\} & 2017 \\
+7 & Wide band antenna optimized using transmission line model as   surrogate model & \textbackslash{}cite\{patch\_feed\_ga\} & 2018 \\
+8 & Transmission line model used as a surrogate model to optimize S11   parameter and far field gain of an antenna. & \textbackslash{}cite\{gain\_bw\_opt\_ga\} & 2014 \\
+9 & Multi-objective optimization of a triple band antenna & \textbackslash{}cite\{mpa\_triband\_opt\} & 2015 \\
+10 & Discrete optimization of microstrip antenna & \textbackslash{}cite\{mpa\_multifit\_ga\} & 2015 \\
+11 & Discrete optimization of a dual-band PIFA antenna & \textbackslash{}cite\{opt\_pifa\_ga\_2\} & 2015 \\
+12 & Discrete optimization of a dual-band PIFA antenna & \textbackslash{}cite\{opt\_pifa\_ga\} & 2016 \\
+13 & Discrete optimization for miniaturization of a patch antenna & \textbackslash{}cite\{rectpatch\_miniaturize\_ga\} & 2013 \\
+14 & A comparative study of several optimization algorithms for antenna   design. & \textbackslash{}cite\{compCAD4Ant\} & 2017 \\
+15 & Antenna optimization using Matlab and a Full-wave EM solver. & \textbackslash{}cite\{auto\_opt\_matlab\} & 2015 \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
 \subsection{Analysis of Antennas and Electromagnetic Structures with Equivalent Circuit Models}
 There has always been attempts to extend the knowhow of circuit theory to estimate the performance of printed antennas. The transmission line model was the earliest attempt in this direction. Although, the accuracy of these models is less, they are good for explaining how the antenna works. The transmission line model and the cavity model for analysis of microstrip antennas were proposed between mid-1970s and early 1980s \cite{txmPhasedArray, txmLinP, txmRect, txmMc, txmLossy, txmPMA, txm_opt, txm_wideband}. More generalized versions of these models were proposed in 1980s that enabled the analysis of antennas with more complex and arbitrary geometrical structures \cite{gtlmThesis, gtlmMath, gtlm2, gtlmAnnular, gtlmSectorCirc, gtlmAnnuRing, gtlmElliptRing}.
 
@@ -186,6 +214,14 @@ The chapter-wise contents and summaries of the work are outlined below-
 \item \textbf{Chapter 6} summarizes the findings, limitations and future direction of the present work to conclude the thesis.
 \end{enumerate}
 \section{Organization of the Thesis} \label{c1sec_organiz}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.99\linewidth]{approach.eps}\\
+  \caption{Research objectives, contributions and outcomes} \label{fig_1_2}
+\end{figure}
+
+
 This section outlines the description of the thesis. The \textbf{Chapter \ref{chap:chap1}} includes the background of the work in Section \ref{c1sec_background}. A detailed literature survey in Section \ref{c1sec_litserv}. Motivation, and Problem formulation are presented in Sections \ref{c1sec_motiv} and \ref{c1sec_prob} respectively. Section \ref{c1sec_contrib} includes the contribution of each chapter. The organization of the thesis is described is Section \ref{c1sec_organiz}. The chapter is concluded in Section \ref{c1sec_concl}.
 
 The theoretical knowhow for the research work is established in \textbf{Chapter \ref{chap:chap2}}. In this chapter, Section \ref{c2sec_background} contains the theoretical background of the research work. The soft-computational optimization problems in the context of antenna and array design are covered in Section \ref{c2sec_problems}. The soft-computational techniques and methods commonly used for solving antenna optimization problems are covered in Section \ref{c2sec_methods}. In Section \ref{c2sec_cncl}, the chapter is concluded.
@@ -198,4 +234,4 @@ The \textbf{Chapter \ref{chap:chap5}} contains the proposed work on synthesis of
 
 The thesis is concluded in \textbf{Chapter \ref{chap:chap6}}. The chapter-wise findings of the thesis are summarized in Section \ref{c6sec_findings}. The limitations of the work are discussed in Section \ref{c6sec_limitations}. The overall conclusion of the thesis is presented in Section \ref{c6sec_cncl}. The future directions of the work are covered in Section \ref{c6sec_future}.
 \section{Conclusion} \label{c1sec_concl}
-The chapter starts with a background of the overall work. A detailed literature survey is presented for three different classes of research trends related to the soft-computational optimization of printed antennas and arrays. The motivations and problem formulation for each category are included in this chapter. Finally, the contributions of each chapter along with the organization of the whole thesis is presented. 
+The chapter starts with a background of the overall work. A detailed literature survey is presented for three different classes of research trends related to the soft-computational optimization of printed antennas and arrays. The motivations and problem formulation for each category are included in this chapter. Finally, the contributions of each chapter along with the organization of the whole thesis is presented.

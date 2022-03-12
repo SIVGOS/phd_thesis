@@ -96,6 +96,33 @@ The following are some research works where soft-computational optimization tech
 \item The optimization of a broad-band printed monopole antenna is reported in \cite{auto_opt_matlab}. Here, a methodology is presented where the actual antenna is simulated on a full-wave EM solver. The optimization algorithm, on the other hand, runs on Matlab. A visual basic application (VBA) is created for controlling the full-wave EM solver. The matlab code iteratively writes the parameters of the antenna on a file. The file is read by the VBA and feeds the dimensions to the full-wave solver. The result is again written to a file that is read by Matlab. The use of a full-wave solver makes the objective function more accurate and reliable than conventional methods using a transmission line model or some soft-computational model such as neural networks.
 \end{itemize}
 
+A brief summary of the literatures on antenna optimization is presented in Table \ref{tab_litsurv_1}.
+
+\begin{table*}[]
+\caption{Brief summary of literatures on Antenna Optimization}
+\label{tab_litsurv_1}
+%\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{0.1\textwidth}|p{0.6\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|}
+\toprule
+Sl. No. & Focus Area & Reference & Year \\ \midrule
+1 & Soft-computational synthesis of wired monopole & \cite{cadNASA2} & 2004 \\ \hline
+2 & Computer aided synthesis of an antenna for NASA's ST-5 mission & \cite{cadNASA} & 2006 \\ \hline
+3 & Tutorial paper on the use of genetic algorithm for electromagnetic   application & \cite{ga_em} & 1997 \\ \hline
+4 & Optimization of polarized antenna with ANFIS and GA & \cite{circpol_anfis_ga} & 2011 \\ \hline
+5 & Optimization of a fractal antenna with GA & \cite{fractal_bowtie_ga} & 2017 \\ \hline
+6 & Transmission line model used as surrogate model for antenna   optimization. & \cite{txm_opt} & 2017 \\ \hline
+7 & Wide band antenna optimized using transmission line model as   surrogate model & \cite{patch_feed_ga} & 2018 \\ \hline
+8 & Transmission line model used as a surrogate model to optimize S11   parameter and far field gain of an antenna. & \cite{gain_bw_opt_ga} & 2014 \\ \hline
+9 & Multi-objective optimization of a triple band antenna & \cite{mpa_triband_opt} & 2015 \\ \hline
+10 & Discrete optimization of microstrip antenna & \cite{mpa_multifit_ga} & 2015 \\ \hline
+11 & Discrete optimization of a dual-band PIFA antenna & \cite{opt_pifa_ga_2} & 2015 \\ \hline
+12 & Discrete optimization of a dual-band PIFA antenna & \cite{opt_pifa_ga} & 2016 \\ \hline
+13 & Discrete optimization for miniaturization of a patch antenna & \cite{rectpatch_miniaturize_ga} & 2013 \\ \hline
+14 & A comparative study of several optimization algorithms for antenna   design. & \cite{compCAD4Ant} & 2017 \\ \hline
+15 & Antenna optimization using Matlab and a Full-wave EM solver. & \cite{auto_opt_matlab} & 2015 \\ \bottomrule
+\end{tabular}%}
+\end{table*}
+
 \subsection{Analysis of Antennas and Electromagnetic Structures with Equivalent Circuit Models}
 There has always been attempts to extend the knowhow of circuit theory to estimate the performance of printed antennas. The transmission line model was the earliest attempt in this direction. Although, the accuracy of these models is less, they are good for explaining how the antenna works. The transmission line model and the cavity model for analysis of microstrip antennas were proposed between mid-1970s and early 1980s \cite{txmPhasedArray, txmLinP, txmRect, txmMc, txmLossy, txmPMA, txm_opt, txm_wideband}. More generalized versions of these models were proposed in 1980s that enabled the analysis of antennas with more complex and arbitrary geometrical structures \cite{gtlmThesis, gtlmMath, gtlm2, gtlmAnnular, gtlmSectorCirc, gtlmAnnuRing, gtlmElliptRing}.
 

@@ -1,59 +1,59 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Flow diagram of a soft-computational approach to antenna design}}{20}% 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Research objectives, contributions and outcomes}}{22}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Flow diagram of a soft-computational approach to antenna design}}{21}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Research objectives, contributions and outcomes}}{23}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Frequency reconfigurable E-shaped patch design schematic using RF switches with optimization parameters listed.}}{27}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Division of the patch (Dark: metal, White: without metal) (a) Division of patch area (b) optimized patch}}{28}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Divisions of the rectangular patch}}}{28}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Optimized antenna}}}{28}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Computed S11 curves versus frequency}}{28}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Isotropic elements (dark shows ON and light as OFF) in ten ring concentric circular antenna array}}{31}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces The best fitness plotted as a function of generation (top). The unit cells show the best structures (elite) at different generations during the evolution process of the GA (bottom)}}{32}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Cross sectional view of a meta-surface based microstrip antenna array}}{32}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces A block diagram of genetic algorithm function used in this design}}{36}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Frequency reconfigurable E-shaped patch design schematic using RF switches with optimization parameters listed.}}{28}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Division of the patch (Dark: metal, White: without metal) (a) Division of patch area (b) optimized patch}}{29}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Divisions of the rectangular patch}}}{29}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Optimized antenna}}}{29}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Computed S11 curves versus frequency}}{29}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Isotropic elements (dark shows ON and light as OFF) in ten ring concentric circular antenna array}}{32}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The best fitness plotted as a function of generation (top). The unit cells show the best structures (elite) at different generations during the evolution process of the GA (bottom)}}{33}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Cross sectional view of a meta-surface based microstrip antenna array}}{33}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces A block diagram of genetic algorithm function used in this design}}{37}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Flowchart of the implementation of genetic algorithm in AEDT}}{40}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Flow diagram of the implementation of genetic algorithm for antenna optimization.}}{43}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces (a) Top view and (b) Bottom view of the example antenna}}{45}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{45}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{45}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) Top view and (b) Bottom view of the fabricated antenna}}{46}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Flowchart of the implementation of genetic algorithm in AEDT}}{41}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Flow diagram of the implementation of genetic algorithm for antenna optimization.}}{44}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces (a) Top view and (b) Bottom view of the example antenna}}{46}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{46}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{46}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Simulated and measured $S_{11}$ parameter plot of the optimized antenna}}{47}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Far field radiation pattern of the proposed antenna at (a) 2.4 GHz and (b) 3.6 GHz}}{48}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) Top view and (b) Bottom view of the fabricated antenna}}{47}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{47}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{47}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Simulated and measured $S_{11}$ parameter plot of the optimized antenna}}{48}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Far field radiation pattern of the proposed antenna at (a) 2.4 GHz and (b) 3.6 GHz}}{49}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic of the proposed antenna. (a) Top view (b) Side view}}{52}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces (a) The fabricated antenna and (b) the equivalent circuit model of the antenna along with demarcations showing respective LCR sections for the printed monopole and the superstrate.}}{54}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{54}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{54}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison of the return loss (S11) parameter obtained from the equivalent circuit models using vector-fitting method and genetic algorithm with the return loss obtained from the full-wave simulation of the antenna.}}{57}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces (a) Current through $R_{Rad1}$ and $R_{Rad2}$ corresponding to the printed monopole antenna and the superstrate respectively. (b) Vector current density of the antenna at 2.4 GHz. (c) Vector current density of the antenna at 4.1 GHz.}}{58}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{58}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{58}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{58}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Variation of resonant frequency of the antenna with the (a) length of the patch, $L_P$, (b) length of the superstrate, $L_s$ (c) Spacing, $S$ between the superstrate and the patch.}}{60}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces The simulated and measured return loss (S11) parameter plot of the proposed antenna}}{61}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Radiation pattern of the antenna in the (a) YZ Plane at 2.4 GHz (b) XZ Plane at 2.4 GHz, (c) YZ Plane at 4.2 GHz, (d) XZ Plane at 4.2 GHz}}{61}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic of the proposed antenna. (a) Top view (b) Side view}}{53}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces (a) The fabricated antenna and (b) the equivalent circuit model of the antenna along with demarcations showing respective LCR sections for the printed monopole and the superstrate.}}{55}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{55}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison of the return loss (S11) parameter obtained from the equivalent circuit models using vector-fitting method and genetic algorithm with the return loss obtained from the full-wave simulation of the antenna.}}{58}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces (a) Current through $R_{Rad1}$ and $R_{Rad2}$ corresponding to the printed monopole antenna and the superstrate respectively. (b) Vector current density of the antenna at 2.4 GHz. (c) Vector current density of the antenna at 4.1 GHz.}}{59}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{59}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{59}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{59}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Variation of resonant frequency of the antenna with the (a) length of the patch, $L_P$, (b) length of the superstrate, $L_s$ (c) Spacing, $S$ between the superstrate and the patch.}}{61}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The simulated and measured return loss (S11) parameter plot of the proposed antenna}}{62}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Radiation pattern of the antenna in the (a) YZ Plane at 2.4 GHz (b) XZ Plane at 2.4 GHz, (c) YZ Plane at 4.2 GHz, (d) XZ Plane at 4.2 GHz}}{62}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Topology of the URA}}{65}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Illustration of the progressive phase shift in excitation}}{66}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Progressive phase shift in the direction of azimuthal plane}}}{66}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Progressive phase shift in the direction of azimuthal plane}}}{66}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation of the (a) Azimuth angle ($\phi $) with $\delta _{AZ}$ and (b) Elevation angle ($\theta $) with $\delta _{EL}$}}{66}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Architecture of the ANN model to map the radiation angles ($\phi $, $\theta $) with the progressive phase angle ($\delta _{AZ}$, $\delta _{EL}$)}}{67}% 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Error histogram of the trained neural network}}{68}% 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Flow diagram of the sparse array synthesis steps using PSO}}{69}% 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Element positions of the synthesized sparse array.}}{70}% 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces The radiation pattern of the (a) URA and (b) the synthesized sparse array for $\phi $ = 30 degree and $\theta $ = 40 degree}}{71}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{71}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{71}% 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Variation of PSLL with the direction of the main lobe for (a) URA (b) the sparse array}}{72}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Topology of the URA}}{66}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Illustration of the progressive phase shift in excitation}}{67}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Progressive phase shift in the direction of azimuthal plane}}}{67}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Progressive phase shift in the direction of azimuthal plane}}}{67}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation of the (a) Azimuth angle ($\phi $) with $\delta _{AZ}$ and (b) Elevation angle ($\theta $) with $\delta _{EL}$}}{67}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{67}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{67}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Architecture of the ANN model to map the radiation angles ($\phi $, $\theta $) with the progressive phase angle ($\delta _{AZ}$, $\delta _{EL}$)}}{68}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Error histogram of the trained neural network}}{69}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Flow diagram of the sparse array synthesis steps using PSO}}{70}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Element positions of the synthesized sparse array.}}{71}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces The radiation pattern of the (a) URA and (b) the synthesized sparse array for $\phi $ = 30 degree and $\theta $ = 40 degree}}{72}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{72}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{72}% 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces (a) Distribution of the peak gain of the URA, (b) Distribution of the peak gain of the sparse array, (c) Difference between peak gains of URA and Sparse array}}{73}% 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Distribution of the beam-width for (a) the original URA and (b) the synthesized sparse array}}{73}% 
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Histogram of the beam widths of the URA and the sparse planar array.}}{74}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Variation of PSLL with the direction of the main lobe for (a) URA (b) the sparse array}}{73}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{73}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{73}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces (a) Distribution of the peak gain of the URA, (b) Distribution of the peak gain of the sparse array, (c) Difference between peak gains of URA and Sparse array}}{74}% 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Distribution of the beam-width for (a) the original URA and (b) the synthesized sparse array}}{74}% 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Histogram of the beam widths of the URA and the sparse planar array.}}{75}% 
 \addvspace {10\p@ }
