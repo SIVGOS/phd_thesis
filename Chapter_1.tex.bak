@@ -96,33 +96,32 @@ The following are some research works where soft-computational optimization tech
 \item The optimization of a broad-band printed monopole antenna is reported in \cite{auto_opt_matlab}. Here, a methodology is presented where the actual antenna is simulated on a full-wave EM solver. The optimization algorithm, on the other hand, runs on Matlab. A visual basic application (VBA) is created for controlling the full-wave EM solver. The matlab code iteratively writes the parameters of the antenna on a file. The file is read by the VBA and feeds the dimensions to the full-wave solver. The result is again written to a file that is read by Matlab. The use of a full-wave solver makes the objective function more accurate and reliable than conventional methods using a transmission line model or some soft-computational model such as neural networks.
 \end{itemize}
 
-A brief summary of the literatures on antenna optimization is presented in Table \ref{tab_litsurv_1}
+A brief summary of the literatures on antenna optimization is presented in Table \ref{tab_litsurv_1}.
 
-\begin{table}[]
+\begin{table*}[]
 \caption{Brief summary of literatures on Antenna Optimization}
 \label{tab_litsurv_1}
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{@{}llll@{}}
+%\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{0.1\textwidth}|p{0.6\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|}
 \toprule
-Serial No. & Focus Area & Reference & Year \\ \midrule
-1 & Soft-computational synthesis of wired monopole & \textbackslash{}cite\{cadNASA2\} & 2004 \\
-2 & \begin{tabular}[c]{@{}l@{}}Computer aided synthesis of\\    \\ an antenna for NASA’s ST-5 mission\end{tabular} & \textbackslash{}cite\{cadNASA\} & 2006 \\
-3 & Tutorial paper on the use of genetic algorithm for electromagnetic   application & \textbackslash{}cite\{ga\_em\} & 1997 \\
-4 & Optimization of polarized antenna with ANFIS and GA & \textbackslash{}cite\{circpol\_anfis\_ga\} & 2011 \\
-5 & Optimization of a fractal antenna with GA & \textbackslash{}cite\{fractal\_bowtie\_ga\} & 2017 \\
-6 & Transmission line model used as surrogate model for antenna   optimization. & \textbackslash{}cite\{txm\_opt\} & 2017 \\
-7 & Wide band antenna optimized using transmission line model as   surrogate model & \textbackslash{}cite\{patch\_feed\_ga\} & 2018 \\
-8 & Transmission line model used as a surrogate model to optimize S11   parameter and far field gain of an antenna. & \textbackslash{}cite\{gain\_bw\_opt\_ga\} & 2014 \\
-9 & Multi-objective optimization of a triple band antenna & \textbackslash{}cite\{mpa\_triband\_opt\} & 2015 \\
-10 & Discrete optimization of microstrip antenna & \textbackslash{}cite\{mpa\_multifit\_ga\} & 2015 \\
-11 & Discrete optimization of a dual-band PIFA antenna & \textbackslash{}cite\{opt\_pifa\_ga\_2\} & 2015 \\
-12 & Discrete optimization of a dual-band PIFA antenna & \textbackslash{}cite\{opt\_pifa\_ga\} & 2016 \\
-13 & Discrete optimization for miniaturization of a patch antenna & \textbackslash{}cite\{rectpatch\_miniaturize\_ga\} & 2013 \\
-14 & A comparative study of several optimization algorithms for antenna   design. & \textbackslash{}cite\{compCAD4Ant\} & 2017 \\
-15 & Antenna optimization using Matlab and a Full-wave EM solver. & \textbackslash{}cite\{auto\_opt\_matlab\} & 2015 \\ \bottomrule
-\end{tabular}%
-}
-\end{table}
+Sl. No. & Focus Area & Reference & Year \\ \midrule
+1 & Soft-computational synthesis of wired monopole. & \cite{cadNASA2} & 2004 \\ \hline
+2 & Computer aided synthesis of an antenna for NASA's ST-5 mission. & \cite{cadNASA} & 2006 \\ \hline
+3 & Tutorial paper on the use of genetic algorithm for electromagnetic application. & \cite{ga_em} & 1997 \\ \hline
+4 & Optimization of polarized antenna with ANFIS and GA. & \cite{circpol_anfis_ga} & 2011 \\ \hline
+5 & Optimization of a fractal antenna with GA. & \cite{fractal_bowtie_ga} & 2017 \\ \hline
+6 & Transmission line model used as surrogate model for antenna optimization. & \cite{txm_opt} & 2017 \\ \hline
+7 & Wide band antenna optimized using transmission line model as surrogate model. & \cite{patch_feed_ga} & 2018 \\ \hline
+8 & Transmission line model used as a surrogate model to optimize S11 parameter and far field gain of an antenna. & \cite{gain_bw_opt_ga} & 2014 \\ \hline
+9 & Multi-objective optimization of a triple band antenna. & \cite{mpa_triband_opt} & 2015 \\ \hline
+10 & Discrete optimization of microstrip antenna. & \cite{mpa_multifit_ga} & 2015 \\ \hline
+11 & Discrete optimization of a dual-band PIFA antenna. & \cite{opt_pifa_ga_2} & 2015 \\ \hline
+12 & Discrete optimization of a multi-band PIFA antenna. & \cite{opt_pifa_ga} & 2016 \\ \hline
+13 & Discrete optimization for miniaturization of a patch antenna. & \cite{rectpatch_miniaturize_ga} & 2013 \\ \hline
+14 & A comparative study of several optimization algorithms for antenna design. & \cite{compCAD4Ant} & 2017 \\ \hline
+15 & Antenna optimization using Matlab and a Full-wave EM solver. & \cite{auto_opt_matlab} & 2015 \\ \bottomrule
+\end{tabular}%}
+\end{table*}
 
 \subsection{Analysis of Antennas and Electromagnetic Structures with Equivalent Circuit Models}
 There has always been attempts to extend the knowhow of circuit theory to estimate the performance of printed antennas. The transmission line model was the earliest attempt in this direction. Although, the accuracy of these models is less, they are good for explaining how the antenna works. The transmission line model and the cavity model for analysis of microstrip antennas were proposed between mid-1970s and early 1980s \cite{txmPhasedArray, txmLinP, txmRect, txmMc, txmLossy, txmPMA, txm_opt, txm_wideband}. More generalized versions of these models were proposed in 1980s that enabled the analysis of antennas with more complex and arbitrary geometrical structures \cite{gtlmThesis, gtlmMath, gtlm2, gtlmAnnular, gtlmSectorCirc, gtlmAnnuRing, gtlmElliptRing}.
@@ -149,6 +148,34 @@ The analytical modeling of the antennas, although lost its popularity, remained 
 \item Transmission line model (TLM) of a super wide band (SWB) monopole antenna with three notch bands is proposed in \cite{optEqCkt_ads}. Here also, the antenna is modeled as multiple filtering elements in cascade. The resonant frequencies of the antenna are modeled as band-pass RLC circuit elements whereas the notch bands are modeled as band-stop filter elements. The circuit is further simplified by collecting and shunt R, C and series L components corresponding to the notch filter into a single equivalent shunt R, C and series L component. The component values of the TLM are calculated using quasi-Newton method. The equivalent circuit model provides close approximation of the frequency response of the actual antenna.
 \end{itemize}
 
+A brief summary of the literatures on analytical modeling of printed antennas is presented in Table \ref{tab_litsurv_2}.
+
+\begin{table*}[]
+\caption{Brief summary of literatures on Analytical Modeling of Printed Antennas}
+\label{tab_litsurv_2}
+%\resizebox{\textwidth}{!}{
+\setlength\extrarowheight{-6pt}
+\begin{tabular}{|p{0.1\textwidth}|p{0.6\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|}
+\toprule
+Sl. No. & Focus Area & Reference & Year \\ \midrule
+1 & Formulation of equivalent circuit model from cavity model. & \cite{RectEqCkt-der} & 1988 \\ \hline
+2 & Equivalent circuit model of EBG metamaterial structure. & \cite{mtm_ebg_eqckt2} & 2005 \\ \hline
+3 & Modeling broad band printed antenna as cascaded filter stages. & \cite{Broadband_EqCkt} & 2006 \\ \hline
+4 & Bode-Fano integral is used for estimating the bandwidth of an antenna. & \cite{Fano_BW_Antenna} & 2006 \\ \hline
+5 & Equivalent circuit model of a UWB antenna as a cascade structure of RLC bandpass filters. & \cite{UwbEqCktMethod} & 2006 \\ \hline
+6 & A mathematical formulation for calculating the lumped elements of equivalent circuit model. & \cite{rectEqCkt} & 2008 \\ \hline
+7 & Analytical equivalent circuit model of a wide-band filter with notch frequency. & \cite{UwbNotchEqCkt} & 2007 \\ \hline
+8 & A method for enhancing the accuracy of equivalent circuit model. & \cite{UwbPmaEqCkt2} & 2013 \\ \hline
+9 & Computer aided formulation of the equivalent circuit model of a metamaterial based antenna. & \cite{UwbPmaEqCkt3} & 2013 \\ \hline
+10 & A hybrid between analytical and filter-based equivalent circuit model. & \cite{UwbPmaEqCkt4} & 2017 \\ \hline
+11 & Hybrid equivalent circuit model of a complex antenna structure involving several rings and vias. & \cite{ana_eqckt_ex1} & 2019 \\ \hline
+12 & Vector fitting technique is used for rational function approximation of the equivalent circuit modeling of a broad-band antenna. & \cite{comp-aided-eqckt} & 2007 \\ \hline
+13 & A combination of an analytical narrow band model and a rational functions based macromodel. & \cite{UwbPmaEqCkt1} & 2008 \\ \hline
+14 & A computer aided formulation of the cavity model of a substrate integrated waveguide (SIW) antenna. & \cite{comp-aided-eqckt2} & 2016 \\ \hline
+15 & Transmission line model (TLM) of a super wide band (SWB) monopole antenna with three notch bands. & \cite{optEqCkt_ads} & 2019 \\ \hline
+\end{tabular}%}
+\end{table*}
+
 \subsection{Synthesis and Optimization of Arrays} \label{c1sec_lit_surv}
 
 A phased array antenna is widely used in wireless communication and radar systems. With the evolution of 5G and millimeter-wave communication, a large grid of small printed antennas is becoming popular \cite{5gmmwave, 5gmmwave_fr4}.
@@ -168,6 +195,27 @@ Soft-computational optimization algorithms are becoming popular in the synthesis
 \item In \cite{randomlySpacedArray}, a planar array with randomly spaced elements was presented to obtain low peak side lobe level (PSLL) using a modified GA. Here also, the objective function is derived from the array factor calculation. Each gene in the modified GA represents the inter-element spacing of the antenna, thus, each chromosome represents an iteration of the array structure. It is claimed that this approach can achieve reduced PSLL without affecting the HPBW.
 \item A multi-objective approach for self-organizing span array with constraints is presented in \cite{selfOrgOpt}. In this paper the objectives are to minimize the number of elements of the array and to reduce the SLL. The primary focus of the paper is to formulate two optimization algorithms inspired by PSO and GA respectively. Finally, another system is developed for finding the optimal solution by combining the results of both algorithms with a minimum Manhattan distance assisted triangle-approximation.
 \end{itemize}
+
+A brief summary of the literatures on computer aided synthesis of printed antenna arrays is presented in Table \ref{tab_litsurv_3}.
+
+\begin{table*}[]
+\caption{Brief summary of literatures on Computer Aided Synthesis of Printed Antenna Arrays}
+\label{tab_litsurv_3}
+%\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{0.1\textwidth}|p{0.6\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|}
+\toprule
+Sl. No. & Focus Area & Reference & Year \\ \midrule
+1 & A modified version of boolean PSO used for synthesis of non-uniform array of dipole antennas. & \cite{arraySynth1} & 2011 \\ \hline
+2 & A planar concentric circular array is thinned using an improved version of differential evolution. & \cite{arrayThin1} & 2011 \\ \hline
+3 & A comparison of Firefly Algorithm (FA) and PSO for optimization of a non-uniformly spaced linear array. & \cite{nunUniformLinear} & 2012 \\ \hline
+4 & Array thinning using GA considering dynamic conditions. & \cite{thinningGA} & 2012 \\ \hline
+5 & Optimization of a nonuniform linear arrays for SLL reduction. & \cite{arraySynth3} & 2015 \\ \hline
+6 & A binary spider monkey algorithm (binSMO) is proposed for solving the arrat thinning problem. & \cite{arrayThin2} & 2016 \\ \hline
+7 & A multi-objective implementation of genetic algorithm, was reported for synthesis of a linear array with reduced SLL and side-band level (SBL) & \cite{arraySynth2} & 2017 \\ \hline
+8 & A planar array with randomly spaced elements synthesized using a modified GA to obtain low peak side lobe level (PSLL). & \cite{randomlySpacedArray} & 2017 \\ \hline
+9 & A multi-objective approach for self-organizing span array with constraints. & \cite{selfOrgOpt} & 2020 \\ \hline
+\end{tabular}%}
+\end{table*}
 
 \section{Motivation} \label{c1sec_motiv}
 After a detailed literature survey, it is observed that soft-computational optimization techniques are attracting attention of researchers worldwide in the fields of antenna design and array synthesis. Three different categories of research are reviewed in the preceding section and some research gaps are identified in each category.

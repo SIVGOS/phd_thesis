@@ -36,6 +36,7 @@
 \usepackage{textcomp}
 \usepackage{booktabs}
 \usepackage{graphicx}
+\usepackage{array}
 
 %=====================================================================
 %  Single counter for theorems and theorem-like environments:
@@ -51,6 +52,16 @@
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{prop}[theorem]{Proposition}
 \newtheorem{remark}[theorem]{Remark}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \setlength\parindent{1em}%
+  \noindent
+  \endgroup
+}
+
 
 %=====================================================================
 % End of Preamble, start of document

@@ -11,68 +11,68 @@
 \contentsline {section}{\numberline {1.2}Literature Survey}{5}% 
 \contentsline {subsection}{\numberline {1.2.1}Design or Synthesis of Printed Antenna Elements}{6}% 
 \contentsline {subsection}{\numberline {1.2.2}Analysis of Antennas and Electromagnetic Structures with Equivalent Circuit Models}{10}% 
-\contentsline {subsection}{\numberline {1.2.3}Synthesis and Optimization of Arrays}{16}% 
-\contentsline {section}{\numberline {1.3}Motivation}{18}% 
-\contentsline {section}{\numberline {1.4}Problem Formulations}{19}% 
-\contentsline {section}{\numberline {1.5}Methodology}{20}% 
-\contentsline {section}{\numberline {1.6}Contributions}{21}% 
-\contentsline {section}{\numberline {1.7}Organization of the Thesis}{22}% 
-\contentsline {section}{\numberline {1.8}Conclusion}{24}% 
-\contentsline {chapter}{\numberline {2}Advances in Soft-Computational Approaches in the Design of Microstrip Antennas and Arrays}{25}% 
-\contentsline {section}{\numberline {2.1}Background}{25}% 
-\contentsline {subsection}{\numberline {2.1.1}Design of Microstrip Antennas}{25}% 
-\contentsline {subsection}{\numberline {2.1.2}Design of Antenna Arrays}{26}% 
-\contentsline {section}{\numberline {2.2}Problems in Soft-Computational Approaches for Antenna and Array Design}{27}% 
-\contentsline {subsection}{\numberline {2.2.1}Antenna Design Problems}{27}% 
-\contentsline {subsection}{\numberline {2.2.2}Array Synthesis Problems}{30}% 
-\contentsline {subsection}{\numberline {2.2.3}Array Thinning Problems}{31}% 
-\contentsline {subsection}{\numberline {2.2.4}Evolutionary Design of Metamaterial Structures}{32}% 
-\contentsline {subsection}{\numberline {2.2.5}Evolutionary Design of Metasurfaces}{32}% 
-\contentsline {section}{\numberline {2.3}Techniques and Methods for the use of Soft-Computational Approaches in Design of Antennas and Arrays}{34}% 
-\contentsline {subsection}{\numberline {2.3.1}Evolutionary Optimization Algorithms}{34}% 
-\contentsline {subsection}{\numberline {2.3.2}Method for Array Synthesis Problems for SLL Reduction and Gain Maximization}{35}% 
-\contentsline {subsection}{\numberline {2.3.3}Method for Array Thinning Problems}{35}% 
-\contentsline {subsection}{\numberline {2.3.4}Interface between Computational Tool and EM Solver}{36}% 
-\contentsline {subsection}{\numberline {2.3.5}Surrogate Model Assisted Optimization}{38}% 
-\contentsline {section}{\numberline {2.4}Conclusion}{38}% 
-\contentsline {chapter}{\numberline {3}Simulation-Driven Optimization of Slot Antenna using Genetic Algorithm}{39}% 
-\contentsline {section}{\numberline {3.1}Introduction}{39}% 
-\contentsline {section}{\numberline {3.2}Details of the Proposed Algorithm}{40}% 
-\contentsline {subsection}{\numberline {3.2.1}Cost Function for Antenna Optimization}{40}% 
-\contentsline {subsection}{\numberline {3.2.2}Genetic Algorithm for Antenna Design}{42}% 
-\contentsline {section}{\numberline {3.3}Experimental Details}{45}% 
-\contentsline {section}{\numberline {3.4}Experimental Results}{47}% 
-\contentsline {section}{\numberline {3.5}Conclusion}{49}% 
-\contentsline {chapter}{\numberline {4}Design of a Dual-Band Multilayer Antenna and its Equivalent Circuit Modeling with Vector-Fitting and Genetic Algorithm}{51}% 
-\contentsline {section}{\numberline {4.1}Introduction}{51}% 
-\contentsline {section}{\numberline {4.2}Design Details of the Proposed Antenna}{52}% 
-\contentsline {subsection}{\numberline {4.2.1}Topology of the Proposed Antenna}{52}% 
-\contentsline {subsection}{\numberline {4.2.2}Formulation of the Equivalent Circuit Model of the Antenna}{53}% 
-\contentsline {section}{\numberline {4.3}Modeling and Analysis of the Proposed Antenna}{55}% 
-\contentsline {subsection}{\numberline {4.3.1}Analysis of the Equivalent Circuit Model with Vector Fitting Technique}{56}% 
-\contentsline {subsection}{\numberline {4.3.2}Estimation of the Equivalent Circuit Parameters Using Genetic Algorithm}{57}% 
-\contentsline {subsection}{\numberline {4.3.3}Current Analysis of the Equivalent Circuit Model of the Antenna}{57}% 
-\contentsline {section}{\numberline {4.4}Experimental Results and Discussions}{60}% 
-\contentsline {subsection}{\numberline {4.4.1}A Parametric Study of the Antenna Dimensions}{60}% 
-\contentsline {subsection}{\numberline {4.4.2}Return Loss Measurement}{61}% 
-\contentsline {subsection}{\numberline {4.4.3}Radiation Pattern and Gain Measurement}{61}% 
-\contentsline {section}{\numberline {4.5}Discussions and Conclusion}{63}% 
-\contentsline {chapter}{\numberline {5}Synthesis of a Sparse 2D-Scanning Array using Particle Swarm Optimization for Side-Lobe Reduction}{64}% 
-\contentsline {section}{\numberline {5.1}Introduction}{64}% 
-\contentsline {section}{\numberline {5.2}DESIGN OF A $16\times 16$ URA}{66}% 
-\contentsline {subsection}{\numberline {5.2.1}Array Topology and Progressive Phase Excitation}{66}% 
-\contentsline {subsection}{\numberline {5.2.2}Mapping the Radiation Angle to the Progressive Phase Shift using ANN}{68}% 
-\contentsline {section}{\numberline {5.3}Synthesis of Sparse Array}{69}% 
-\contentsline {section}{\numberline {5.4}Experimental Results and Discussion}{70}% 
-\contentsline {subsection}{\numberline {5.4.1}The Architecture of the Sparsed Array}{70}% 
-\contentsline {subsection}{\numberline {5.4.2}Analysis of the Direction of Main Lobe and PSLL}{71}% 
-\contentsline {subsection}{\numberline {5.4.3}Analysis of the Peak Gain}{73}% 
-\contentsline {subsection}{\numberline {5.4.4}Analysis of the Beam-width}{73}% 
-\contentsline {section}{\numberline {5.5}Conclusion}{75}% 
-\contentsline {chapter}{\numberline {6}Conclusion and Future Direction}{77}% 
-\contentsline {section}{\numberline {6.1}Chapter Wise Findings}{77}% 
-\contentsline {section}{\numberline {6.2}Limitations}{78}% 
-\contentsline {section}{\numberline {6.3}Conclusion}{79}% 
-\contentsline {section}{\numberline {6.4}Future Direction}{80}% 
-\contentsline {chapter}{Bibliography}{81}% 
-\contentsline {chapter}{Publications}{98}% 
+\contentsline {subsection}{\numberline {1.2.3}Synthesis and Optimization of Arrays}{17}% 
+\contentsline {section}{\numberline {1.3}Motivation}{19}% 
+\contentsline {section}{\numberline {1.4}Problem Formulations}{21}% 
+\contentsline {section}{\numberline {1.5}Methodology}{22}% 
+\contentsline {section}{\numberline {1.6}Contributions}{23}% 
+\contentsline {section}{\numberline {1.7}Organization of the Thesis}{24}% 
+\contentsline {section}{\numberline {1.8}Conclusion}{26}% 
+\contentsline {chapter}{\numberline {2}Advances in Soft-Computational Approaches in the Design of Microstrip Antennas and Arrays}{27}% 
+\contentsline {section}{\numberline {2.1}Background}{27}% 
+\contentsline {subsection}{\numberline {2.1.1}Design of Microstrip Antennas}{27}% 
+\contentsline {subsection}{\numberline {2.1.2}Design of Antenna Arrays}{28}% 
+\contentsline {section}{\numberline {2.2}Problems in Soft-Computational Approaches for Antenna and Array Design}{29}% 
+\contentsline {subsection}{\numberline {2.2.1}Antenna Design Problems}{29}% 
+\contentsline {subsection}{\numberline {2.2.2}Array Synthesis Problems}{32}% 
+\contentsline {subsection}{\numberline {2.2.3}Array Thinning Problems}{33}% 
+\contentsline {subsection}{\numberline {2.2.4}Evolutionary Design of Metamaterial Structures}{34}% 
+\contentsline {subsection}{\numberline {2.2.5}Evolutionary Design of Metasurfaces}{34}% 
+\contentsline {section}{\numberline {2.3}Techniques and Methods for the use of Soft-Computational Approaches in Design of Antennas and Arrays}{36}% 
+\contentsline {subsection}{\numberline {2.3.1}Evolutionary Optimization Algorithms}{36}% 
+\contentsline {subsection}{\numberline {2.3.2}Method for Array Synthesis Problems for SLL Reduction and Gain Maximization}{37}% 
+\contentsline {subsection}{\numberline {2.3.3}Method for Array Thinning Problems}{37}% 
+\contentsline {subsection}{\numberline {2.3.4}Interface between Computational Tool and EM Solver}{38}% 
+\contentsline {subsection}{\numberline {2.3.5}Surrogate Model Assisted Optimization}{40}% 
+\contentsline {section}{\numberline {2.4}Conclusion}{40}% 
+\contentsline {chapter}{\numberline {3}Simulation-Driven Optimization of Slot Antenna using Genetic Algorithm}{41}% 
+\contentsline {section}{\numberline {3.1}Introduction}{41}% 
+\contentsline {section}{\numberline {3.2}Details of the Proposed Algorithm}{42}% 
+\contentsline {subsection}{\numberline {3.2.1}Cost Function for Antenna Optimization}{44}% 
+\contentsline {subsection}{\numberline {3.2.2}Genetic Algorithm for Antenna Design}{44}% 
+\contentsline {section}{\numberline {3.3}Experimental Details}{47}% 
+\contentsline {section}{\numberline {3.4}Experimental Results}{49}% 
+\contentsline {section}{\numberline {3.5}Conclusion}{51}% 
+\contentsline {chapter}{\numberline {4}Design of a Dual-Band Multilayer Antenna and its Equivalent Circuit Modeling with Vector-Fitting and Genetic Algorithm}{53}% 
+\contentsline {section}{\numberline {4.1}Introduction}{53}% 
+\contentsline {section}{\numberline {4.2}Design Details of the Proposed Antenna}{54}% 
+\contentsline {subsection}{\numberline {4.2.1}Topology of the Proposed Antenna}{55}% 
+\contentsline {subsection}{\numberline {4.2.2}Formulation of the Equivalent Circuit Model of the Antenna}{56}% 
+\contentsline {section}{\numberline {4.3}Modeling and Analysis of the Proposed Antenna}{57}% 
+\contentsline {subsection}{\numberline {4.3.1}Analysis of the Equivalent Circuit Model with Vector Fitting Technique}{58}% 
+\contentsline {subsection}{\numberline {4.3.2}Estimation of the Equivalent Circuit Parameters Using Genetic Algorithm}{59}% 
+\contentsline {subsection}{\numberline {4.3.3}Current Analysis of the Equivalent Circuit Model of the Antenna}{59}% 
+\contentsline {section}{\numberline {4.4}Experimental Results and Discussions}{62}% 
+\contentsline {subsection}{\numberline {4.4.1}A Parametric Study of the Antenna Dimensions}{62}% 
+\contentsline {subsection}{\numberline {4.4.2}Return Loss Measurement}{63}% 
+\contentsline {subsection}{\numberline {4.4.3}Radiation Pattern and Gain Measurement}{63}% 
+\contentsline {section}{\numberline {4.5}Discussions and Conclusion}{65}% 
+\contentsline {chapter}{\numberline {5}Synthesis of a Sparse 2D-Scanning Array using Particle Swarm Optimization for Side-Lobe Reduction}{66}% 
+\contentsline {section}{\numberline {5.1}Introduction}{66}% 
+\contentsline {section}{\numberline {5.2}DESIGN OF A $16\times 16$ URA}{68}% 
+\contentsline {subsection}{\numberline {5.2.1}Array Topology and Progressive Phase Excitation}{68}% 
+\contentsline {subsection}{\numberline {5.2.2}Mapping the Radiation Angle to the Progressive Phase Shift using ANN}{70}% 
+\contentsline {section}{\numberline {5.3}Synthesis of Sparse Array}{71}% 
+\contentsline {section}{\numberline {5.4}Experimental Results and Discussion}{72}% 
+\contentsline {subsection}{\numberline {5.4.1}The Architecture of the Sparsed Array}{73}% 
+\contentsline {subsection}{\numberline {5.4.2}Analysis of the Direction of Main Lobe and PSLL}{73}% 
+\contentsline {subsection}{\numberline {5.4.3}Analysis of the Peak Gain}{75}% 
+\contentsline {subsection}{\numberline {5.4.4}Analysis of the Beam-width}{75}% 
+\contentsline {section}{\numberline {5.5}Conclusion}{76}% 
+\contentsline {chapter}{\numberline {6}Conclusion and Future Direction}{79}% 
+\contentsline {section}{\numberline {6.1}Chapter Wise Findings}{79}% 
+\contentsline {section}{\numberline {6.2}Limitations}{80}% 
+\contentsline {section}{\numberline {6.3}Conclusion}{82}% 
+\contentsline {section}{\numberline {6.4}Future Direction}{83}% 
+\contentsline {chapter}{Bibliography}{84}% 
+\contentsline {chapter}{Publications}{101}% 

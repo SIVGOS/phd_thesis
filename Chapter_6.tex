@@ -19,13 +19,27 @@ The design and optimization of printed antennas is a vast domain of research. Th
     The proposed sparse array has a scanning range of $\pm$45 degree in both azimuth and elevation plane. The objective function is defined in a way to minimize the PSLL of the sparse array for the main lobe in multiple possible directions in this range. The gain and bandwidth of the sparse array is almost the same as the original URA.
 \end{itemize}
 
+The chapter-wise findings are briefly summarized in Table \ref{tab-chap-summary}.
+\begin{table}
+\centering
+\caption{Brief Chapter Wise Summary of the Contributory Chapters}\label{tab-chap-summary}
+\begin{tabular}{|p{0.12\textwidth}|p{0.22\textwidth}|p{0.25\textwidth}|p{0.3\textwidth}|}
+  \toprule
+  Chapter & Problem & Proposed Method & Results Deduced \\ \midrule
+  Chapter 3 & Optimization of a printed antenna with a full-wave solver & GA is implemented within the script interface of AEDT. & The approach is efficient as long as the number of dimensions being optimized is small. \\ \hline
+  Chapter 4 & Deduction of an analytical model of printed antenna & The values of the lumped elements of the equivalent circuit model of a multi-layer printed antenna are estimated using GA. & The proposed approach can estimate the approximate values of the physical parameters of the antenna as long as its physical dimensions are fixed. \\ \hline
+  Chapter 5 & Synthesis of a printed array & A sparse planar array is synthesized using PSO. & The peak SLL of the antenna does not vary significantly as the uniform planar array is converted to a sparse array. There is a reduction in gain. \\ \bottomrule
+  \hline
+\end{tabular}
+\end{table}
+
 \section{Limitations}\label{c6sec_limitations}
 The primary limitations of the present works are as follows:
 \begin{itemize}
 \item In the first work, only the feeding position of the printed slot antenna is optimized using genetic algorithm implemented using the script interface of AEDT. Since AEDT is a frequency domain finite elements solver, the time required for computing a single iteration of the optimization process is high. As a result, the computation time increases exponentially with the number of dimensions to be optimized. The optimization of multiple physical dimensions of the antenna may take a long time using this approach.
 \item The second work presents the derivation of the equivalent circuit model of a dual-band antenna. The proposed equivalent circuit can explain the working of the antenna. However, the calculated values of the lumped elements of the equivalent circuit model corresponds to a fixed set of physical dimensions of the antenna. No mathematical relation between the physical dimensions of the antenna and the lumped circuit parameters could be established. As a result, this circuit may not be suitable for application as a physics based surrogate model to optimize an antenna.
 \item The performance of the sparse array synthesized in the third work is validated through the phased array toolbox of Matlab. Because of the large size of the array and its inherent design complexities, the antenna could not be manufactured. The performance of the antenna could not be validated from measurement results. Without the measurement results, the applicability of the antenna in a real-world situation could not be ascertained.
-    
+
     As the number of elements in the array is reduced, the gain of the antenna also gets reduced. This is an inherent limitation of sparse array that could not be addressed in the present construct.
 \end{itemize}
 
@@ -40,6 +54,6 @@ The design and optimization of printed antennas and arrays is an active area of 
 \item Genetic Algorithm is implemented in the Python script interface of AEDT to optimize a printed antenna as discussed in \emph{Chapter \ref{chap:chap3}}. More optimization algorithms such as particle swarm optimization, differential evolution, etc. may be implemented in a similar approach as there are use cases where these algorithms yield better optimization performance in comparison to genetic algorithm.
 \item The proposed computer aided equivalent circuit model of a multi-layer antenna, discussed in \emph{Chapter \ref{chap:chap4}}, may be used as a physics-based surrogate model to optimize the physical dimensions of the antenna to improve its performance in terms of gain, bandwidth, resonant frequency, etc. Physics based surrogate models are low-fidelity models that may be computed faster at a much less computing cost. The design time of the antenna is significantly reduced when surrogate models are used to compute the cost function.
 \item In  \emph{Chapter \ref{chap:chap5}}, the design of a printed sparse array is presented. Because of the large size of the antenna, it could not be fabricated and the performance of the array could not be evaluated from measurement results. Fabrication of such large planar arrays is a challenge in itself. There is a scope of further research in finding a cost-effective and efficient approach for fabricating such array along with the feeding mechanism.
-    
+
     As the number of elements of the array is reduced, the far-field gain of the antenna also decreases. This limitation may be addressed by tuning the physical dimensions of the antenna array. This approach results in a sparse array with dissimilar elements. The optimization problem has to be re-formulated in order to address this issue.
 \end{itemize} 

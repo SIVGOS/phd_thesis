@@ -35,6 +35,8 @@
 \usepackage[nottoc]{tocbibind}
 \usepackage{textcomp}
 \usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{array}
 
 %=====================================================================
 %  Single counter for theorems and theorem-like environments:
