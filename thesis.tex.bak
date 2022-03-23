@@ -53,6 +53,16 @@
 \newtheorem{prop}[theorem]{Proposition}
 \newtheorem{remark}[theorem]{Remark}
 
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \setlength\parindent{1em}%
+  \noindent
+  \endgroup
+}
+
+\setcounter{secnumdepth}{4}
 %=====================================================================
 % End of Preamble, start of document
 %

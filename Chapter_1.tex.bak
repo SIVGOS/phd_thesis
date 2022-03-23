@@ -105,21 +105,21 @@ A brief summary of the literatures on antenna optimization is presented in Table
 \begin{tabular}{|p{0.1\textwidth}|p{0.6\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|}
 \toprule
 Sl. No. & Focus Area & Reference & Year \\ \midrule
-1 & Soft-computational synthesis of wired monopole. & \cite{cadNASA2} & 2004 \\ \hline
-2 & Computer aided synthesis of an antenna for NASA's ST-5 mission. & \cite{cadNASA} & 2006 \\ \hline
-3 & Tutorial paper on the use of genetic algorithm for electromagnetic application. & \cite{ga_em} & 1997 \\ \hline
-4 & Optimization of polarized antenna with ANFIS and GA. & \cite{circpol_anfis_ga} & 2011 \\ \hline
-5 & Optimization of a fractal antenna with GA. & \cite{fractal_bowtie_ga} & 2017 \\ \hline
-6 & Transmission line model used as surrogate model for antenna optimization. & \cite{txm_opt} & 2017 \\ \hline
-7 & Wide band antenna optimized using transmission line model as surrogate model. & \cite{patch_feed_ga} & 2018 \\ \hline
-8 & Transmission line model used as a surrogate model to optimize S11 parameter and far field gain of an antenna. & \cite{gain_bw_opt_ga} & 2014 \\ \hline
-9 & Multi-objective optimization of a triple band antenna. & \cite{mpa_triband_opt} & 2015 \\ \hline
-10 & Discrete optimization of microstrip antenna. & \cite{mpa_multifit_ga} & 2015 \\ \hline
-11 & Discrete optimization of a dual-band PIFA antenna. & \cite{opt_pifa_ga_2} & 2015 \\ \hline
-12 & Discrete optimization of a multi-band PIFA antenna. & \cite{opt_pifa_ga} & 2016 \\ \hline
-13 & Discrete optimization for miniaturization of a patch antenna. & \cite{rectpatch_miniaturize_ga} & 2013 \\ \hline
-14 & A comparative study of several optimization algorithms for antenna design. & \cite{compCAD4Ant} & 2017 \\ \hline
-15 & Antenna optimization using Matlab and a Full-wave EM solver. & \cite{auto_opt_matlab} & 2015 \\ \bottomrule
+1 &  Tutorial paper on the use of genetic algorithm for electromagnetic application. & \cite{ga_em} & 1997 \\ \hline
+2 &  Soft-computational synthesis of wired monopole. & \cite{cadNASA2} & 2004 \\ \hline
+3 &  Computer aided synthesis of an antenna for NASA's ST-5 mission. & \cite{cadNASA} & 2006 \\ \hline
+4 &  Optimization of polarized antenna with ANFIS and GA. & \cite{circpol_anfis_ga} & 2011 \\ \hline
+5 &  Discrete optimization for miniaturization of a patch antenna. & \cite{rectpatch_miniaturize_ga} & 2013 \\ \hline
+6 &  Transmission line model used as a surrogate model to optimize S11 parameter and far field gain of an antenna. & \cite{gain_bw_opt_ga} & 2014 \\ \hline
+7 &  Multi-objective optimization of a triple band antenna. & \cite{mpa_triband_opt} & 2015 \\ \hline
+8 &  Discrete optimization of microstrip antenna. & \cite{mpa_multifit_ga} & 2015 \\ \hline
+9 &  Discrete optimization of a dual-band PIFA antenna. & \cite{opt_pifa_ga_2} & 2015 \\ \hline
+10 &  Antenna optimization using Matlab and a Full-wave EM solver. & \cite{auto_opt_matlab} & 2015 \\ \hline
+11 &  Discrete optimization of a multi-band PIFA antenna. & \cite{opt_pifa_ga} & 2016 \\ \hline
+12 &  Optimization of a fractal antenna with GA. & \cite{fractal_bowtie_ga} & 2017 \\ \hline
+13 &  Transmission line model used as surrogate model for antenna optimization. & \cite{txm_opt} & 2017 \\ \hline
+14 &  A comparative study of several optimization algorithms for antenna design. & \cite{compCAD4Ant} & 2017 \\ \hline
+15 &  Wide band antenna optimized using transmission line model as surrogate model. & \cite{patch_feed_ga} & 2018 \\ \bottomrule
 \end{tabular}%}
 \end{table*}
 
@@ -172,7 +172,7 @@ Sl. No. & Focus Area & Reference & Year \\ \midrule
 12 & Vector fitting technique is used for rational function approximation of the equivalent circuit modeling of a broad-band antenna. & \cite{comp-aided-eqckt} & 2007 \\ \hline
 13 & A combination of an analytical narrow band model and a rational functions based macromodel. & \cite{UwbPmaEqCkt1} & 2008 \\ \hline
 14 & A computer aided formulation of the cavity model of a substrate integrated waveguide (SIW) antenna. & \cite{comp-aided-eqckt2} & 2016 \\ \hline
-15 & Transmission line model (TLM) of a super wide band (SWB) monopole antenna with three notch bands. & \cite{optEqCkt_ads} & 2019 \\ \hline
+15 & Transmission line model (TLM) of a super wide band (SWB) monopole antenna with three notch bands. & \cite{optEqCkt_ads} & 2019 \\ \bottomrule
 \end{tabular}%}
 \end{table*}
 
@@ -213,7 +213,7 @@ Sl. No. & Focus Area & Reference & Year \\ \midrule
 6 & A binary spider monkey algorithm (binSMO) is proposed for solving the arrat thinning problem. & \cite{arrayThin2} & 2016 \\ \hline
 7 & A multi-objective implementation of genetic algorithm, was reported for synthesis of a linear array with reduced SLL and side-band level (SBL) & \cite{arraySynth2} & 2017 \\ \hline
 8 & A planar array with randomly spaced elements synthesized using a modified GA to obtain low peak side lobe level (PSLL). & \cite{randomlySpacedArray} & 2017 \\ \hline
-9 & A multi-objective approach for self-organizing span array with constraints. & \cite{selfOrgOpt} & 2020 \\ \hline
+9 & A multi-objective approach for self-organizing span array with constraints. & \cite{selfOrgOpt} & 2020 \\ \bottomrule
 \end{tabular}%}
 \end{table*}
 

@@ -1,4 +1,5 @@
 \chapter{Design of a Dual-Band Multilayer Antenna and its Equivalent Circuit Modeling with Vector-Fitting and Genetic Algorithm}
+\blfootnote{\textbf{Publication:} S. Goswami, K. Sarmah, P. Borah, and K. K. Sarma, ``Design of a dual-band multilayer antenna and its equivalent circuit modeling with vector-fitting and genetic algorithm,'' \emph{AEUE - International Journal of Electronics and Communications}, vol. 138, p. 153838, Aug. 2021, doi: 10.1016/j.aeue.2021.153838.}
 \label{chap:chap4}
 \section{Introduction}\label{c4sec:intro}
 Antennas can be broadly classified as directional antennas and omnidirectional antennas. Conventional microstrip antennas, because of its ground plane, provides a directional radiation pattern \cite{handbook}. A printed monopole, on the contrary, provides an omnidirectional radiation pattern \cite{pma_stripline, pma_dualband}. Printed monopoles are variants of microstrip antenna which is characterized by the absence of a ground plane below the patch. A printed monopole excited by a microstrip line has a ground plane below the feed line \cite{pma_stripline}. Printed monopoles are low profile antennas for high gain and high bandwidth with an omnidirectional radiation pattern\cite{PMA01}.
@@ -11,7 +12,7 @@ In this chapter, a multi-layer, dual-band antenna is presented which provides an
 
 The printed monopole as well as the superstrate affects the resonant frequencies of the antenna. Hence, each parameter can be tuned to optimize its overall performance. The design details of the proposed antenna along with the formulation of the equivalent circuit model is discussed in Section \ref{c4sec:design}. Section \ref{c4sec:analysis} presents an analysis of the antenna with the equivalent circuit model. The simulation and measurement results of the antenna are presented in Section \ref{c4sec:expt_results}. Finally, the chapter is concluded in Section \ref{c4sec:concl}. All full-wave simulation results reported are performed with Ansys Electronic Desktop (AEDT).
 \section{Design Details of the Proposed Antenna}\label{c4sec:design}
-The proposed antenna is the hybrid of a printed monopole antenna and a microstrip antenna. The printed monopole antenna has an omnidirectional radiation pattern at the 2.4 GHz ISM band. The microstrip antenna has a directional pattern at the C band. 
+The proposed antenna is the hybrid of a printed monopole antenna and a microstrip antenna. The printed monopole antenna has an omnidirectional radiation pattern at the 2.4 GHz ISM band. The microstrip antenna has a directional pattern at the C band.
 %The capacitor represents the physical separation between the two branches.
 The design details of the antenna and its equivalent circuit model are discussed in this section.
 
@@ -197,7 +198,7 @@ The co-polar and the cross-polar radiation patterns are measured for both the pr
 \caption{Radiation pattern of the antenna in the (a) YZ Plane at 2.4 GHz (b) XZ Plane at 2.4 GHz, (c) YZ Plane at 4.2 GHz, (d) XZ Plane at 4.2 GHz}\label{fig-pat}
 \end{figure}
 
-\section{Discussions and Conclusion}\label{c4sec:concl}
+\section{Conclusion}\label{c4sec:concl}
 From the analysis and the experimental results it is observed that the proposed antenna has two distinct far-field radiation patterns at its two resonant frequencies. An equivalent circuit model of the antenna is also proposed. The behavior of the antenna is explained with the equivalent circuit model. The parameters of the equivalent circuit model are obtained using vector-fitting technique and genetic algorithm. The accuracy of the equivalent circuit model is validated through comparison of its output current with the simulation results of the antenna.
 
 The proposed antenna has an omnidirectional radiation pattern at the 2.4 GHz ISM band. At the C-band, the primary radiating element is the superstrate and the antenna has a directional radiation pattern with a higher gain due to the presence of the ground plane. At this band, the antenna is more suitable for directional communication. The antenna finds its possible applications in an IoT or WiFi network with a 5G backbone. 

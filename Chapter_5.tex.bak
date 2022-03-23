@@ -1,4 +1,5 @@
 \chapter{Synthesis of a Sparse 2D-Scanning Array using Particle Swarm Optimization for Side-Lobe Reduction}
+\blfootnote{\textbf{Publication:} S. Goswami, K. Sarmah, K. K. Sarma, and N. E. Mastorakis, ``Synthesis of a Sparse 2D-Scanning Array using Particle Swarm Optimization for Side-Lobe Reduction,'' in proc. \emph{24th International Conference on Circuits, Systems, Communications and Computers}, Crete Island, Greece, July, 2021.\\ (Published in WSEAS Transactions on Communications, vol. 20, p. 112-116, 2021, doi: 10.37394/23204.2021.20.14)}
 \label{chap:chap5}
 \section{Introduction}\label{c5sec_intro}
 A phased array antenna is widely used in wireless communication and radar systems. With the evolution of 5G and millimeter-wave communication, a large grid of small printed antennas is becoming popular \cite{5gmmwave, 5gmmwave_fr4}.
@@ -21,7 +22,7 @@ The remaining sections of the chapter are arranged as follows. The design detail
 
 Matlab Phased Array System Toolbox$^{\circledR}$ is used for computing all radiation patterns used and presented in this work.
 
-\section{DESIGN OF A $16\times16$ URA}\label{c5sec_design}
+\section{Synthesis of Sparse Array from $16\times16$ URA}\label{c5sec_design}
 \subsection{Array Topology and Progressive Phase Excitation}
 The topology of the uniform rectangular array is shown in Fig. \ref{fig_5_1}. It is a uniform array with a spacing of half of the wavelength ($\lambda/2$) in both directions. The antenna element used is a cosine element.
 
