@@ -36,20 +36,20 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces The simulated and measured return loss (S11) parameter plot of the proposed antenna}}{64}% 
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Radiation pattern of the antenna in the (a) YZ Plane at 2.4 GHz (b) XZ Plane at 2.4 GHz, (c) YZ Plane at 4.2 GHz, (d) XZ Plane at 4.2 GHz}}{64}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Topology of the URA}}{68}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Topology of the URA}}{69}% 
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Illustration of the progressive phase shift in excitation}}{69}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Progressive phase shift in the direction of azimuthal plane}}}{69}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Progressive phase shift in the direction of azimuthal plane}}}{69}% 
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation of the (a) Azimuth angle ($\phi $) with $\delta _{AZ}$ and (b) Elevation angle ($\theta $) with $\delta _{EL}$}}{70}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{70}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{70}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Architecture of the ANN model to map the radiation angles ($\phi $, $\theta $) with the progressive phase angle ($\delta _{AZ}$, $\delta _{EL}$)}}{70}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Architecture of the ANN model to map the radiation angles ($\phi $, $\theta $) with the progressive phase angle ($\delta _{AZ}$, $\delta _{EL}$)}}{71}% 
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Error histogram of the trained neural network}}{71}% 
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Flow diagram of the sparse array synthesis steps using PSO}}{72}% 
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Element positions of the synthesized sparse array.}}{73}% 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces The radiation pattern of the (a) URA and (b) the synthesized sparse array for $\phi $ = 30 degree and $\theta $ = 40 degree}}{74}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{74}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{74}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces The radiation pattern of the (a) URA and (b) the synthesized sparse array for $\phi $ = 30 degree and $\theta $ = 40 degree}}{75}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{75}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{75}% 
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Variation of PSLL with the direction of the main lobe for (a) URA (b) the sparse array}}{75}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{75}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{75}% 

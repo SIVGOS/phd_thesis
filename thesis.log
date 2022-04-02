@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  24 MAR 2022 00:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  2 APR 2022 17:42
 entering extended mode
 **D:/PhD/THESIS/phd_thesis/thesis.tex
 (D:/PhD/THESIS/phd_thesis/thesis.tex
@@ -407,9 +407,10 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 )
 \c@theorem=\count119
  (thesis.aux
-(cover_mtechpr.aux) (cover_2.aux) (Declaration.aux) (certificate.aux) (ackn.aux
-) (abstract.aux) (Abbreviation.aux) (Chapter_1.aux) (Chapter_2.aux)
-(Chapter_3.aux) (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux) (mypubs.aux))
+(cover_2.aux) (blankpage.aux) (Declaration.aux) (blankpage.aux)
+(certificate.aux) (blankpage.aux) (ackn.aux) (blankpage.aux) (abstract.aux)
+(Abbreviation.aux) (Chapter_1.aux) (Chapter_2.aux) (Chapter_3.aux)
+(Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux) (mypubs.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -436,35 +437,34 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 72.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-\openout2 = `cover_mtechpr.aux'.
+\openout2 = `cover_2.aux'.
 
- (cover_mtechpr.tex
+ (cover_2.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/sl' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/sl' tried instead on input line 11.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+File: clogoe.eps Graphic file (type eps)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1phv.fd"
+<clogoe.eps>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sl' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/sl' tried instead on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 22.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 13.
-File: clogoe.eps Graphic file (type eps)
- <clogoe.eps>
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 23.
+
 [1
 
 
 ])
-\openout2 = `cover_2.aux'.
+\openout2 = `blankpage.aux'.
 
- (cover_2.tex
-File: gulogo.eps Graphic file (type eps)
- <gulogo.eps> [1
+ (blankpage.tex [1
 
 
 ])
@@ -475,29 +475,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-) [1
+) [2
 
 
 ]
+\openout2 = `blankpage.aux'.
+
+ (blankpage.tex [3
+
+
+])
 \openout2 = `certificate.aux'.
 
  (certificate.tex
 File: clogoe.eps Graphic file (type eps)
  <clogoe.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-[2
+[4
+
+
+])
+\openout2 = `blankpage.aux'.
+
+ (blankpage.tex [5
 
 
 ])
 \openout2 = `ackn.aux'.
 
- (ackn.tex) [3
+ (ackn.tex) [6
 
 
 ]
+\openout2 = `blankpage.aux'.
+
+ (blankpage.tex [7
+
+
+])
 \openout2 = `abstract.aux'.
 
  (abstract.tex
@@ -512,11 +530,11 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4
+) [8
 
 
 
-] [5])
+] [9])
 \openout2 = `Abbreviation.aux'.
 
 
@@ -525,22 +543,22 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 3.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-[6
+[10
 
 
 
-] [7]) (thesis.toc [8
+] [11]) (thesis.toc [12
 
 
-] [9] [10])
+] [13] [14])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [11] (thesis.lot)
+ [15] (thesis.lot)
 \tf@lot=\write4
 \openout4 = `thesis.lot'.
 
- [12
+ [16
 
 ] (thesis.lof
 Overfull \hbox (16.92755pt too wide) in paragraph at lines 27--27
@@ -548,13 +566,13 @@ Overfull \hbox (16.92755pt too wide) in paragraph at lines 27--27
  for the printed monopole 
  []
 
-[13
+[17
 
-] [14])
+] [18])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [15]
+ [19]
 \openout2 = `Chapter_1.aux'.
 
  (Chapter_1.tex
@@ -756,7 +774,7 @@ File: Fig-aeue_7.eps Graphic file (type eps)
  (Chapter_5.tex
 Chapter 5.
 
-Underfull \hbox (badness 7558) in paragraph at lines 2--2
+Underfull \hbox (badness 7558) in paragraph at lines 4--4
 \OT1/ptm/m/n/10 (Published in WSEAS Trans-ac-tions on Com-mu-ni-ca-tions, vol. 
 20, p. 112-116, 2021, doi:
  []
@@ -767,49 +785,48 @@ Underfull \hbox (badness 7558) in paragraph at lines 2--2
 
 ] [67]
 File: Fig-naun_1.eps Graphic file (type eps)
- <Fig-naun_1.eps> [68]
+ <Fig-naun_1.eps>
 File: Fig-naun_2a.eps Graphic file (type eps)
  <Fig-naun_2a.eps>
 File: Fig-naun_2b.eps Graphic file (type eps)
- <Fig-naun_2b.eps>
+ <Fig-naun_2b.eps> [68] [69]
 File: Fig-naun_3a.eps Graphic file (type eps)
 
 <Fig-naun_3a.eps>
 File: Fig-naun_3b.eps Graphic file (type eps)
- <Fig-naun_3b.eps> [69]
+ <Fig-naun_3b.eps> [70]
 File: Fig-naun_4.eps Graphic file (type eps)
- <Fig-naun_4.eps> [70]
+ <Fig-naun_4.eps>
 File: Fig-naun_5.eps Graphic file (type eps)
-
-<Fig-naun_5.eps>
+ <Fig-naun_5.eps>
+[71]
 File: Fig-naun_6.eps Graphic file (type eps)
- <Fig-naun_6.eps> [71] [72]
+ <Fig-naun_6.eps> [72]
 File: Fig-naun_7.eps Graphic file (type eps)
- <Fig-naun_7.eps>
+ <Fig-naun_7.eps> [73]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 123.
+               Default added (so using `tbp') on input line 125.
 
-[73]
 File: Fig-naun_8a.eps Graphic file (type eps)
- <Fig-naun_8a.eps>
+<Fig-naun_8a.eps>
 File: Fig-naun_8b.eps Graphic file (type eps)
  <Fig-naun_8b.eps> [74]
 File: Fig-naun_9a.eps Graphic file (type eps)
  <Fig-naun_9a.eps>
 File: Fig-naun_9b.eps Graphic file (type eps)
-
-<Fig-naun_9b.eps>
+ <Fig-naun_9b.eps>
+[75]
 File: Fig-naun_10.eps Graphic file (type eps)
- <Fig-naun_10.eps> [75]
+ <Fig-naun_10.eps>
 File: Fig-naun_11.eps Graphic file (type eps)
  <Fig-naun_11.eps>
 File: Fig-naun_12.eps Graphic file (type eps)
- <Fig-naun_12.eps>
-[76] [77]) [78]
+ <Fig-naun_12.eps> [76] [77]) [78]
 \openout2 = `Chapter_6.aux'.
 
- (Chapter_6.tex
+
+(Chapter_6.tex
 Chapter 6.
 [79
 
@@ -882,21 +899,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--31
 [92] [93] [94] [95] [96] [97] [98] [99]) [100]
 \openout2 = `mypubs.aux'.
 
- (mypubs.tex [101
+ (mypubs.tex
+Overfull \hbox (57.12708pt too wide) in paragraph at lines 13--14
+\OT1/ptm/m/it/12 Jour-nal of Physics\OT1/ptm/m/n/12 , 2022. (Pub-lished on-line
+ on March 25, 2022). doi: https://doi.org/10.1007/s12648-
+ []
+
+[101
 
 
-]) [102]
-(thesis.aux (cover_mtechpr.aux) (cover_2.aux) (Declaration.aux)
-(certificate.aux) (ackn.aux) (abstract.aux) (Abbreviation.aux) (Chapter_1.aux)
-(Chapter_2.aux) (Chapter_3.aux) (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux)
-(mypubs.aux)) ) 
+]) [102] (thesis.aux (cover_2.aux) (blankpage.aux) (Declaration.aux)
+(blankpage.aux) (certificate.aux) (blankpage.aux) (ackn.aux) (blankpage.aux)
+(abstract.aux) (Abbreviation.aux) (Chapter_1.aux) (Chapter_2.aux)
+(Chapter_3.aux) (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux) (mypubs.aux)) )
+ 
 Here is how much of TeX's memory you used:
- 3439 strings out of 492946
- 45852 string characters out of 3135534
- 109186 words of memory out of 3000000
- 7134 multiletter control sequences out of 15000+200000
+ 3454 strings out of 492946
+ 46236 string characters out of 3135534
+ 109188 words of memory out of 3000000
+ 7132 multiletter control sequences out of 15000+200000
  22611 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,16n,27p,187291b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (119 pages, 346832 bytes).
+Output written on thesis.dvi (122 pages, 348144 bytes).

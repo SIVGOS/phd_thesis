@@ -63,13 +63,15 @@
 }
 
 \setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
 %=====================================================================
 % End of Preamble, start of document
 %
 
 \begin{document}
 \pagenumbering{roman}
-\include{cover_mtechpr}
+%\include{cover_mtechpr}
 \include{cover_2}
 \include{Declaration}
 \include{certificate}

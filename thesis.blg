@@ -1,9 +1,24 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
-A level-1 auxiliary file: cover_mtechpr.aux
 A level-1 auxiliary file: cover_2.aux
+A level-1 auxiliary file: blankpage.aux
 A level-1 auxiliary file: Declaration.aux
+Already encountered file blankpage.aux
+---line 5 of file thesis.aux
+ : \@input{blankpage.aux
+ :                      }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: certificate.aux
+Already encountered file blankpage.aux
+---line 7 of file thesis.aux
+ : \@input{blankpage.aux
+ :                      }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: ackn.aux
+Already encountered file blankpage.aux
+---line 9 of file thesis.aux
+ : \@input{blankpage.aux
+ :                      }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: Abbreviation.aux
 A level-1 auxiliary file: Chapter_1.aux
@@ -26,4 +41,4 @@ Warning--empty publisher in cadNASA
 Warning--can't use both volume and number fields in txmMc
 Warning--can't use both volume and number fields in gtlm2
 Warning--empty journal in softCompMeta
-(There was 1 error message)
+(There were 4 error messages)

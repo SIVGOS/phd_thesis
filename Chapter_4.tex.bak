@@ -1,5 +1,5 @@
 \chapter{Design of a Dual-Band Multilayer Antenna and its Equivalent Circuit Modeling with Vector-Fitting and Genetic Algorithm}
-\blfootnote{\textbf{Publication:} S. Goswami, K. Sarmah, P. Borah, and K. K. Sarma, ``Design of a dual-band multilayer antenna and its equivalent circuit modeling with vector-fitting and genetic algorithm,'' \emph{AEUE - International Journal of Electronics and Communications}, vol. 138, p. 153838, Aug. 2021, doi: 10.1016/j.aeue.2021.153838.}
+\blfootnote{\textbf{Publication:} {\footnotesize S. Goswami, K. Sarmah, P. Borah, and K. K. Sarma, ``Design of a dual-band multilayer antenna and its equivalent circuit modeling with vector-fitting and genetic algorithm,'' \emph{AEUE - International Journal of Electronics and Communications}, vol. 138, p. 153838, Aug. 2021, doi: 10.1016/j.aeue.2021.153838.}}
 \label{chap:chap4}
 \section{Introduction}\label{c4sec:intro}
 Antennas can be broadly classified as directional antennas and omnidirectional antennas. Conventional microstrip antennas, because of its ground plane, provides a directional radiation pattern \cite{handbook}. A printed monopole, on the contrary, provides an omnidirectional radiation pattern \cite{pma_stripline, pma_dualband}. Printed monopoles are variants of microstrip antenna which is characterized by the absence of a ground plane below the patch. A printed monopole excited by a microstrip line has a ground plane below the feed line \cite{pma_stripline}. Printed monopoles are low profile antennas for high gain and high bandwidth with an omnidirectional radiation pattern\cite{PMA01}.
@@ -10,8 +10,8 @@ Recent trends show that 5G standards are mostly set around directional communica
 
 In this chapter, a multi-layer, dual-band antenna is presented which provides an omnidirectional radiation pattern at the 2.4 GHz ISM band and a high-gain, directional radiation pattern at a wide band ranging from 3.6 GHz to 4.2 GHz. The band between 3.6 GHz to 4.2 GHz is important because it covers most of the sub-bands of the 5G C-band \cite{5G_tutorial, 5G_standards}. The proposed antenna can be used at the hub of an IoT network operating at the 2.4 GHz ISM band for providing a 5G back-haul link. The hub is usually a fixed device which can be installed in such a way that it has a directional link with the nearest 5G base station. An equivalent circuit model of the antenna is derived to explain the behavior of the antenna. The circuit parameters are obtained with vector-fitting and also with genetic algorithm.
 
-The printed monopole as well as the superstrate affects the resonant frequencies of the antenna. Hence, each parameter can be tuned to optimize its overall performance. The design details of the proposed antenna along with the formulation of the equivalent circuit model is discussed in Section \ref{c4sec:design}. Section \ref{c4sec:analysis} presents an analysis of the antenna with the equivalent circuit model. The simulation and measurement results of the antenna are presented in Section \ref{c4sec:expt_results}. Finally, the chapter is concluded in Section \ref{c4sec:concl}. All full-wave simulation results reported are performed with Ansys Electronic Desktop (AEDT).
-\section{Design Details of the Proposed Antenna}\label{c4sec:design}
+The printed monopole as well as the superstrate affects the resonant frequencies of the antenna. Hence, each parameter can be tuned to optimize its overall performance. The details of the design and modeling of the proposed antenna along with the formulation of the equivalent circuit model is discussed in Section \ref{c4sec:design}. The simulation and measurement results of the antenna are presented in Section \ref{c4sec:expt_results}. Finally, the chapter is concluded in Section \ref{c4sec:concl}. All full-wave simulation results reported are performed with Ansys Electronic Desktop (AEDT).
+\section{Design and Modeling Details of the Proposed Antenna}\label{c4sec:design}
 The proposed antenna is the hybrid of a printed monopole antenna and a microstrip antenna. The printed monopole antenna has an omnidirectional radiation pattern at the 2.4 GHz ISM band. The microstrip antenna has a directional pattern at the C band.
 %The capacitor represents the physical separation between the two branches.
 The design details of the antenna and its equivalent circuit model are discussed in this section.
@@ -84,10 +84,10 @@ f_r = \frac{1}{2\pi \sqrt{L_p C_p}}
 
 Here, the resonant frequency of the printed monopole antenna is 2.4 GHz.
 
-\section{Modeling and Analysis of the Proposed Antenna}\label{c4sec:analysis}
+\subsection{Modeling and Analysis of the Proposed Antenna}\label{c4sec:analysis}
 The mathematical expressions for estimating the values of the inductance and a capacitance of an equivalent circuit model are derived under many simplifying assumption \cite{handbook}. The accuracy of such empirical relationships is not high for practical antennas. In order to overcome these limitations, computational techniques are used. In the following sections, the parameters of the equivalent circuit model are estimated with Vector Fitting technique and the Genetic Algorithm.
 
-\subsection{Analysis of the Equivalent Circuit Model with Vector Fitting Technique}
+\subsubsection{Analysis of the Equivalent Circuit Model with Vector Fitting Technique}
 One of the techniques used for numerically estimating the equivalent circuit parameters of a printed antenna is vector fitting \cite{vectorfitting1, vectorfitting2, vectorfitting3}. Vector fitting technique models the frequency response of a system through rational function approximation. The rational function has a fixed number of poles and a residue part. This method was first proposed in \cite{vfit3_1}. An improved version of this technique is reported in \cite{vfit3_2} that uses relaxed non-triviality constraint for achieving faster convergence and higher accuracy. The present work uses the algorithm proposed in \cite{vfit3_3} where the differential equations are approximated as matrices for convenience of numerical implementation.
 
 The Thevenin Equivalent load impedance of the equivalent circuit model can be expressed as Equation \ref{eq_Zin}.
@@ -122,7 +122,7 @@ It can be shown that Equation \ref{eq_Zin} has seven poles. The vector fitting m
 
 It is observed from Table \ref{table_poles} that there is one pole at DC (frequency = 0.00 GHz) and three poles each at positive and negative frequencies. If we consider only the positive frequencies, the three poles are at 1.88 GHz, 2.97 GHz and 4.59 GHz.
 
-\subsection{Estimation of the Equivalent Circuit Parameters Using Genetic Algorithm}
+\subsubsection{Estimation of the Equivalent Circuit Parameters Using Genetic Algorithm}
 For simple circuits, it is possible to calculate the values of the lumped elements from the poles. For complex circuits, such computation is difficult and prone to errors. In recent years, soft-computational optimization algorithms such as genetic algorithm (GA), particle swarm optimization (PSO) etc. are widely used for modeling and optimization of printed antennas \cite{antSoftAppReview}. Here, genetic algorithm is used for estimating the equivalent circuit parameters of the antenna. The objective function in this case is defined in such a way that the resonant frequencies of the equivalent circuit remains nearest to the resonant frequencies of the antenna as obtained from full wave electromagnetic simulation. The parameters of the equivalent circuit model obtained from the genetic algorithm are shown in Table \ref{table_eqckt}.
 
 \begin{table}
@@ -149,7 +149,7 @@ Superstrate Capacitance, $C_s$ & $6.14 \times 10^{-13}$ F \\ \hline
 
 Fig. \ref{fig_vc_ga} shows a comparison of the two equivalent circuit models in terms of the S11 parameter obtained. The S11 parameter plot of the equivalent circuit model in each case is compared with the S11 parameter plot obtained from full-wave simulation. It is observed that the vector fitting method provides a better estimation of the S11 parameter plot as compared to the genetic algorithm based approach.
 
-\subsection{Current Analysis of the Equivalent Circuit Model of the Antenna}
+\subsubsection{Current Analysis of the Equivalent Circuit Model of the Antenna}
 The proposed equivalent circuit is simulated with a 1 Volt input source. The two load resistances $R_{Rad1}$ and $R_{Rad2}$ in the equivalent circuit model correspond to the radiation resistances of the printed monopole and the superstrate respectively. Thus, the current through $R_{Rad1}$ is an indicator of the power radiated from the printed monopole antenna and the current through $R_{Rad2}$ is an indicator of the power radiated from the superstrate. Fig. \ref{fig-ckt-current} (a) shows the current through $R_{Rad1}$ and $R_{Rad2}$ as obtained from the circuit simulation.
 
 \begin{figure}

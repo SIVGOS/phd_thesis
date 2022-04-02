@@ -1,5 +1,7 @@
 \chapter{Synthesis of a Sparse 2D-Scanning Array using Particle Swarm Optimization for Side-Lobe Reduction}
-\blfootnote{\textbf{Publication:} S. Goswami, K. Sarmah, K. K. Sarma, and N. E. Mastorakis, ``Synthesis of a Sparse 2D-Scanning Array using Particle Swarm Optimization for Side-Lobe Reduction,'' in proc. \emph{24th International Conference on Circuits, Systems, Communications and Computers}, Crete Island, Greece, July, 2021.\\ (Published in WSEAS Transactions on Communications, vol. 20, p. 112-116, 2021, doi: 10.37394/23204.2021.20.14)}
+\blfootnote{\textbf{Publications:} \\
+1. S. Goswami, K. Sarmah, K. K. Sarma, and N. E. Mastorakis, ``Synthesis of a Sparse 2D-Scanning Array using Particle Swarm Optimization for Side-Lobe Reduction,'' in proc. \emph{24th International Conference on Circuits, Systems, Communications and Computers}, Crete Island, Greece, July, 2021.\\ (Published in WSEAS Transactions on Communications, vol. 20, p. 112-116, 2021, doi: 10.37394/23204.2021.20.14)\\
+2. S. Goswami, K. Sarmah, K. K. Sarma, and N. E. Mastorakis, ``Synthesis of a Sparse Planar Phased Array Antenna with Reduced Side-Lobe Level and Beam-Width using Particle Swarm Optimization,'' \emph{International Journal of Circuits, Systems and Signal Processing}, vol. 15, pp. 1387-1393, Sep. 2021, doi: 10.46300/9106.2021.15.148.}
 \label{chap:chap5}
 \section{Introduction}\label{c5sec_intro}
 A phased array antenna is widely used in wireless communication and radar systems. With the evolution of 5G and millimeter-wave communication, a large grid of small printed antennas is becoming popular \cite{5gmmwave, 5gmmwave_fr4}.
@@ -18,11 +20,11 @@ Arrays of printed antennas are most commonly used for millimeter-wave communicat
 
 The PSLL, gain and beam-width of the synthesized sparse planar array are compared with the original URA. It is observed that the synthesized sparse array yields a narrower beam-width than the original sparse array. A narrower beam-width is indicative of a better resolution of the scanning array \cite{sparseDesignConstraints}.
 
-The remaining sections of the chapter are arranged as follows. The design details of the $16\times16$ URA are presented in Section \ref{c5sec_design}. Section \ref{c5sec_synth} covers the details of the synthesis and optimization of the sparse array followed by the experimental results and discussions in Section \ref{c5sec_res}. The chapter is concluded in Section \ref{c5sec_cncl}.
+The remaining sections of the chapter are arranged as follows. The details of the synthesis and optimization of the sparse array from a $16\times16$ URA are presented in Section \ref{c5sec_design}. This section is followed by the experimental results and discussions in Section \ref{c5sec_res}. The chapter is concluded in Section \ref{c5sec_cncl}.
 
 Matlab Phased Array System Toolbox$^{\circledR}$ is used for computing all radiation patterns used and presented in this work.
 
-\section{Synthesis of Sparse Array from $16\times16$ URA}\label{c5sec_design}
+\section{Design Details}\label{c5sec_design}
 \subsection{Array Topology and Progressive Phase Excitation}
 The topology of the uniform rectangular array is shown in Fig. \ref{fig_5_1}. It is a uniform array with a spacing of half of the wavelength ($\lambda/2$) in both directions. The antenna element used is a cosine element.
 
@@ -80,7 +82,7 @@ The error histogram of the neural network training is shown in Fig. \ref{fig_5_5
   \caption{Error histogram of the trained neural network} \label{fig_5_5}
 \end{figure}
 
-\section{Synthesis of Sparse Array}\label{c5sec_synth}
+\subsection{Synthesis of Sparse Array}\label{c5sec_synth}
 The key challenge in synthesizing a sparse scan-array is to ensure that the PSLL is minimized for all possible scan-angles or all possible combinations of $\delta_{AZ}$ and $\delta_{EL}$. Calculating the radiation pattern for all possible combinations is computationally very expensive. To make the experiment feasible, the radiation pattern is computed for three randomly selected ($\phi$, $\theta$) pairs. For each of these pairs, the corresponding values of $\delta_{AZ}$ and $\delta_{EL}$ are obtained from the trained ANN model. The radiation pattern of the antenna is computed for each of these three ($\phi$, $\theta$) pairs. The excitation weight matrix, W of the URA is calculated using Eq. \ref{c5_eq1}. The objective function returns the maximum PSLL value out of the three ($\phi$, $\theta$) pairs.
 
 This step makes the objective function computationally expensive. To compensate for this, the PSO algorithm is used. The PSO is a widely used bio-inspired optimization algorithm and it is computationally less expensive than genetic algorithms (GA) as it requires fewer iterations \cite{pso_vs_ga}.
