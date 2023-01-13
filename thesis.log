@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  2 APR 2022 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  14 JAN 2023 02:20
 entering extended mode
 **D:/PhD/THESIS/phd_thesis/thesis.tex
 (D:/PhD/THESIS/phd_thesis/thesis.tex
@@ -407,10 +407,8 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 )
 \c@theorem=\count119
  (thesis.aux
-(cover_2.aux) (blankpage.aux) (Declaration.aux) (blankpage.aux)
-(certificate.aux) (blankpage.aux) (ackn.aux) (blankpage.aux) (abstract.aux)
-(Abbreviation.aux) (Chapter_1.aux) (Chapter_2.aux) (Chapter_3.aux)
-(Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux) (mypubs.aux))
+(cover_2.aux) (abstract.aux) (Abbreviation.aux) (Chapter_1.aux) (Chapter_2.aux)
+(Chapter_3.aux) (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux) (mypubs.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -462,79 +460,24 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 
 
 ])
-\openout2 = `blankpage.aux'.
-
- (blankpage.tex [1
-
-
-])
-\openout2 = `Declaration.aux'.
-
- (Declaration.tex
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
-
- []
-
-) [2
-
-
-]
-\openout2 = `blankpage.aux'.
-
- (blankpage.tex [3
-
-
-])
-\openout2 = `certificate.aux'.
-
- (certificate.tex
-File: clogoe.eps Graphic file (type eps)
- <clogoe.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-[4
-
-
-])
-\openout2 = `blankpage.aux'.
-
- (blankpage.tex [5
-
-
-])
-\openout2 = `ackn.aux'.
-
- (ackn.tex) [6
-
-
-]
-\openout2 = `blankpage.aux'.
-
- (blankpage.tex [7
-
-
-])
 \openout2 = `abstract.aux'.
 
  (abstract.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [8
+) [1
 
 
 
-] [9])
+] [2])
 \openout2 = `Abbreviation.aux'.
 
 
@@ -543,22 +486,22 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 3.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-[10
+[3
 
 
 
-] [11]) (thesis.toc [12
+] [4]) (thesis.toc [5
 
 
-] [13] [14])
+] [6] [7])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [15] (thesis.lot)
+ [8] (thesis.lot)
 \tf@lot=\write4
 \openout4 = `thesis.lot'.
 
- [16
+ [9
 
 ] (thesis.lof
 Overfull \hbox (16.92755pt too wide) in paragraph at lines 27--27
@@ -566,13 +509,13 @@ Overfull \hbox (16.92755pt too wide) in paragraph at lines 27--27
  for the printed monopole 
  []
 
-[17
+[10
 
-] [18])
+] [11])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [19]
+ [12]
 \openout2 = `Chapter_1.aux'.
 
  (Chapter_1.tex
@@ -899,27 +842,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--31
 [92] [93] [94] [95] [96] [97] [98] [99]) [100]
 \openout2 = `mypubs.aux'.
 
- (mypubs.tex
-Overfull \hbox (57.12708pt too wide) in paragraph at lines 13--14
-\OT1/ptm/m/it/12 Jour-nal of Physics\OT1/ptm/m/n/12 , 2022. (Pub-lished on-line
- on March 25, 2022). doi: https://doi.org/10.1007/s12648-
- []
-
-[101
+ (mypubs.tex [101
 
 
-]) [102] (thesis.aux (cover_2.aux) (blankpage.aux) (Declaration.aux)
-(blankpage.aux) (certificate.aux) (blankpage.aux) (ackn.aux) (blankpage.aux)
-(abstract.aux) (Abbreviation.aux) (Chapter_1.aux) (Chapter_2.aux)
-(Chapter_3.aux) (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux) (mypubs.aux)) )
- 
+]) [102]
+(thesis.aux (cover_2.aux) (abstract.aux) (Abbreviation.aux) (Chapter_1.aux)
+(Chapter_2.aux) (Chapter_3.aux) (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux)
+(mypubs.aux)) ) 
 Here is how much of TeX's memory you used:
- 3454 strings out of 492946
- 46236 string characters out of 3135534
- 109188 words of memory out of 3000000
- 7132 multiletter control sequences out of 15000+200000
+ 3405 strings out of 492946
+ 45100 string characters out of 3135534
+ 107806 words of memory out of 3000000
+ 7128 multiletter control sequences out of 15000+200000
  22611 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,16n,27p,187291b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (122 pages, 348144 bytes).
+Output written on thesis.dvi (115 pages, 341232 bytes).
