@@ -6,7 +6,7 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Division of the patch (Dark: metal, White: without metal) (a) Division of patch area (b) optimized patch}}{31}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Divisions of the rectangular patch}}}{31}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Optimized antenna}}}{31}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Computed S11 curves versus frequency}}{31}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Computed $S_{11}$ curves versus frequency}}{31}% 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Isotropic elements (dark shows ON and light as OFF) in ten ring concentric circular antenna array}}{34}% 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces The best fitness plotted as a function of generation (top). The unit cells show the best structures (elite) at different generations during the evolution process of the GA (bottom)}}{35}% 
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Cross sectional view of a meta-surface based microstrip antenna array}}{35}% 

@@ -10,10 +10,10 @@
 %=====================================================================
 % ECTGU M.Tech/B.Tech Thesis format default settings are:
 %   12pt, one-sided printing on a4 size paper
-\documentclass{ectguthesis}
+\documentclass[]{ectguthesis}
 % For two-sided printing, with Chapter starting on odd-numbered pages,
 % use the following line instead:
-%%\documentclass[openright,twoside]{ectguthesis}
+%\documentclass[openright,twoside]{ectguthesis}
 
 %=====================================================================
 % OPTIONAL PACKAGES
@@ -73,13 +73,13 @@
 \pagenumbering{roman}
 %\include{cover_mtechpr}
 \include{cover_2}
-\include{blankpage}
+%\include{blankpage}
 \include{Declaration}
-\include{blankpage}
+%\include{blankpage}
 \include{certificate}
-\include{blankpage}
+%\include{blankpage}
 \include{ackn}
-\include{blankpage}
+%\include{blankpage}
 \pagestyle{plain}
 \include{abstract}
 \newpage
@@ -90,12 +90,13 @@
 \newpage
 \pagenumbering{arabic}
 \thispagestyle{empty}
+{\doublespace
 \include{Chapter_1}
 \include{Chapter_2}
 \include{Chapter_3}
 \include{Chapter_4}
 \include{Chapter_5}
-\include{Chapter_6}
+\include{Chapter_6}}
 %=====================================================================
 
 %=====================================================================

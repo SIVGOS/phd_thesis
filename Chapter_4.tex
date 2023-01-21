@@ -6,7 +6,7 @@ Antennas can be broadly classified as directional antennas and omnidirectional a
 
 A number of techniques have been explored for building and improving microstrip antennas in the last few decades. One of these techniques is to build multi-layer structures of printed antennas. Multi-layer printed antennas are known for providing wide bandwidth \cite{ML_WideBand01}, resonance at more than one band \cite{ML_DualBand01, ML_DualBand02}, and high gain \cite{ML_high_gain_parasitic_slot}.
 
-Recent trends show that 5G standards are mostly set around directional communication techniques where spatial diversity is utilized to its maximum potential \cite{5G_surv1, 5G_surv2}. Low cost deployment of IoT, on the other hand, relies on traditional ISM band communication with omnidirectional antennas \cite{iot-ant1,iot-ant2,iot-ant3}. When a 5G back-haul link is to be provided to an IoT network in star topology, the traditional approach is to use separate antennas at the hub for 2.4 GHz ISM band and 5G. This adds up to the size and complexity of the system.
+Recent trends show that 5G standards are mostly set around directional communication techniques where, spatial diversity is utilized to its maximum potential \cite{5G_surv1, 5G_surv2}. Low cost deployment of IoT, on the other hand, relies on traditional ISM band communication with omnidirectional antennas \cite{iot-ant1,iot-ant2,iot-ant3}. When a 5G back-haul link is to be provided to an IoT network in star topology, the traditional approach is to use separate antennas at the hub for 2.4 GHz ISM band and 5G. This adds up to the size and complexity of the system.
 
 In this chapter, a multi-layer, dual-band antenna is presented which provides an omnidirectional radiation pattern at the 2.4 GHz ISM band and a high-gain, directional radiation pattern at a wide band ranging from 3.6 GHz to 4.2 GHz. The band between 3.6 GHz to 4.2 GHz is important because it covers most of the sub-bands of the 5G C-band \cite{5G_tutorial, 5G_standards}. The proposed antenna can be used at the hub of an IoT network operating at the 2.4 GHz ISM band for providing a 5G back-haul link. The hub is usually a fixed device which can be installed in such a way that it has a directional link with the nearest 5G base station. An equivalent circuit model of the antenna is derived to explain the behavior of the antenna. The circuit parameters are obtained with vector-fitting and also with genetic algorithm.
 
@@ -95,7 +95,7 @@ The Thevenin Equivalent load impedance of the equivalent circuit model can be ex
 \begin{equation}\label{eq_Zin}
 Z_{L} = sL_f/2 + \left[\left(\frac{1}{sC_f}+sL_s+\left(\frac{1}{sC_s} || R_{Rad2}\right)\right) || \left(\frac{1}{sC_f}\right) || \left(sL_f/2 + \left(sL_p || \frac{1}{sC_p} || R_{Rad1}\right)\right)\right]
 \end{equation}}
-The return loss (S11) parameter can be calculated from the obtained value of $Z_{\text{in}}$ using Equation \ref{eq_Zin_s11}.
+The return loss ($S_{11}$) parameter can be calculated from the obtained value of $Z_{\text{in}}$ using Equation \ref{eq_Zin_s11}.
 
 \begin{equation}\label{eq_Zin_s11}
 S11\text{(dB)}=20 \log_{10}{\left(\left|\frac{Z_L - R_{\text{in}}}{Z_L + R_{\text{in}}}\right|\right)}

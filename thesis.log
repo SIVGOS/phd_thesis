@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  14 JAN 2023 20:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2020.9.2)  21 JAN 2023 22:05
 entering extended mode
 **D:/PhD/THESIS/phd_thesis/thesis.tex
 (D:/PhD/THESIS/phd_thesis/thesis.tex
@@ -407,8 +407,7 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 )
 \c@theorem=\count119
  (thesis.aux
-(cover_2.aux) (blankpage.aux) (Declaration.aux) (blankpage.aux)
-(certificate.aux) (blankpage.aux) (ackn.aux) (blankpage.aux) (abstract.aux)
+(cover_2.aux) (Declaration.aux) (certificate.aux) (ackn.aux) (abstract.aux)
 (Abbreviation.aux) (Chapter_1.aux) (Chapter_2.aux) (Chapter_3.aux)
 (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux) (mypubs.aux))
 \openout1 = `thesis.aux'.
@@ -462,12 +461,6 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 
 
 ])
-\openout2 = `blankpage.aux'.
-
- (blankpage.tex [1
-
-
-])
 \openout2 = `Declaration.aux'.
 
  (Declaration.tex
@@ -475,16 +468,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-) [2
+) [1
 
 
 ]
-\openout2 = `blankpage.aux'.
-
- (blankpage.tex [3
-
-
-])
 \openout2 = `certificate.aux'.
 
  (certificate.tex
@@ -494,25 +481,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-[4
-
-
-])
-\openout2 = `blankpage.aux'.
-
- (blankpage.tex [5
+[2
 
 
 ])
 \openout2 = `ackn.aux'.
 
- (ackn.tex) [6
-
-
-]
-\openout2 = `blankpage.aux'.
-
- (blankpage.tex [7
+ (ackn.tex [3
 
 
 ])
@@ -530,11 +505,11 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [8
+) [4
 
 
 
-] [9])
+] [5])
 \openout2 = `Abbreviation.aux'.
 
 
@@ -543,22 +518,22 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 3.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-[10
+[6
 
 
 
-] [11]) (thesis.toc [12
+] [7]) (thesis.toc [8
 
 
-] [13] [14])
+] [9] [10])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [15] (thesis.lot)
+ [11] (thesis.lot)
 \tf@lot=\write4
 \openout4 = `thesis.lot'.
 
- [16
+ [12
 
 ] (thesis.lof
 Overfull \hbox (16.92755pt too wide) in paragraph at lines 27--27
@@ -566,13 +541,13 @@ Overfull \hbox (16.92755pt too wide) in paragraph at lines 27--27
  for the printed monopole 
  []
 
-[17
+[13
 
-] [18])
+] [14])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [19]
+ [15]
 \openout2 = `Chapter_1.aux'.
 
  (Chapter_1.tex
@@ -717,6 +692,9 @@ File: bc-ant_back.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [47] [48]
 File: bc-fab-front-h-slot.eps Graphic file (type eps)
  <bc-fab-front-h-slot.eps>
@@ -724,13 +702,9 @@ File: bc-fab-back-h-slot.eps Graphic file (type eps)
  <bc-fab-back-h-slot.eps>
 File: bc-s11_res.eps Graphic file (type eps)
  <bc-s11_res.eps>
+[49] [50]
 File: bc-patterns.eps Graphic file (type eps)
-
-<bc-patterns.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[49] [50] [51]) [52]
+ <bc-patterns.eps> [51]) [52]
 \openout2 = `Chapter_4.aux'.
 
  (Chapter_4.tex
@@ -903,17 +877,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--31
 
 
 ]) [102]
-(thesis.aux (cover_2.aux) (blankpage.aux) (Declaration.aux) (blankpage.aux)
-(certificate.aux) (blankpage.aux) (ackn.aux) (blankpage.aux) (abstract.aux)
-(Abbreviation.aux) (Chapter_1.aux) (Chapter_2.aux) (Chapter_3.aux)
-(Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux) (mypubs.aux)) ) 
+(thesis.aux (cover_2.aux) (Declaration.aux) (certificate.aux) (ackn.aux)
+(abstract.aux) (Abbreviation.aux) (Chapter_1.aux) (Chapter_2.aux)
+(Chapter_3.aux) (Chapter_4.aux) (Chapter_5.aux) (Chapter_6.aux) (mypubs.aux)) )
+ 
 Here is how much of TeX's memory you used:
- 3454 strings out of 492946
- 46236 string characters out of 3135534
- 109188 words of memory out of 3000000
- 7132 multiletter control sequences out of 15000+200000
+ 3428 strings out of 492946
+ 45606 string characters out of 3135534
+ 108841 words of memory out of 3000000
+ 7131 multiletter control sequences out of 15000+200000
  22611 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,16n,27p,187291b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,16n,27p,187291b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (122 pages, 348176 bytes).
+Output written on thesis.dvi (118 pages, 348224 bytes).
