@@ -1,0 +1,163 @@
+% thesis.tex
+%
+% This file is root file for an example thesis written using the
+% ECTGU LaTeX Style file.
+
+
+
+%=====================================================================
+% DOCUMENT STYLE
+%=====================================================================
+% ECTGU M.Tech/B.Tech Thesis format default settings are:
+%   12pt, one-sided printing on a4 size paper
+\documentclass[]{ectguthesis}
+% For two-sided printing, with Chapter starting on odd-numbered pages,
+% use the following line instead:
+%\documentclass[openright,twoside]{ectguthesis}
+
+%=====================================================================
+% OPTIONAL PACKAGES
+%=====================================================================
+% To include optional packages, use the \usepackage command.
+% For e.g., The package epsfig is used to bring in the Encapsulated
+%    PostScript figures into the document.
+%    The package times is used to change the fonts to Times Roman;
+%=====================================================================
+\usepackage{epsfig}
+\usepackage{times}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{cite}
+\usepackage[nottoc]{tocbibind}
+\usepackage{textcomp}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{array}
+
+%=====================================================================
+%  Single counter for theorems and theorem-like environments:
+%=====================================================================
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{assertion}[theorem]{Assertion}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{figger}[theorem]{Figure}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\renewcommand{\thesection}{\arabic{section}}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \setlength\parindent{1em}%
+  \noindent
+  \endgroup
+}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+%=====================================================================
+% End of Preamble, start of document
+%
+
+\begin{document}
+\pagenumbering{roman}
+%\include{cover_mtechpr}
+\begin{titlepage}
+\begin{center}
+%{\sl Title of the Thesis} \\[4ex]
+{\large \textbf{R E C O M M E N D A T I O N} }
+\vspace{0.3in}
+
+{\Large \bf Analytical and Soft-Computational Models for Design of Printed Antennas and Arrays} \\ [2ex]
+{\normalsize{ \textbf{A Thesis Submitted \\in
+ Partial Fulfillment of the Requirements for the Degree of \\\large \bf
+DOCTOR OF PHILOSOPHY\\
+in \\
+Electronics and Communication Engineering \\
+in the Faculty of Technology}}}\\
+[2ex]
+
+\begin{figure}[h]
+\centering
+%Requires \usepackage{graphicx}
+\includegraphics[width=1.5in,height=1.5in]{clogoe.eps}\\
+\end{figure}
+
+{\sl \textbf{Submitted By}} \\[2ex]
+{\sf \sf \textbf{Sivaranjan Goswami\\
+Enrolment No. PA-181-839-0003\\
+Date of Admission. 30/08/2018\\
+GU Registration No. 1257 of 2013-2014}}\\[4ex]
+{\sl \textbf{Under the supervision of}} \\[1ex]
+{\sf \sf \textbf{Prof. Kandarpa Kumar Sarma}}\\ [3ex]
+
+{\large \bf Department of Electronics and Communication Engineering}  \\[1ex]
+{\large \bf{GAUHATI UNIVERSITY}} \\[1ex]
+{\large \bf{Guwahati-781014, Assam, India}} \\[1ex]
+{\normalsize January, 2023}
+\end{center}
+\end{titlepage}
+\pagebreak
+\pagenumbering{arabic}
+\chapter*{Recommendation}
+This research explores the use of soft-computational optimization algorithms in the field of printed antenna and array design. It includes three different approaches: optimization of physical dimensions of an antenna, obtaining physical dimensions of an antenna, and optimization of a printed antenna array. The first work uses a genetic algorithm within a commercially available full-wave solver, the second work covers the synthesis of an equivalent circuit model of a dual-band antenna using PSO, and the third work includes the synthesis of a sparse planar array from a uniform rectangular array. Each work is supported by experimental results and discussions. This research shows that these algorithms can be applied to various problems in the field, but further investigation is needed to fully explore their potential.
+
+\section{Chapter Wise Findings}\label{c6sec_findings}
+The design and optimization of printed antennas is a vast domain of research. There have been research works worldwide in various areas of the domain. The present work primarily focuses on three  aspects of the domain. The findings of each domain are summarized as follows.
+\begin{itemize}
+\item \textbf{Chapter 3}, ``Simulation-Driven Optimization of Slot Antenna using Genetic Algorithm'', presents the optimization of a printed slot antenna's dimensions using a genetic algorithm in a commercially available electromagnetic solver, reducing computational cost and improving feeding position. Validated by simulations and measurements, the optimized antenna closely matches measurement results.
+
+\item \textbf{Chapter 4}, ``Design of a Dual-Band Multilayer Antenna and its Equivalent Circuit Modeling with Vector-Fitting and Genetic Algorithm'', covers the design of a dual-band antenna with an omnidirectional radiation pattern at 2.4 GHz and a directional pattern at C-band 5G. The design is a combination of a printed monopole and microstrip patch antenna, with an equivalent circuit model derived to explain its operation. The model uses GA to estimate lumped elements and closely mimics the antenna's current distribution at resonant frequencies.
+
+\item \textbf{Chapter 5}, ``Synthesis of a Sparse 2D-Scanning Array using Particle Swarm Optimization for Side-Lobe Reduction'', presents the design of a thinned $16\times16$ rectangular array using PSO to minimize the peak side lobe level (PSLL) while maintaining a $\pm$45-degree scanning range in both azimuth and elevation planes. The array's element number is reduced by 50\% while preserving similar gain and bandwidth as the original array.
+\end{itemize}
+
+\section{Limitations}\label{c6sec_limitations}
+The primary limitations of the present works are as follows:
+\begin{itemize}
+\item \textbf{Chapter 3} optimizes the feeding position of a printed slot antenna using genetic algorithm in AEDT, a frequency domain finite elements solver, resulting in high computation time and difficulty in optimizing multiple dimensions.
+\item \textbf{Chapter 4} derives an equivalent circuit model of a dual-band antenna, but it is not suitable as a physics-based model for optimization due to lack of mathematical relation between physical dimensions and circuit parameters.
+\item \textbf{Chapter 5} validates the performance of a sparse array using Matlab's phased array toolbox, but the antenna could not be manufactured and its real-world applicability is uncertain without measurement results. Further, as the number of elements in the array is reduced, the gain of the antenna also gets reduced. This is an inherent limitation of sparse array that could not be addressed in the present construct.
+\end{itemize}
+
+\section{Conclusion}\label{c6sec_cncl}
+This research explores the use of soft-computational optimization algorithms in three areas of printed antenna and array design, including optimization of physical dimensions, obtaining physical dimensions, and optimizing a printed antenna array. Each work presents experimental results and discussions. The first work uses genetic algorithm in a commercial full-wave solver to optimize physical dimensions, the second work employs PSO to synthesize an equivalent circuit model of a dual-band antenna, and the third work creates a sparse array from a uniform rectangular array. These works demonstrate the application of soft-computational optimization algorithms in printed antenna and array design, but further research is needed to fully explore the potential of these approaches.
+
+\section{Future Direction}\label{c6sec_future}
+The design and optimization of printed antennas and arrays is an active area of research. The present work touches three of the most significant areas of research in the domain of antenna research. The work on each of these areas may be extended further in order to design something that may be readily deployed for real world applications. Some of the possible future directions extending the current work are as follows.
+\begin{itemize}
+\item \textbf{Chapter 3} uses Genetic Algorithm in AEDT to optimize a printed antenna, other optimization algorithms like PSO and DE may be used as well for better performance.
+\item \textbf{Chapter 4} presents a physics-based surrogate model using an equivalent circuit model of a multi-layer antenna that can improve its performance in terms of gain, bandwidth, resonant frequency, etc.
+\item \textbf{Chapter 5} discusses the design of a printed sparse array, which is challenging to fabricate, and the performance could not be evaluated from measurement results. There is scope for further research on cost-effective and efficient fabrication methods, and addressing the limitation of decreased far-field gain by tuning the physical dimensions with dissimilar elements, requiring re-formulation of the optimization problem.
+\end{itemize} 
+\goodbreak
+\vspace{1in}
+
+\begin{multicols}{2}
+\begin{flushleft}
+(Supervisor)\\
+Prof. Kandarpa Kumar Sarma\\
+Department of ECE\\
+Gauhati University
+\end{flushleft}
+
+\begin{flushright}
+(Research Scholar)\\
+Sivaranjan Goswami\\
+Department of ECE\\
+Gauhati University
+\end{flushright}
+\end{multicols}
+
+\end{document}
